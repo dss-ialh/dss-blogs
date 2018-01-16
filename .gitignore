@@ -1,3 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+.DS_Store # if a windows user, Thumbs.db instead
+public/ # if using Netlify
+
+# pictures for generating icons
+static/img/photos/*
+public/img/photos/*
+
+
 # History files
 .Rhistory
 .Rapp.history
