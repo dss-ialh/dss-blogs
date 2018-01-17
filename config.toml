@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://dss-ialh.netlify.com/"
+baseurl = "https://dss-ialh.rbind.io/"
 
 # Title of your site
 title = "Data Science Studio"
