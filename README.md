@@ -1,2 +1,11 @@
 # blog
-Communication portal of Data Science Studio at the Institute of Aging and Lifelong Health
+
+Blog of the Data Science Studio of the Institute of Aging and Lifelong Health at the University of Victoria.
+
+# production notes
+
+Public access : [www.dss-ialh.rbind.io][dss-ialh-blog]
+
+
+
+[dss-ialh-blog]: https://dss-ialh.netlify.com
