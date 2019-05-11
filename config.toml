@@ -58,13 +58,14 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "University of Victoria", url = "www.uvic.ca/aging" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "img/logo-ialh.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "DSS-IALH-logo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "datasciencestudio@uvic.ca"
   address = "R Hut, Victoria BC  V8P 5C2 Canada"
   office_hours = "Monday 8:00 to 17:00"
   phone = "250-721-6369"
   skype = ""
   telegram = ""
+  github = "https://github.com/dss-ialh/"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
@@ -75,7 +76,7 @@ defaultContentLanguageInSubdir = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = "r-hut-logo-900.png"
+  logo = ""
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose

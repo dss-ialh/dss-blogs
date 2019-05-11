@@ -10,31 +10,39 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Longitudinal modeling",
+    "Aging and health",
+    "Reproducible research"
   ]
 
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
 
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
 +++
 
-# Biography
+# Mission
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+To develop and promote state-of-the-art statistical methods and data science practices in health research. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+# Purpose 
+
+To support IALH researchers and greater UVic community in developing skills for practicing data science as applied in research on aging and health.
+
+# Specific Objectives
+
+The Studio views the following concepts and skills as quintessential to the practice of data science:
+
+| Concept  | Skill  |Central Idea   |
+|---|---|---|
+| Script Composition | [Literate programming][lit_prog]  |Programming script as a medium of communication |
+| File Architecture  | Workflow Development |Reproducible project as a non-linear narrative |
+| Display production |Data Visualization     |Information Display as a scripted function |
+| Digital Publishing | Self Publishing       |Dynamic document as standard canvas |
+| Model Expression   | Statistical Modeling  | Model as a Simplification of reality |
+
+[lit_prog]:https://en.wikipedia.org/wiki/Literate_programming
+
+
+
+
+
+
+
