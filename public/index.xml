@@ -10,6 +10,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Simulation Studies: What? Why? How?</title>
+      <link>/post/simulation-studies-what-why-how/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/simulation-studies-what-why-how/</guid>
+      <description>
+
+
+&lt;p&gt;Sometimes you know more about modelling the population you are studying than you do about the parameters feeding your models. Suppose your population has unknown birth rate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, and survival probability &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. You have a model incorporating these two parameters. You can use your model and data observations to estimate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. But how precise are these estimates? Are they biased? How many observations should you collect? Simulation studies are here to help answer those questions!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/simulation-studies-what-why-how/&#34;&gt;Continue Reading&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Time to Gather, Time to Spread (Part 1)</title>
       <link>/post/time-to-gather-time-to-spread-part-1/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
