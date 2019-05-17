@@ -1,0 +1,19 @@
+---
+title: ' A Scientist''s Guide to R: Introduction and Basic Workflow'
+author: Dr. Craig Hutton
+date: '2019-05-17'
+slug: a-scientist-s-guide-to-r-introduction-and-basic-workflow
+categories:
+  - R
+  - Statistics
+tags:
+  - R
+  - Workflow
+  - Data Analysis
+header:
+  caption: ''
+  image: '../../img/huttoncp/a-scientist-s-guide-to-r-introduction-and-basic-workflow.png'
+  preview: yes
+---
+This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.
+Click [here](https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro-basic-workflow/) for the full post.
