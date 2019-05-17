@@ -13,6 +13,15 @@
     
     
     <item>
+      <title> A Scientist&#39;s Guide to R: Introduction and Basic Workflow</title>
+      <link>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</guid>
+      <description>This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research. Click here for the full post.</description>
+    </item>
+    
+    <item>
       <title>Simulation Studies: What? Why? How?</title>
       <link>/post/simulation-studies-what-why-how/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
@@ -27,7 +36,7 @@
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/time-to-gather-time-to-spread-part-1/</guid>
-      <description>TL;DRA quick demonstration of transforming data from wide to long format usingtidyr::gather() and tidyr::spread() functions. Fully reproducible example with a simple dataset.
+      <description>TL;DRA quick demonstration of transforming data from wide to long format usingtidyr::gather() and tidyr::spread() functions. Fully reproducible example with a simple dataset.
 full post
 </description>
     </item>
@@ -38,7 +47,10 @@ full post
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/post/getting-started/</guid>
-      <description>Create a beautifully simple website or blog in under 10 minutes.</description>
+      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
+
+Key features:
+ Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
     </item>
     
     <item>

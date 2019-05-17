@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>  on  </title>
@@ -6,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 -0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title> A Scientist&#39;s Guide to R: Introduction and Basic Workflow</title>
+      <link>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</guid>
+      <description>&lt;p&gt;This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research. Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro-basic-workflow/&#34;&gt;here&lt;/a&gt; for the full post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Simulation Studies: What? Why? How?</title>
@@ -15,10 +26,7 @@
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/simulation-studies-what-why-how/</guid>
-      <description>
-
-
-&lt;p&gt;Sometimes you know more about modelling the population you are studying than you do about the parameters feeding your models. Suppose your population has unknown birth rate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, and survival probability &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. You have a model incorporating these two parameters. You can use your model and data observations to estimate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. But how precise are these estimates? Are they biased? How many observations should you collect? Simulation studies are here to help answer those questions!&lt;/p&gt;
+      <description>&lt;p&gt;Sometimes you know more about modelling the population you are studying than you do about the parameters feeding your models. Suppose your population has unknown birth rate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt;, and survival probability &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. You have a model incorporating these two parameters. You can use your model and data observations to estimate &lt;span class=&#34;math inline&#34;&gt;\(\gamma\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\omega\)&lt;/span&gt;. But how precise are these estimates? Are they biased? How many observations should you collect? Simulation studies are here to help answer those questions!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/simulation-studies-what-why-how/&#34;&gt;Continue Reading&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -29,10 +37,7 @@
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/time-to-gather-time-to-spread-part-1/</guid>
-      <description>
-
-
-&lt;div id=&#34;tldr&#34; class=&#34;section level2&#34;&gt;
+      <description>&lt;div id=&#34;tldr&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;A quick demonstration of transforming data from wide to long format using&lt;code&gt;tidyr::gather()&lt;/code&gt; and &lt;code&gt;tidyr::spread()&lt;/code&gt; functions. Fully reproducible example with a simple dataset.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://andriy.rbind.io/post/2019-01-10-gather-spread-1/elonongation-practice-1/&#34;&gt;full post&lt;/a&gt;&lt;/p&gt;
@@ -278,10 +283,7 @@ git submodule update --init --recursive
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;R Markdown&lt;/h1&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
