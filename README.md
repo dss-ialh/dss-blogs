@@ -8,4 +8,4 @@ Public access : [www.dss-ialh.rbind.io][dss-ialh-blog]
 
 
 
-[dss-ialh-blog]: https://dss-ialh.netlify.com
+[dss-ialh-blog]:https://dss-ialh.rbind.io
