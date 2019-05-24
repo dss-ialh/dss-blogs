@@ -1,0 +1,25 @@
+---
+title: Suppressing Small Counts for Public Release
+author: Andriy Koval
+date: '2019-05-29'
+slug: suppressing-small-counts-for-public-release-halifax
+categories:
+  - R
+  - reproducible workflow
+  - small cell suppression
+tags:
+  - surveillance
+  - reproducible research
+  - workflow
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+In 2016, the Observatory for Population & Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations.
+
+
+[link to source][]
+
+![](../../img/andkov/suppress-for-release-halifax.JPG)
