@@ -7,18 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <title>Toolbox and Skillset of Reproducible Research </title>
+      <link>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talk/example/</guid>
-      <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
+      <guid>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</guid>
+      <description>PopData BC link
+header
+</description>
     </item>
     
   </channel>

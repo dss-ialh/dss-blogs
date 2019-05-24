@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reproducible research on Data Science Studio</title>
+    <link>/tags/reproducible-research/</link>
+    <description>Recent content in reproducible research on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Suppressing Small Counts for Public Release</title>
+      <link>/post/suppressing-small-counts-for-public-release-halifax/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/suppressing-small-counts-for-public-release-halifax/</guid>
+      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations.</description>
+    </item>
+    
+    <item>
+      <title>Toolbox and Skillset of Reproducible Research </title>
+      <link>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</guid>
+      <description>PopData BC link
+header
+</description>
+    </item>
+    
+  </channel>
+</rss>
