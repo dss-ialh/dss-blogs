@@ -1,15 +1,14 @@
 ---
 authors:
 - admin
-bio: Studio exists to develop and promote state-of-the-art statistical methods and data science practices in health research.
-
+bio: Learning together __to write with data__ _about health and aging_
 email: "datasciencestudio@uvic.ca"
 
 name:
 organizations:
-- name: University of Victoria
-  url: "http://uvic.ca"
-role: Institute on Aging and Lifelong Health
+- name: Institute on Aging and Lifelong Health,  University of Victoria
+  url: "http://uvic.ca/aging"
+role: Data Science Studio
 social:
 - icon: envelope
   icon_pack: fas
@@ -29,4 +28,5 @@ user_groups:
 - Visitors
 ---
 
-To develop and promote state-of-the-art statistical methods and data science practices in applied research on health and aging. 
+Data Science Studio is a learning collaborative for developing applied skills of data science and reproducible research with a particular focus on the areas of health and aging. 
+
