@@ -1,0 +1,132 @@
+---
+title: Welcome To DSS Blogs - How To Contribute to DSS Blogs
+author: Matthew R.P. Parker
+date: '2019-05-25'
+slug: welcome-to-dss-blogs-how-to-add-a-blog-post
+categories:
+  - DSS Admin
+tags:
+  - tutorial
+  - how to add a blog
+  - peer review
+  - blogging with dss
+  - data science studio
+  - admin
+
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+header:
+  image: "../../img/dss-blog-post-images/welcome-to-dss-blogs-how-to-add-a-blog-post.png"
+    #preview_only: false
+---
+
+This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.
+
+
+# Adding a New Post
+
+Please note that this post assumes that you have:
+
+* a [github](https://github.com) account
+* installed the R package "[blogdown](https://CRAN.R-project.org/package=blogdown)"
+* a working personal blog site (eg: [Andriy Koval's Blog](http://andriy.rbind.io/))
+* [R Studio](https://www.rstudio.com/)
+* [git](http://r-pkgs.had.co.nz/git.html) installed and configured for R Studio
+
+An alternative to using git integrated with R is to use [Github Desktop](https://desktop.github.com/) with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: Clone and Pull from Github, Create new branches, Commit changes, and Push back to Github.
+
+## Blog Authors
+
+1. Create a **new post** on your website (this is your full blog post)
+2. If this is your first time posting: **clone dss blog site** from [github](https://github.com/dss-ialh/dss-blog):  
+Copy the repo URL: https://github.com/dss-ialh/dss-blog.git  
+![Cloning from github](../../img/dss-blog-post-images/cloning-from-github.png)  
+Create a new project in R Studio using the repo  
+![New project from repo](../../img/dss-blog-post-images/cloning-from-github2.png)
+
+3. **Pull** in R Studio, so you have the up to date dss blog site  
+![Pull](../../img/dss-blog-post-images/pull-to-rstudio.png)
+4. Create a **new branch** for the dss blog site called: _dev-mygithubname_  (with _mygithubname_ replaced with your github name...)  
+![New branch](../../img/dss-blog-post-images/new-dev-branch.png)
+5. Create a **new post** in your new dev branch, following the [New Post Template](#link:newposttemplate) below (this is a summary of your new blog post, with a link to your full blog post)  
+![New post](../../img/dss-blog-post-images/new-post.png)  
+6. **Commit** only the new .Rmd file for your post (under "_content/post/my_new_post.Rmd_") and any necessary image and data files under "_static/img/my_github_user_name/_", and then **Push** to github  
+![Commit and Push](../../img/dss-blog-post-images/commit-push.png)
+7. Create a **New pull request** via github (online), _ask for help the first time_  
+![Pull request](../../img/dss-blog-post-images/pull-request.png)
+    - flag **two reviewers**, they will check the post and make comments/suggestions *(choose reviewers from the DSS Blog Editorial Board)*  
+    - Include a **link to full blog post** in your pull request
+    - Wait for review, and make any requested changes
+8. After the branch has been merged, you can **delete your _dev-mygithubname_** branch on github.  
+![Delete branch](../../img/dss-blog-post-images/delete-branch.png)
+
+### New Post Template {#link:newposttemplate}
+
+#### Required Components  
+* [Summary Image](#summaryimage)   
+Use image template for uniformity of all posts, save in "*./static/img/my_github_user_name/my_post_header_image.png*")
+* [Summary Text](#summarytext)     
+(1 paragraph, abstract style)
+* [Summary Link](#summarytext) a link to the full blog post  
+
+#### Create Summary Image From Template {#summaryimage}
+
+1. Use the DSS powerpoint template to generate a summary image, save as a *.png*  
+- download from: [DSS Blog Github](https://github.com/dss-ialh/dss-blog/raw/master/static/img/header-image-template.pptx)  
+![Header Template](../../img/dss-blog-post-images/header-image-template.png)
+- Edit the header to include images and text as necessary for your header  
+- Ensure the DSS logo remains visible  
+- Export the image as a *.png* file
+2. Place the image into “*./static/img/my_github_user_name/my_post_header_image.png*”  
+2. Insert the image into the blogpost using the *yaml* header (under the header section)  
+`  image: “../../img/my_github_user_name/my_post_header_image.png”`
+
+#### Create Summary Text and Link {#summarytext}
+
+1. Write your summary in the style of an abstract if possible.
+2. The summary can be as long as you wish, but only the first few sentences will appear in the blog preview, and so keeping it shorter is better.
+3. The maximum number of words that will display is 60, anything more will be replaced with '...' in the preview.
+4. Include a link back to your full blog post like this:  
+`  ![Full Post Here](url/to/full/blog/post.com)`
+
+## Editorial Team
+
+We would like to keep the review process as expedient as possible. If you are flagged as a reviewer but do not have the time, you may request that a second reviewer take your place (or let the blog poster know how long to expect before you will be able to provide feedback).
+
+#### Flagged as Reviewer
+
+When you are flagged (through github) to be a reviewer:
+
+* __Review__ the full blog post and the blog summary, keeping in mind:
+    - __relevance__ to Data Science
+    - __content quality__ (formatting, links, data sources, etc)
+    - __clarity__ of communication
+    - __accuracy__ of information
+    - __summary image__ uses image template 
+    - __references__ and acknowledgements of source materials (where applicable)
+    - __avoiding duplication__ of blog post topics unless material is sufficiently updated, improved, or different in context
+* __leave a comment__ on the pull request indicating any changes required, suggestions, and comments
+* __conclude your review__ on github, indicating that you have reviewed the post and are satisfied it is ready for posting
+* The last person to give approval for publication must request the Acting Admin to __Merge__, and serve the updated version of the site (use a comment on the pull request  
+eg: "@acting_admin_github_name, this post has been approved for publication, merge at your earliest convenience"). 
+
+
+## Acting Admin
+
+#### Merge Request 
+
+When you receive a Merge request (on github) from the post reviewers:
+
+1. __Complete__ the merge request
+2. __Pull__ the site
+3. __Serve__ the site
+4. __Push__ the site
+5. __Check__ that the new post is now accessible from the online site
+
+
+
+
