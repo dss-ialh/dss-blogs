@@ -82,6 +82,53 @@
   </url>
   
   <url>
+    <loc>/categories/dss-admin/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/admin/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blogging-with-dss/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science-studio/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/how-to-add-a-blog/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/peer-review/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>

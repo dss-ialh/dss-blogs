@@ -21,5 +21,14 @@
       <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations.</description>
     </item>
     
+    <item>
+      <title>Welcome To DSS Blogs - How To Contribute to DSS Blogs</title>
+      <link>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</guid>
+      <description>Adding a New PostBlog AuthorsNew Post TemplateRequired ComponentsCreate Summary Image From TemplateCreate Summary Text and LinkEditorial TeamFlagged as ReviewerActing AdminMerge RequestThis is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.</description>
+    </item>
+    
   </channel>
 </rss>

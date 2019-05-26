@@ -100,6 +100,163 @@
     </item>
     
     <item>
+      <title>Welcome To DSS Blogs - How To Contribute to DSS Blogs</title>
+      <link>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-new-post&#34;&gt;Adding a New Post&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#blog-authors&#34;&gt;Blog Authors&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#required-components&#34;&gt;Required Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summaryimage&#34;&gt;Create Summary Image From Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Create Summary Text and Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#editorial-team&#34;&gt;Editorial Team&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#flagged-as-reviewer&#34;&gt;Flagged as Reviewer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acting-admin&#34;&gt;Acting Admin&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#merge-request&#34;&gt;Merge Request&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.&lt;/p&gt;
+&lt;div id=&#34;adding-a-new-post&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Adding a New Post&lt;/h1&gt;
+&lt;p&gt;Please note that this post assumes that you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;a href=&#34;https://github.com&#34;&gt;github&lt;/a&gt; account&lt;/li&gt;
+&lt;li&gt;installed the R package “&lt;a href=&#34;https://CRAN.R-project.org/package=blogdown&#34;&gt;blogdown&lt;/a&gt;”&lt;/li&gt;
+&lt;li&gt;a working personal blog site (eg: &lt;a href=&#34;http://andriy.rbind.io/&#34;&gt;Andriy Koval’s Blog&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://r-pkgs.had.co.nz/git.html&#34;&gt;git&lt;/a&gt; installed and configured for R Studio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An alternative to using git integrated with R is to use &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt; with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: Clone and Pull from Github, Create new branches, Commit changes, and Push back to Github.&lt;/p&gt;
+&lt;div id=&#34;blog-authors&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Blog Authors&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; on your website (this is your full blog post)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If this is your first time posting: &lt;strong&gt;clone dss blog site&lt;/strong&gt; from &lt;a href=&#34;https://github.com/dss-ialh/dss-blog&#34;&gt;github&lt;/a&gt;:&lt;br /&gt;
+Copy the repo URL: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog.git&#34; class=&#34;uri&#34;&gt;https://github.com/dss-ialh/dss-blog.git&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/cloning-from-github.png&#34; alt=&#34;Cloning from github&#34; /&gt;&lt;br /&gt;
+Create a new project in R Studio using the repo&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/cloning-from-github2.png&#34; alt=&#34;New project from repo&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pull&lt;/strong&gt; in R Studio, so you have the up to date dss blog site&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/pull-to-rstudio.png&#34; alt=&#34;Pull&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;new branch&lt;/strong&gt; for the dss blog site called: &lt;em&gt;dev-mygithubname&lt;/em&gt; (with &lt;em&gt;mygithubname&lt;/em&gt; replaced with your github name…)&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/new-dev-branch.png&#34; alt=&#34;New branch&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; in your new dev branch, following the &lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt; below (this is a summary of your new blog post, with a link to your full blog post)&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/new-post.png&#34; alt=&#34;New post&#34; /&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; only the new .Rmd file for your post (under “&lt;em&gt;content/post/my_new_post.Rmd&lt;/em&gt;”) and any necessary image and data files under “&lt;em&gt;static/img/my_github_user_name/&lt;/em&gt;”, and then &lt;strong&gt;Push&lt;/strong&gt; to github&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/commit-push.png&#34; alt=&#34;Commit and Push&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;New pull request&lt;/strong&gt; via github (online), &lt;em&gt;ask for help the first time&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/pull-request.png&#34; alt=&#34;Pull request&#34; /&gt;
+&lt;ul&gt;
+&lt;li&gt;flag &lt;strong&gt;two reviewers&lt;/strong&gt;, they will check the post and make comments/suggestions &lt;em&gt;(choose reviewers from the DSS Blog Editorial Board)&lt;/em&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Include a &lt;strong&gt;link to full blog post&lt;/strong&gt; in your pull request&lt;/li&gt;
+&lt;li&gt;Wait for review, and make any requested changes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After the branch has been merged, you can &lt;strong&gt;delete your &lt;em&gt;dev-mygithubname&lt;/em&gt;&lt;/strong&gt; branch on github.&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/delete-branch.png&#34; alt=&#34;Delete branch&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;link:newposttemplate&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;New Post Template&lt;/h3&gt;
+&lt;div id=&#34;required-components&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Required Components&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#summaryimage&#34;&gt;Summary Image&lt;/a&gt;&lt;br /&gt;
+Use image template for uniformity of all posts, save in “&lt;em&gt;./static/img/my_github_user_name/my_post_header_image.png&lt;/em&gt;”)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Summary Text&lt;/a&gt;&lt;br /&gt;
+(1 paragraph, abstract style)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Summary Link&lt;/a&gt; a link to the full blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summaryimage&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Create Summary Image From Template&lt;/h4&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Use the DSS powerpoint template to generate a summary image, save as a &lt;em&gt;.png&lt;/em&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;download from: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog/raw/master/static/img/header-image-template.pptx&#34;&gt;DSS Blog Github&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&#34;../../img/dss-blog-post-images/header-image-template.png&#34; alt=&#34;Header Template&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Edit the header to include images and text as necessary for your header&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Ensure the DSS logo remains visible&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Export the image as a &lt;em&gt;.png&lt;/em&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Place the image into “&lt;em&gt;./static/img/my_github_user_name/my_post_header_image.png&lt;/em&gt;”&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Insert the image into the blogpost using the &lt;em&gt;yaml&lt;/em&gt; header (under the header section)&lt;br /&gt;
+&lt;code&gt;image: “../../img/my_github_user_name/my_post_header_image.png”&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summarytext&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Create Summary Text and Link&lt;/h4&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Write your summary in the style of an abstract if possible.&lt;/li&gt;
+&lt;li&gt;The summary can be as long as you wish, but only the first few sentences will appear in the blog preview, and so keeping it shorter is better.&lt;/li&gt;
+&lt;li&gt;The maximum number of words that will display is 60, anything more will be replaced with ‘…’ in the preview.&lt;/li&gt;
+&lt;li&gt;Include a link back to your full blog post like this:&lt;br /&gt;
+&lt;code&gt;![Full Post Here](url/to/full/blog/post.com)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;editorial-team&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Editorial Team&lt;/h2&gt;
+&lt;p&gt;We would like to keep the review process as expedient as possible. If you are flagged as a reviewer but do not have the time, you may request that a second reviewer take your place (or let the blog poster know how long to expect before you will be able to provide feedback).&lt;/p&gt;
+&lt;div id=&#34;flagged-as-reviewer&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Flagged as Reviewer&lt;/h4&gt;
+&lt;p&gt;When you are flagged (through github) to be a reviewer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Review&lt;/strong&gt; the full blog post and the blog summary, keeping in mind:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;relevance&lt;/strong&gt; to Data Science&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;content quality&lt;/strong&gt; (formatting, links, data sources, etc)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;clarity&lt;/strong&gt; of communication&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;accuracy&lt;/strong&gt; of information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;summary image&lt;/strong&gt; uses image template&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;references&lt;/strong&gt; and acknowledgements of source materials (where applicable)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;avoiding duplication&lt;/strong&gt; of blog post topics unless material is sufficiently updated, improved, or different in context&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;leave a comment&lt;/strong&gt; on the pull request indicating any changes required, suggestions, and comments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;conclude your review&lt;/strong&gt; on github, indicating that you have reviewed the post and are satisfied it is ready for posting&lt;/li&gt;
+&lt;li&gt;The last person to give approval for publication must request the Acting Admin to &lt;strong&gt;Merge&lt;/strong&gt;, and serve the updated version of the site (use a comment on the pull request&lt;br /&gt;
+eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&gt;, this post has been approved for publication, merge at your earliest convenience”).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acting-admin&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Acting Admin&lt;/h2&gt;
+&lt;div id=&#34;merge-request&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Merge Request&lt;/h4&gt;
+&lt;p&gt;When you receive a Merge request (on github) from the post reviewers:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Complete&lt;/strong&gt; the merge request&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pull&lt;/strong&gt; the site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Serve&lt;/strong&gt; the site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Push&lt;/strong&gt; the site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Check&lt;/strong&gt; that the new post is now accessible from the online site&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
       <link>/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
