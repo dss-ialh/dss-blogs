@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,17 +85,16 @@
     </item>
     
     <item>
-      <title>Suppressing Small Counts for Public Release</title>
-      <link>/post/suppressing-small-counts-for-public-release-halifax/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      <title>Suppress for Release - CAHSPR, Halifax</title>
+      <link>/post/suppress-for-release-cahspr-halifax/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/suppressing-small-counts-for-public-release-halifax/</guid>
+      <guid>/post/suppress-for-release-cahspr-halifax/</guid>
       <description>
 
 
-&lt;p&gt;In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations.&lt;/p&gt;
-&lt;p&gt;[link to source][]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../../img/andkov/suppress-for-release-halifax.JPG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/post/andkov/suppress-for-release-2019-halifax/poster.jpg&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
