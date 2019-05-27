@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: Learning together __to write with data__ _about health and aging_
+bio: Learning together __to tell stories with data__ _about health and aging_
 email: "datasciencestudio@uvic.ca"
 
 name:
