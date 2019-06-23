@@ -1,11 +1,14 @@
-# blog
+# DSS Blogs
 
-Blog of the Data Science Studio of the Institute of Aging and Lifelong Health at the University of Victoria.
+Peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization. 
+
+Event monitor of the Data Science Studio at the Institute of Aging and Lifelong Health, University of Victoria.
+
 
 # production notes
 
-Public access : [www.dss-ialh.rbind.io][dss-ialh-blog]
+Public access : [www.dss-ialh.rbind.io][dss-ialh-blogs]
 
 
 
-[dss-ialh-blog]:https://dss-ialh.rbind.io
+[dss-ialh-blogs]:https://dss-ialh.rbind.io
