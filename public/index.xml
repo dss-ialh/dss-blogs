@@ -6,8 +6,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title> A Scientist&#39;s Guide to R: Introduction and Basic Workflow</title>
+      <link>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/a-scientist-s-guide-to-r-introduction-and-basic-workflow/</guid>
+      <description>
+
+
+&lt;p&gt;This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.
+Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro-basic-workflow/&#34;&gt;here&lt;/a&gt; for the full post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Simulation Studies: What? Why? How?</title>
