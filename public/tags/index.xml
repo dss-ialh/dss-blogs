@@ -138,5 +138,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>analytic workflow</title>
+      <link>/tags/analytic-workflow/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/analytic-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computational essays</title>
+      <link>/tags/computational-essays/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/computational-essays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic documentation</title>
+      <link>/tags/dynamic-documentation/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dynamic-documentation/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

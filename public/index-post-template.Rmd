@@ -1,0 +1,67 @@
+---
+title: Title
+subtitle: Subtitle
+authors:
+- Author One
+- Author Two
+
+date: '2016-02-25'
+publishDate: "2016-02-25T00:00:00Z"
+
+slug: []
+categories:
+  - coordinated analysis
+  
+tags:
+  - cognition
+  - cognitive aging
+  - diabetes
+  - hypertension
+  - longitudinal analysis
+
+output:
+  blogdown::html_page:
+    toc: false
+    toc_depth: 4
+
+featured: no
+projects: [ialsa]
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+
+publication: '*Psychology and Aging, 31*(3), 262-273'
+publication_short: "Psychol Aging"
+doi: "10.1037/pag0000078"
+
+summary: 30-50 words
+abstract: 200-300 words
+
+url_code: ""
+url_dataset: ""
+url_pdf: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
+
+publication_types:
+- "2"
+---
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+![](figure2.jpg)
+
+![](figure3.jpg)
+
+![](figure1.png)

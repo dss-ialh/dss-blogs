@@ -210,13 +210,11 @@
   <url>
     <loc>/authors/andriy-koval/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/ken-moselle/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -293,12 +291,36 @@
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</loc>
-    <lastmod>2014-10-14T00:00:00+00:00</lastmod>
+    <loc>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/analytic-workflow/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computational-essays/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dynamic-documentation/</loc>
+    <lastmod>2014-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

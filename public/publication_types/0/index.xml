@@ -50,5 +50,14 @@ This working group also reports on the activities of the Data Science Studio at 
 In fall 2014, Scott Hofer organized a colloquium series at the Institute on Aging and Lifelong Health - then “Centre on Aging” - with focus on reproducible methods and applications in aging research.</description>
     </item>
     
+    <item>
+      <title>Toolbox and Toolsets of Reproducible Research</title>
+      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
+      <description>The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -615,19 +615,27 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Toolbox and Skillset of Reproducible Research </title>
-      <link>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</link>
-      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      <title>Toolbox and Toolsets of Reproducible Research</title>
+      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2014f-coag-colloquium/toolbox-and-skillset-of-reproducible-research/</guid>
+      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
       <description>
 
 
-&lt;p&gt;PopData BC &lt;a href=&#34;https://www.popdata.bc.ca/events/etu/COAGSeries2014_Koval_Oct14&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;&#34; alt=&#34;header&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;header&lt;/p&gt;
-&lt;/div&gt;
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;traditional-vs-reproducible.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Of specific importance is the data grooming stage, which enables a productive exploration of the data and establishes custody chains to support research conclusions based on the analytic products.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;reproducible-data-prep.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

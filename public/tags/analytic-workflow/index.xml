@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analytic workflow on Data Science Studio</title>
+    <link>/tags/analytic-workflow/</link>
+    <description>Recent content in analytic workflow on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 10 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/analytic-workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Toolbox and Toolsets of Reproducible Research</title>
+      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
+      <description>The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.</description>
+    </item>
+    
+  </channel>
+</rss>

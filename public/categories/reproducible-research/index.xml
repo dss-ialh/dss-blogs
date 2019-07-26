@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reproducible Research on Data Science Studio</title>
+    <title>reproducible research on Data Science Studio</title>
     <link>/categories/reproducible-research/</link>
-    <description>Recent content in Reproducible Research on Data Science Studio</description>
+    <description>Recent content in reproducible research on Data Science Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -19,6 +19,15 @@
       
       <guid>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</guid>
       <description>This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.Click here for the full post.</description>
+    </item>
+    
+    <item>
+      <title>Toolbox and Toolsets of Reproducible Research</title>
+      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
+      <description>The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.</description>
     </item>
     
   </channel>
