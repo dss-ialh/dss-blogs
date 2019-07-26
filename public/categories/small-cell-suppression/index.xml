@@ -13,11 +13,11 @@
     
     
     <item>
-      <title>Suppress for Release - CAHSPR, Halifax</title>
-      <link>/post/suppress-for-release-cahspr-halifax/</link>
+      <title> Suppress for Release - CAHSPR, Halifax</title>
+      <link>/post/2019-05-26-suppress-for-release-cahspr-halifax/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/suppress-for-release-cahspr-halifax/</guid>
+      <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
       <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations</description>
     </item>
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Data Science Studio</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASGR: 1 - Intro &amp; Workflow</title>
+      <link>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</guid>
+      <description>This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.Click here for the full post.</description>
+    </item>
+    
+  </channel>
+</rss>

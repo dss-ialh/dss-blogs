@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,25 +85,11 @@
     </item>
     
     <item>
-      <title>Suppress for Release - CAHSPR, Halifax</title>
-      <link>/post/suppress-for-release-cahspr-halifax/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>How to Contribute</title>
+      <link>/post/how-to-contribute/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/suppress-for-release-cahspr-halifax/</guid>
-      <description>
-
-
-&lt;p&gt;In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../../img/post/andkov/suppress-for-release-2019-halifax/poster.jpg&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome To DSS Blogs - How To Contribute to DSS Blogs</title>
-      <link>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/welcome-to-dss-blogs-how-to-add-a-blog-post/</guid>
+      <guid>/post/how-to-contribute/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -126,6 +112,15 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
 &lt;p&gt;This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.&lt;/p&gt;
 &lt;div id=&#34;adding-a-new-post&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Adding a New Post&lt;/h1&gt;
@@ -144,20 +139,20 @@
 &lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; on your website (this is your full blog post)&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If this is your first time posting: &lt;strong&gt;clone dss blog site&lt;/strong&gt; from &lt;a href=&#34;https://github.com/dss-ialh/dss-blog&#34;&gt;github&lt;/a&gt;:&lt;br /&gt;
 Copy the repo URL: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog.git&#34; class=&#34;uri&#34;&gt;https://github.com/dss-ialh/dss-blog.git&lt;/a&gt;&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/cloning-from-github.png&#34; alt=&#34;Cloning from github&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;images/cloning-from-github.png&#34; alt=&#34;Cloning from github&#34; /&gt;&lt;br /&gt;
 Create a new project in R Studio using the repo&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/cloning-from-github2.png&#34; alt=&#34;New project from repo&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;images/cloning-from-github2.png&#34; alt=&#34;New project from repo&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Pull&lt;/strong&gt; in R Studio, so you have the up to date dss blog site&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/pull-to-rstudio.png&#34; alt=&#34;Pull&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;images/pull-to-rstudio.png&#34; alt=&#34;Pull&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Create a &lt;strong&gt;new branch&lt;/strong&gt; for the dss blog site called: &lt;em&gt;dev-mygithubname&lt;/em&gt; (with &lt;em&gt;mygithubname&lt;/em&gt; replaced with your github name…)&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/new-dev-branch.png&#34; alt=&#34;New branch&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;images/new-dev-branch.png&#34; alt=&#34;New branch&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; in your new dev branch, following the &lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt; below (this is a summary of your new blog post, with a link to your full blog post)&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/new-post.png&#34; alt=&#34;New post&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;images/new-post.png&#34; alt=&#34;New post&#34; /&gt;&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; only the new .Rmd file for your post (under “&lt;em&gt;content/post/my_new_post.Rmd&lt;/em&gt;”) and any necessary image and data files under “&lt;em&gt;static/img/my_github_user_name/&lt;/em&gt;”, and then &lt;strong&gt;Push&lt;/strong&gt; to github&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/commit-push.png&#34; alt=&#34;Commit and Push&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;images/commit-push.png&#34; alt=&#34;Commit and Push&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Create a &lt;strong&gt;New pull request&lt;/strong&gt; via github (online), &lt;em&gt;ask for help the first time&lt;/em&gt;&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/pull-request.png&#34; alt=&#34;Pull request&#34; /&gt;
+&lt;img src=&#34;images/pull-request.png&#34; alt=&#34;Pull request&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;flag &lt;strong&gt;two reviewers&lt;/strong&gt;, they will check the post and make comments/suggestions &lt;em&gt;(choose reviewers from the DSS Blog Editorial Board)&lt;/em&gt;&lt;br /&gt;
 &lt;/li&gt;
@@ -165,7 +160,7 @@ Create a new project in R Studio using the repo&lt;br /&gt;
 &lt;li&gt;Wait for review, and make any requested changes&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;After the branch has been merged, you can &lt;strong&gt;delete your &lt;em&gt;dev-mygithubname&lt;/em&gt;&lt;/strong&gt; branch on github.&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/delete-branch.png&#34; alt=&#34;Delete branch&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;images/delete-branch.png&#34; alt=&#34;Delete branch&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div id=&#34;link:newposttemplate&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;New Post Template&lt;/h3&gt;
@@ -186,13 +181,13 @@ Use image template for uniformity of all posts, save in “&lt;em&gt;./static/im
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;download from: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog/raw/master/static/img/header-image-template.pptx&#34;&gt;DSS Blog Github&lt;/a&gt;&lt;br /&gt;
-&lt;img src=&#34;../../img/dss-blog-post-images/header-image-template.png&#34; alt=&#34;Header Template&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;download from: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-templated.pptx&#34;&gt;DSS Blog Github&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&#34;images/featured-flag-template.png&#34; alt=&#34;Header Template&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Edit the header to include images and text as necessary for your header&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;Ensure the DSS logo remains visible&lt;br /&gt;
 &lt;/li&gt;
-&lt;li&gt;Export the image as a &lt;em&gt;.png&lt;/em&gt; file&lt;/li&gt;
+&lt;li&gt;Export the image as a &lt;em&gt;.png&lt;/em&gt; file by selecting all elemennts on the page and choosing “Save As Image”&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Place the image into “&lt;em&gt;./static/img/my_github_user_name/my_post_header_image.png&lt;/em&gt;”&lt;br /&gt;
@@ -200,6 +195,9 @@ Use image template for uniformity of all posts, save in “&lt;em&gt;./static/im
 &lt;li&gt;Insert the image into the blogpost using the &lt;em&gt;yaml&lt;/em&gt; header (under the header section)&lt;br /&gt;
 &lt;code&gt;image: “../../img/my_github_user_name/my_post_header_image.png”&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The site will not serve if you do not close your PowerPoint slide deck.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summarytext&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Create Summary Text and Link&lt;/h4&gt;
@@ -256,6 +254,78 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
     </item>
     
     <item>
+      <title>Welcome to DSS Blogs</title>
+      <link>/post/welcome-to-dss-blogs/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-dss-blogs/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Welcome to DSS Blogs, a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.&lt;/p&gt;
+&lt;p&gt;This working group also reports on the activities of the Data Science Studio at the Institute of Aging and Lifelong Health, University of Victoria. If you are interested in being featured on the DSS Blogs, please consult our &lt;a href=&#34;../how-to-contribute/index.html&#34;&gt;How to Contribute&lt;/a&gt; guide detailing how you can submit your blogpost for the peer review. To learn more about DSS, see its &lt;a href=&#34;../dss-origin-story/index.html&#34;&gt;Origin Story&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> Suppress for Release - CAHSPR, Halifax</title>
+      <link>/post/2019-05-26-suppress-for-release-cahspr-halifax/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;poster.jpg&#34; alt=&#34;poster&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;poster&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 1 - Intro &amp; Workflow</title>
+      <link>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.
+Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro-basic-workflow/&#34;&gt;here&lt;/a&gt; for the full post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
       <link>/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
@@ -268,6 +338,38 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
 &lt;/div&gt;
 
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Origins of DSS</title>
+      <link>/post/dss-origin-story/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dss-origin-story/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;The Data Science Studio (DSS) was formed to promote sound practices of longitudinal modeling in health research and facilitate collaboration between academic researchers and health sytem organizations. This working group was conceived and launched by Ken Moselle, Scott Hofer, and Andriy Koval.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;scattered-graphs.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In fall 2014, Scott Hofer organized a &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;colloquium series&lt;/a&gt; at the &lt;a href=&#34;https://www.uvic.ca/research/centres/aging/&#34;&gt;Institute on Aging and Lifelong Health&lt;/a&gt; - then “Centre on Aging” - with focus on reproducible methods and applications in aging research. Andriy Koval, his new postdoc at the time, volunteered to give a series of talks on the use of R and common techniques of reproducible analytics with dynamic documents. Ken Moselle, Enterprise Information Architect at &lt;a href=&#34;https://www.islandhealth.ca/&#34;&gt;Island Health&lt;/a&gt;, attended these lecture series, seeking ways to tap into statistical expertise of UVic to nurse analytical capacities of Island Health. A unique, cross-continuum Electronic Health Records (EHR) system of Island Health has been amassing records since 2007, capturing an almost complete longitudinal picture of patients within the health system.&lt;/p&gt;
+&lt;p&gt;However, despite the allure of their interoperability, the system’s software ability to share and make use of data, and longitudinal nature, these data did not contribute much to the evidentiary basis of existing policies. Their broad, cross-continuum spectrum of health services and highly complex statistical models needed to handle &lt;em&gt;within-person-over-time&lt;/em&gt; patterns was calling for analytic capacities beyond the scope of Quality Improvement departments within Island Health. The &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;Fall 2014 colloquium&lt;/a&gt; sparked a vision for a working group that would bring together the expertise capable of releasing the potential of big, cross-continuum EHR for aging research: knowledge of clinical context (Ken), statistical expertise in modeling individual differences (Scott) and applied data science skills for handling big data (Andriy).&lt;/p&gt;
+&lt;p&gt;In the Fall of 2015, Ken formed an &lt;a href=&#34;https://github.com/IHACRU&#34;&gt;Applied Clinical Research Unit&lt;/a&gt; (ACRU) at Island Health. Scott funded Andriy to join this group half-time to work on rendering Island Health’s EHR into a form that can be analyzed and linked to the aging data collected by IALH. Ken and Andriy developed a &lt;a href=&#34;https://github.com/IHACRU/clinical-context-coding-scheme&#34;&gt;Clinical Context Coding Scheme (CCCS)&lt;/a&gt;, a system for reducing the granularity of Island Health service landscape. One of the first applications of CCCS was development of “patient timelines” for DEPiCTS projects, co-chaired by Scott, which visualized service utilization in the longitudinal context of visiting the Stroke Rapid Assessment Unit (Figure 1).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;case-study-A.png&#34; alt=&#34;Figure 1&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Building on this methodology, Andriy and Ken developed a research proposal for developing a severity scaling method for Mental Health and Substance Use (MHSU) conditions based on the service utilization data of Island Health, which &lt;a href=&#34;http://www.newswire.ca/news-releases/minister-ginette-petitpas-taylor-announces-a-58-million-investment-in-programs-to-give-health-research-trainees-hands-on-work-experience-649094743.html&#34;&gt;won&lt;/a&gt; Andriy a Canadian Institutes of Health Research (&lt;a href=&#34;http://www.cihr-irsc.gc.ca/&#34;&gt;CIHR&lt;/a&gt;) Health System Impact &lt;a href=&#34;http://www.cihr-irsc.gc.ca/e/50268.html&#34;&gt;Fellowship&lt;/a&gt; with BC &lt;a href=&#34;http://www.bccdc.ca/our-services/programs/bc-observatory-for-pop-public-health&#34;&gt;Observatory&lt;/a&gt; for Population and Public Health of the BC &lt;a href=&#34;http://www.bccdc.ca/&#34;&gt;Centre for Disease Control&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualisation (Studio). The first season culminated in the Institute’s colloquium series on &lt;a href=&#34;https://github.com/dss-ialh/displaying-health-data&#34;&gt;“Displaying Health Data”&lt;/a&gt; in November 2018, where DSS showcased latest activities and hosted visiting scholars from University of Central Florida and University of Oklahoma.&lt;/p&gt;
 </description>
     </item>
     

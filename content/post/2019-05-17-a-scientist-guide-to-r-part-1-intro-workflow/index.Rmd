@@ -1,0 +1,35 @@
+---
+title: "ASGR: 1 - Intro & Workflow"
+author: Craig Hutton
+date: '2019-05-17'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Workflow
+  - Data Analysis
+image: 
+  caption: 'overview of the workflow'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.
+Click [here](https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro-basic-workflow/) for the full post.

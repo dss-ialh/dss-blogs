@@ -1,0 +1,36 @@
+---
+title: " Suppress for Release - CAHSPR, Halifax"
+author: Andriy Koval
+date: '2019-05-26'
+categories:
+  - R
+  - reproducible workflow
+  - small cell suppression
+tags:
+  - surveillance
+  - reproducible research
+  - workflow
+slug: []
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+- "1"  
+  
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+In 2016, the Observatory for Population & Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations
+
+
+![poster](poster.jpg)

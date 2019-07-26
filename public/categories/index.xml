@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DSS Admin</title>
+      <link>/categories/dss-admin/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/dss-admin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R</title>
@@ -40,11 +49,20 @@
     </item>
     
     <item>
-      <title>DSS Admin</title>
-      <link>/categories/dss-admin/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      <title>Reproducible Research</title>
+      <link>/categories/reproducible-research/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/dss-admin/</guid>
+      <guid>/categories/reproducible-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dss</title>
+      <link>/categories/dss/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/dss/</guid>
       <description></description>
     </item>
     

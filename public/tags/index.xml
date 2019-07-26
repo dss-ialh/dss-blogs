@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>admin</title>
+      <link>/tags/admin/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging with dss</title>
+      <link>/tags/blogging-with-dss/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogging-with-dss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science studio</title>
+      <link>/tags/data-science-studio/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how to add a blog</title>
+      <link>/tags/how-to-add-a-blog/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/how-to-add-a-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peer review</title>
+      <link>/tags/peer-review/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/peer-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>/tags/workflow/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/workflow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>reproducible research</title>
@@ -31,65 +94,20 @@
     </item>
     
     <item>
-      <title>workflow</title>
-      <link>/tags/workflow/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>Data Analysis</title>
+      <link>/tags/data-analysis/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/workflow/</guid>
+      <guid>/tags/data-analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>admin</title>
-      <link>/tags/admin/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/admin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogging with dss</title>
-      <link>/tags/blogging-with-dss/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blogging-with-dss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data science studio</title>
-      <link>/tags/data-science-studio/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science-studio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>how to add a blog</title>
-      <link>/tags/how-to-add-a-blog/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/how-to-add-a-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>peer review</title>
-      <link>/tags/peer-review/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/peer-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tutorial/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
