@@ -29,6 +29,11 @@
   weight = 50
 
 [[main]]
+  name = "Sessions"
+  url = "talk/"
+  weight = 55
+
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 60

@@ -1,9 +1,12 @@
 ---
 title: Title
 subtitle: Subtitle
-authors:
-- Author One
-- Author Two
+author:
+- name: Author One
+  affiliation: University A
+- name: Author Two
+  affiliation: University B
+event: "webinar on data science"
 
 date: '2016-02-25'
 publishDate: "2016-02-25T00:00:00Z"
