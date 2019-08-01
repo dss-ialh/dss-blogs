@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 06 Aug 2019 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/session/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Season Closed, Season Opened</title>
       <link>/talk/2019-08-06-season-closed-season-opened/</link>
-      <pubDate>Tue, 06 Aug 2019 13:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019-08-06-season-closed-season-opened/</guid>
       <description>We look back at the 2018-2019 season of Data Science Studio, report on the Studio&amp;rsquo;s activity in the past year, and plan for the new cycle</description>
