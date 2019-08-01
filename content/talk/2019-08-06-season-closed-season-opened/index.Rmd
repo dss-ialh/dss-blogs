@@ -4,7 +4,7 @@ subtitle: The final session of the Data Science Studio in the 2018-2019 season
 author:
 - name: admin
 event: "Data Science Studio in Session"
-date: '2019-08-06T13:00:00'
+date: '2019-07-29'
 
 slug: []
 categories:
