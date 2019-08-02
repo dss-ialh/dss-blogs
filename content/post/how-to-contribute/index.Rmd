@@ -53,7 +53,7 @@ An alternative to using git integrated with R is to use [Github Desktop](https:/
 
 ## Blog Authors
 
-1. Create a **new post** on your website (this is your full blog post)
+1. Create a **new post** on your website (this is the full blog post you would like to have featured on DSS Blogs)
 2. If this is your first time posting: **clone dss blog site** from [github](https://github.com/dss-ialh/dss-blog):  
 Copy the repo URL: https://github.com/dss-ialh/dss-blog.git  
 ![Cloning from github](images/cloning-from-github.png)  
@@ -64,9 +64,9 @@ Create a new project in R Studio using the repo
 ![Pull](images/pull-to-rstudio.png)
 4. Create a **new branch** for the dss blog site called: _dev-mygithubname_  (with _mygithubname_ replaced with your github name...)  
 ![New branch](images/new-dev-branch.png)
-5. Create a **new post** in your new dev branch, following the [New Post Template](#link:newposttemplate) below (this is a summary of your new blog post, with a link to your full blog post)  
-![New post](images/new-post.png)  
-6. **Commit** only the new .Rmd file for your post (under "_content/post/my_new_post.Rmd_") and any necessary image and data files under "_static/img/my_github_user_name/_", and then **Push** to github  
+5. Create a **new post** in your new dev branch, following the [New Post Template](#link:newposttemplate) below (this is a summary of your new blog post, with a link to your full blog post, using [page bundles](https://gohugo.io/content-management/page-bundles/))  
+  
+6. **Commit** the page bundle, which is a folder containing the index.Rmd, and any necessary image and data files. The folder should be a subdirectory of  "_content/post/my_github_user_name/_". **Push** to github  
 ![Commit and Push](images/commit-push.png)
 7. Create a **New pull request** via github (online), _ask for help the first time_  
 ![Pull request](images/pull-request.png)
@@ -80,7 +80,7 @@ Create a new project in R Studio using the repo
 
 #### Required Components  
 * [Summary Image](#summaryimage)   
-Use image template for uniformity of all posts, save in "*./static/img/my_github_user_name/my_post_header_image.png*")
+Use image template for uniformity of all posts, save it in your page bundle with the file name "*featured.png*"
 * [Summary Text](#summarytext)     
 (1 paragraph, abstract style)
 * [Summary Link](#summarytext) a link to the full blog post  
@@ -91,13 +91,10 @@ Use image template for uniformity of all posts, save in "*./static/img/my_github
 - download from: [DSS Blog Github](https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-templated.pptx)  
 ![Header Template](images/featured-flag-template.png)
 - Edit the header to include images and text as necessary for your header  
-- Ensure the DSS logo remains visible  
 - Export the image as a *.png* file by selecting all elemennts on the page and choosing "Save As Image"
-2. Place the image into “*./static/img/my_github_user_name/my_post_header_image.png*”  
-3. Insert the image into the blogpost using the *yaml* header (under the header section)  
-`  image: “../../img/my_github_user_name/my_post_header_image.png”`
+2. Place the image into “*./content/post/my_github_user_name/my_post_header_image.png*”  
 
-> The site will not serve if you do not close your PowerPoint slide deck.  
+> Note that the site will not serve if you do not close your PowerPoint slide deck.  
 
 #### Create Summary Text and Link {#summarytext}
 

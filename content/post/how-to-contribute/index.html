@@ -70,7 +70,7 @@ featured: no
 <div id="blog-authors" class="section level2">
 <h2>Blog Authors</h2>
 <ol style="list-style-type: decimal">
-<li>Create a <strong>new post</strong> on your website (this is your full blog post)</li>
+<li>Create a <strong>new post</strong> on your website (this is the full blog post you would like to have featured on DSS Blogs)</li>
 <li><p>If this is your first time posting: <strong>clone dss blog site</strong> from <a href="https://github.com/dss-ialh/dss-blog">github</a>:<br />
 Copy the repo URL: <a href="https://github.com/dss-ialh/dss-blog.git" class="uri">https://github.com/dss-ialh/dss-blog.git</a><br />
 <img src="images/cloning-from-github.png" alt="Cloning from github" /><br />
@@ -80,10 +80,8 @@ Create a new project in R Studio using the repo<br />
 <img src="images/pull-to-rstudio.png" alt="Pull" /></li>
 <li>Create a <strong>new branch</strong> for the dss blog site called: <em>dev-mygithubname</em> (with <em>mygithubname</em> replaced with your github name…)<br />
 <img src="images/new-dev-branch.png" alt="New branch" /></li>
-<li>Create a <strong>new post</strong> in your new dev branch, following the <a href="#link:newposttemplate">New Post Template</a> below (this is a summary of your new blog post, with a link to your full blog post)<br />
-<img src="images/new-post.png" alt="New post" /><br />
-</li>
-<li><strong>Commit</strong> only the new .Rmd file for your post (under “<em>content/post/my_new_post.Rmd</em>”) and any necessary image and data files under “<em>static/img/my_github_user_name/</em>”, and then <strong>Push</strong> to github<br />
+<li><p>Create a <strong>new post</strong> in your new dev branch, following the <a href="#link:newposttemplate">New Post Template</a> below (this is a summary of your new blog post, with a link to your full blog post, using <a href="https://gohugo.io/content-management/page-bundles/">page bundles</a>)</p></li>
+<li><strong>Commit</strong> the page bundle, which is a folder containing the index.Rmd, and any necessary image and data files. The folder should be a subdirectory of “<em>content/post/my_github_user_name/</em>”. <strong>Push</strong> to github<br />
 <img src="images/commit-push.png" alt="Commit and Push" /></li>
 <li>Create a <strong>New pull request</strong> via github (online), <em>ask for help the first time</em><br />
 <img src="images/pull-request.png" alt="Pull request" />
@@ -102,7 +100,7 @@ Create a new project in R Studio using the repo<br />
 <h4>Required Components</h4>
 <ul>
 <li><a href="#summaryimage">Summary Image</a><br />
-Use image template for uniformity of all posts, save in “<em>./static/img/my_github_user_name/my_post_header_image.png</em>”)</li>
+Use image template for uniformity of all posts, save it in your page bundle with the file name “<em>featured.png</em>”</li>
 <li><a href="#summarytext">Summary Text</a><br />
 (1 paragraph, abstract style)</li>
 <li><a href="#summarytext">Summary Link</a> a link to the full blog post</li>
@@ -119,18 +117,13 @@ Use image template for uniformity of all posts, save in “<em>./static/img/my_g
 <img src="images/featured-flag-template.png" alt="Header Template" /></li>
 <li>Edit the header to include images and text as necessary for your header<br />
 </li>
-<li>Ensure the DSS logo remains visible<br />
-</li>
 <li>Export the image as a <em>.png</em> file by selecting all elemennts on the page and choosing “Save As Image”</li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
-<li>Place the image into “<em>./static/img/my_github_user_name/my_post_header_image.png</em>”<br />
-</li>
-<li>Insert the image into the blogpost using the <em>yaml</em> header (under the header section)<br />
-<code>image: “../../img/my_github_user_name/my_post_header_image.png”</code></li>
+<li>Place the image into “<em>./content/post/my_github_user_name/my_post_header_image.png</em>”</li>
 </ol>
 <blockquote>
-<p>The site will not serve if you do not close your PowerPoint slide deck.</p>
+<p>Note that the site will not serve if you do not close your PowerPoint slide deck.</p>
 </blockquote>
 </div>
 <div id="summarytext" class="section level4">
