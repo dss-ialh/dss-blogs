@@ -20,7 +20,7 @@ publication_types:
   - "0"  
 output:
   blogdown::html_page:
-    toc: true
+    toc: false
     toc_depth: 4
 featured: no
 ---
@@ -35,8 +35,22 @@ featured: no
 <!-- # 5 = Book -->
 <!-- # 6 = Book chapter -->
 
+This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote  posts on DSS Blogs. -------------- 
 
-This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.
+
+# Table of Content
+
+- [Adding a New Post](#adding-a-new-post)
+  - [Blog Authors](#blog-authors)
+    - [New Post Template](#link:newposttemplate)
+      - [Required Components](#required-components)
+      - [Create Summary Image From Template](#summaryimage)
+      - [Create Summary Text and Link](#summarytext)
+- [Editorial Team](#editorial-team) 
+  - [Flagged as Reviewer](#flagged-as-reviewer)
+- [Acting Admin](#acting-admin)
+  - [Merge Request](#merge-request)
+
 
 
 # Adding a New Post
@@ -48,8 +62,21 @@ Please note that this post assumes that you have:
 * a working personal blog site (eg: [Andriy Koval's Blog](http://andriy.rbind.io/))
 * [R Studio](https://www.rstudio.com/)
 * [git](http://r-pkgs.had.co.nz/git.html) installed and configured for R Studio
+* knowledge of the following resources:
+    - [Up and Running with Blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) by Alison Hill
+    - [A Spoonful of Hugo: Page Bundles](https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/) by Alison Hill
+    - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, Garrett Grolemund
 
-An alternative to using git integrated with R is to use [Github Desktop](https://desktop.github.com/) with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: Clone and Pull from Github, Create new branches, Commit changes, and Push back to Github.
+
+
+
+An alternative to using git integrated with R is to use [Github Desktop](https://desktop.github.com/) with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: 
+- Clone and Pull from Github
+- Create new branches
+- Commit changes
+- Push back to Github.
+
+
 
 ## Blog Authors
 
@@ -88,7 +115,7 @@ Use image template for uniformity of all posts, save it in your page bundle with
 #### Create Summary Image From Template {#summaryimage}
 
 1. Use the DSS powerpoint template to generate a summary image, save as a *.png*  
-- download from: [DSS Blog Github](https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-templated.pptx)  
+- download from: [DSS Blog Github](https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-template.pptx)  
 ![Header Template](images/featured-flag-template.png)
 - Edit the header to include images and text as necessary for your header  
 - Export the image as a *.png* file by selecting all elemennts on the page and choosing "Save As Image"
@@ -107,6 +134,12 @@ Use image template for uniformity of all posts, save it in your page bundle with
 ## Editorial Team
 
 We would like to keep the review process as expedient as possible. If you are flagged as a reviewer but do not have the time, you may request that a second reviewer take your place (or let the blog poster know how long to expect before you will be able to provide feedback).
+
+Current editorial team:   
+
+* [Matthew Parker](https://matthew-parker.rbind.io/)    
+* [Craig Hutton](https://craig.rbind.io/)     
+* [Andriy Koval](http://andriy.rbind.io/) (acting admin)    
 
 #### Flagged as Reviewer
 
@@ -127,6 +160,8 @@ eg: "@acting_admin_github_name, this post has been approved for publication, mer
 
 
 ## Acting Admin
+
+Acting Admin serves as the technician who commits the proposed DSS Blogs posts and is responsible for the live state of the site [https://dss-ialh.rbind.io/](https://dss-ialh.rbind.io/)
 
 #### Merge Request 
 
