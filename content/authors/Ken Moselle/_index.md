@@ -1,14 +1,15 @@
 ---
 authors:
 - admin
+
 bio: Enterprise Information Architect, Island Health. Applied Clinical Research Unity, Director. 
 email: "kenneth.moselle@viha.ca"
 
 name: Ken Moselle
 organizations: 
 - name: Applied Clinical Research Unit, Island Health
-  url: "http://www.github.com/IHACRU"
-role: Co-director
+  url: http://ken.rbind.io/
+role:  Applied Clinical Research Unit (Island Health), Director
 social:
 - icon: envelope
   icon_pack: fas
@@ -20,9 +21,9 @@ social:
   icon_pack: ai
   link: 
 
-superuser: false
+superuser: true
 user_groups:
-- Researchers
+- Administration
 ---
 
 

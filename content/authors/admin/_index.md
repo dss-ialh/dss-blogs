@@ -1,14 +1,15 @@
 ---
 authors:
 - admin
-bio: Learning together __to tell stories with data__ _about health and aging_
+
+bio: Learning together to tell stories with data about health and aging  
 email: "datasciencestudio@uvic.ca"
 
-name:
+name: Data Science Studio
 organizations:
 - name: Institute on Aging and Lifelong Health,  University of Victoria
   url: "http://uvic.ca/aging"
-role: Data Science Studio
+role:  Learning together __to tell stories with data__ _about health and aging_
 social:
 - icon: envelope
   icon_pack: fas
@@ -24,9 +25,17 @@ social:
   link: https://github.com/dss-ialh
 superuser: true
 user_groups:
-- Researchers
-- Visitors
+- Administration
 ---
 
-Data Science Studio is a learning collaborative for developing applied skills of data science and reproducible research with a particular focus on the areas of health and aging. 
+Data Science Studio is an interdisciplinary learning collaborative for developing applied skills of data science and reproducible research with a substantive focus on health and aging. 
+
+The specific categories of research include:
+
+- Health Informatics  
+- Data Access & Disclosure Control  
+- Public Health  
+- Statistical Learning  
+- Reproducible Research  
+- Functional Graphing  
 

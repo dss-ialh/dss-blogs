@@ -1,10 +1,13 @@
 ---
 title: How to Contribute
-author: DSS Admin
+authors:
+  - Matthew Parker
+  - Craig Hutton
+  - Andriy Koval 
 date: '2019-07-26'
 slug: []
 categories:
-  - DSS Admin
+  - DSS Blogs
 tags:
   - tutorial
   - how to add a blog
