@@ -8,7 +8,7 @@ name: Andriy Koval
 organizations: 
 - name: Health Management and Informatics
   url: "http://andriy.rbind.io"
-role: Health Management & Informatics (UCF) Assistant Professor
+role:  Health Management & Informatics, University of Central Florida
 social:
 - icon: envelope
   icon_pack: fas

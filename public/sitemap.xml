@@ -61,13 +61,34 @@
   </url>
   
   <url>
+    <loc>/authors/andriy-koval/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/craig-hutton/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/matthew-parker/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/0/</loc>
     <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/dss-admin/</loc>
+    <loc>/authors/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/dss-blogs/</loc>
     <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -119,6 +140,12 @@
   </url>
   
   <url>
+    <loc>/categories/dss-admin/</loc>
+    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/welcome-to-dss-blogs/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
@@ -136,12 +163,6 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/workflow/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -171,6 +192,12 @@
   </url>
   
   <url>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</loc>
     <lastmod>2019-05-17T00:00:00+00:00</lastmod>
   </url>
@@ -194,19 +221,8 @@
   </url>
   
   <url>
-    <loc>/authors/andriy-koval/</loc>
+    <loc>/authors/admin/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/ken-moselle/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -217,34 +233,6 @@
   <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -277,7 +265,7 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>/authors/ken-moselle/</loc>
   </url>
   
   <url>

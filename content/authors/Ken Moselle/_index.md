@@ -9,7 +9,7 @@ name: Ken Moselle
 organizations: 
 - name: Applied Clinical Research Unit, Island Health
   url: http://ken.rbind.io/
-role:  Applied Clinical Research Unit (Island Health), Director
+role:   Applied Clinical Research Unit of Vancouver Island Health Authority,  Director
 social:
 - icon: envelope
   icon_pack: fas

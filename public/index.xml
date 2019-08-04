@@ -53,25 +53,6 @@
       <guid>/post/how-to-contribute/</guid>
       <description>
 
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-a-new-post&#34;&gt;Adding a New Post&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#blog-authors&#34;&gt;Blog Authors&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#required-components&#34;&gt;Required Components&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#summaryimage&#34;&gt;Create Summary Image From Template&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Create Summary Text and Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#editorial-team&#34;&gt;Editorial Team&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#flagged-as-reviewer&#34;&gt;Flagged as Reviewer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#acting-admin&#34;&gt;Acting Admin&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#merge-request&#34;&gt;Merge Request&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 
 &lt;!-- # Publication type. --&gt;
 &lt;!-- # Legend: --&gt;
@@ -82,7 +63,32 @@
 &lt;!-- # 4 = Technical report --&gt;
 &lt;!-- # 5 = Book --&gt;
 &lt;!-- # 6 = Book chapter --&gt;
-&lt;p&gt;This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.&lt;/p&gt;
+&lt;p&gt;This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–&lt;/p&gt;
+&lt;div id=&#34;table-of-content&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Table of Content&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-new-post&#34;&gt;Adding a New Post&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#blog-authors&#34;&gt;Blog Authors&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#required-components&#34;&gt;Required Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summaryimage&#34;&gt;Create Summary Image From Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Create Summary Text and Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#editorial-team&#34;&gt;Editorial Team&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#flagged-as-reviewer&#34;&gt;Flagged as Reviewer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acting-admin&#34;&gt;Acting Admin&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#merge-request&#34;&gt;Merge Request&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div id=&#34;adding-a-new-post&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Adding a New Post&lt;/h1&gt;
 &lt;p&gt;Please note that this post assumes that you have:&lt;/p&gt;
@@ -92,12 +98,22 @@
 &lt;li&gt;a working personal blog site (eg: &lt;a href=&#34;http://andriy.rbind.io/&#34;&gt;Andriy Koval’s Blog&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://r-pkgs.had.co.nz/git.html&#34;&gt;git&lt;/a&gt; installed and configured for R Studio&lt;/li&gt;
+&lt;li&gt;knowledge of the following resources:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34;&gt;Up and Running with Blogdown&lt;/a&gt; by Alison Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/&#34;&gt;A Spoonful of Hugo: Page Bundles&lt;/a&gt; by Alison Hill&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/&#34;&gt;R Markdown: The Definitive Guide&lt;/a&gt; by Yihui Xie, J. J. Allaire, Garrett Grolemund&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;An alternative to using git integrated with R is to use &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt; with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: Clone and Pull from Github, Create new branches, Commit changes, and Push back to Github.&lt;/p&gt;
+&lt;p&gt;An alternative to using git integrated with R is to use &lt;a href=&#34;https://desktop.github.com/&#34;&gt;Github Desktop&lt;/a&gt; with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to:
+- Clone and Pull from Github
+- Create new branches
+- Commit changes
+- Push back to Github.&lt;/p&gt;
 &lt;div id=&#34;blog-authors&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Blog Authors&lt;/h2&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; on your website (this is your full blog post)&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; on your website (this is the full blog post you would like to have featured on DSS Blogs)&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If this is your first time posting: &lt;strong&gt;clone dss blog site&lt;/strong&gt; from &lt;a href=&#34;https://github.com/dss-ialh/dss-blog&#34;&gt;github&lt;/a&gt;:&lt;br /&gt;
 Copy the repo URL: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog.git&#34; class=&#34;uri&#34;&gt;https://github.com/dss-ialh/dss-blog.git&lt;/a&gt;&lt;br /&gt;
 &lt;img src=&#34;images/cloning-from-github.png&#34; alt=&#34;Cloning from github&#34; /&gt;&lt;br /&gt;
@@ -107,10 +123,8 @@ Create a new project in R Studio using the repo&lt;br /&gt;
 &lt;img src=&#34;images/pull-to-rstudio.png&#34; alt=&#34;Pull&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Create a &lt;strong&gt;new branch&lt;/strong&gt; for the dss blog site called: &lt;em&gt;dev-mygithubname&lt;/em&gt; (with &lt;em&gt;mygithubname&lt;/em&gt; replaced with your github name…)&lt;br /&gt;
 &lt;img src=&#34;images/new-dev-branch.png&#34; alt=&#34;New branch&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; in your new dev branch, following the &lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt; below (this is a summary of your new blog post, with a link to your full blog post)&lt;br /&gt;
-&lt;img src=&#34;images/new-post.png&#34; alt=&#34;New post&#34; /&gt;&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; only the new .Rmd file for your post (under “&lt;em&gt;content/post/my_new_post.Rmd&lt;/em&gt;”) and any necessary image and data files under “&lt;em&gt;static/img/my_github_user_name/&lt;/em&gt;”, and then &lt;strong&gt;Push&lt;/strong&gt; to github&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;Create a &lt;strong&gt;new post&lt;/strong&gt; in your new dev branch, following the &lt;a href=&#34;#link:newposttemplate&#34;&gt;New Post Template&lt;/a&gt; below (this is a summary of your new blog post, with a link to your full blog post, using &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; the page bundle, which is a folder containing the index.Rmd, and any necessary image and data files. The folder should be a subdirectory of “&lt;em&gt;content/post/my_github_user_name/&lt;/em&gt;”. &lt;strong&gt;Push&lt;/strong&gt; to github&lt;br /&gt;
 &lt;img src=&#34;images/commit-push.png&#34; alt=&#34;Commit and Push&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Create a &lt;strong&gt;New pull request&lt;/strong&gt; via github (online), &lt;em&gt;ask for help the first time&lt;/em&gt;&lt;br /&gt;
 &lt;img src=&#34;images/pull-request.png&#34; alt=&#34;Pull request&#34; /&gt;
@@ -129,7 +143,7 @@ Create a new project in R Studio using the repo&lt;br /&gt;
 &lt;h4&gt;Required Components&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#summaryimage&#34;&gt;Summary Image&lt;/a&gt;&lt;br /&gt;
-Use image template for uniformity of all posts, save in “&lt;em&gt;./static/img/my_github_user_name/my_post_header_image.png&lt;/em&gt;”)&lt;/li&gt;
+Use image template for uniformity of all posts, save it in your page bundle with the file name “&lt;em&gt;featured.png&lt;/em&gt;”&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Summary Text&lt;/a&gt;&lt;br /&gt;
 (1 paragraph, abstract style)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#summarytext&#34;&gt;Summary Link&lt;/a&gt; a link to the full blog post&lt;/li&gt;
@@ -142,22 +156,17 @@ Use image template for uniformity of all posts, save in “&lt;em&gt;./static/im
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;download from: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-templated.pptx&#34;&gt;DSS Blog Github&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;download from: &lt;a href=&#34;https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-template.pptx&#34;&gt;DSS Blog Github&lt;/a&gt;&lt;br /&gt;
 &lt;img src=&#34;images/featured-flag-template.png&#34; alt=&#34;Header Template&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Edit the header to include images and text as necessary for your header&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;Ensure the DSS logo remains visible&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;Export the image as a &lt;em&gt;.png&lt;/em&gt; file by selecting all elemennts on the page and choosing “Save As Image”&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Place the image into “&lt;em&gt;./static/img/my_github_user_name/my_post_header_image.png&lt;/em&gt;”&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;Insert the image into the blogpost using the &lt;em&gt;yaml&lt;/em&gt; header (under the header section)&lt;br /&gt;
-&lt;code&gt;image: “../../img/my_github_user_name/my_post_header_image.png”&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Place the image into “&lt;em&gt;./content/post/my_github_user_name/my_post_header_image.png&lt;/em&gt;”&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The site will not serve if you do not close your PowerPoint slide deck.&lt;/p&gt;
+&lt;p&gt;Note that the site will not serve if you do not close your PowerPoint slide deck.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summarytext&#34; class=&#34;section level4&#34;&gt;
@@ -175,6 +184,14 @@ Use image template for uniformity of all posts, save in “&lt;em&gt;./static/im
 &lt;div id=&#34;editorial-team&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Editorial Team&lt;/h2&gt;
 &lt;p&gt;We would like to keep the review process as expedient as possible. If you are flagged as a reviewer but do not have the time, you may request that a second reviewer take your place (or let the blog poster know how long to expect before you will be able to provide feedback).&lt;/p&gt;
+&lt;p&gt;Current editorial team:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/&#34;&gt;Matthew Parker&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://craig.rbind.io/&#34;&gt;Craig Hutton&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andriy.rbind.io/&#34;&gt;Andriy Koval&lt;/a&gt; (acting admin)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div id=&#34;flagged-as-reviewer&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Flagged as Reviewer&lt;/h4&gt;
 &lt;p&gt;When you are flagged (through github) to be a reviewer:&lt;/p&gt;
@@ -198,6 +215,7 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
 &lt;/div&gt;
 &lt;div id=&#34;acting-admin&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Acting Admin&lt;/h2&gt;
+&lt;p&gt;Acting Admin serves as the technician who commits the proposed DSS Blogs posts and is responsible for the live state of the site &lt;a href=&#34;https://dss-ialh.rbind.io/&#34;&gt;https://dss-ialh.rbind.io/&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;merge-request&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Merge Request&lt;/h4&gt;
 &lt;p&gt;When you receive a Merge request (on github) from the post reviewers:&lt;/p&gt;
@@ -307,14 +325,15 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
 &lt;p&gt;The Data Science Studio (DSS) was formed to promote sound practices of longitudinal modeling in health research and facilitate collaboration between academic researchers and health sytem organizations. This working group was conceived and launched by Ken Moselle, Scott Hofer, and Andriy Koval.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;scattered-graphs.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In fall 2014, Scott Hofer organized a &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;colloquium series&lt;/a&gt; at the &lt;a href=&#34;https://www.uvic.ca/research/centres/aging/&#34;&gt;Institute on Aging and Lifelong Health&lt;/a&gt; - then “Centre on Aging” - with focus on reproducible methods and applications in aging research. Andriy Koval, his new postdoc at the time, volunteered to give a series of talks on the use of R and common techniques of reproducible analytics with dynamic documents. Ken Moselle, Enterprise Information Architect at &lt;a href=&#34;https://www.islandhealth.ca/&#34;&gt;Island Health&lt;/a&gt;, attended these lecture series, seeking ways to tap into statistical expertise of UVic to nurse analytical capacities of Island Health. A unique, cross-continuum Electronic Health Records (EHR) system of Island Health has been amassing records since 2007, capturing an almost complete longitudinal picture of patients within the health system.&lt;/p&gt;
-&lt;p&gt;However, despite the allure of their interoperability, the system’s software ability to share and make use of data, and longitudinal nature, these data did not contribute much to the evidentiary basis of existing policies. Their broad, cross-continuum spectrum of health services and highly complex statistical models needed to handle &lt;em&gt;within-person-over-time&lt;/em&gt; patterns was calling for analytic capacities beyond the scope of Quality Improvement departments within Island Health. The &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;Fall 2014 colloquium&lt;/a&gt; sparked a vision for a working group that would bring together the expertise capable of releasing the potential of big, cross-continuum EHR for aging research: knowledge of clinical context (Ken), statistical expertise in modeling individual differences (Scott) and applied data science skills for handling big data (Andriy).&lt;/p&gt;
+&lt;p&gt;However, despite the allure of their interoperability and longitudinal nature, these data did not contribute much to the evidentiary basis of existing policies. Their broad, cross-continuum terrain of health services and highly complex statistical models needed to handle &lt;em&gt;within-person-over-time&lt;/em&gt; patterns was calling for analytic capacities beyond those of Quality Improvement departments within Island Health. The &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;Fall 2014 colloquium&lt;/a&gt; sparked a vision for a working group that would bring together the expertise capable of releasing the potential of big, cross-continuum EHR for aging research: knowledge of clinical context (Ken), statistical expertise in modeling individual differences (Scott) and applied data science skills for handling big data (Andriy).&lt;/p&gt;
 &lt;p&gt;In the Fall of 2015, Ken formed an &lt;a href=&#34;https://github.com/IHACRU&#34;&gt;Applied Clinical Research Unit&lt;/a&gt; (ACRU) at Island Health. Scott funded Andriy to join this group half-time to work on rendering Island Health’s EHR into a form that can be analyzed and linked to the aging data collected by IALH. Ken and Andriy developed a &lt;a href=&#34;https://github.com/IHACRU/clinical-context-coding-scheme&#34;&gt;Clinical Context Coding Scheme (CCCS)&lt;/a&gt;, a system for reducing the granularity of Island Health service landscape. One of the first applications of CCCS was development of “patient timelines” for DEPiCTS projects, co-chaired by Scott, which visualized service utilization in the longitudinal context of visiting the Stroke Rapid Assessment Unit (Figure 1).&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;case-study-A.png&#34; alt=&#34;Figure 1&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Figure 1&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Building on this methodology, Andriy and Ken developed a research proposal for developing a severity scaling method for Mental Health and Substance Use (MHSU) conditions based on the service utilization data of Island Health, which &lt;a href=&#34;http://www.newswire.ca/news-releases/minister-ginette-petitpas-taylor-announces-a-58-million-investment-in-programs-to-give-health-research-trainees-hands-on-work-experience-649094743.html&#34;&gt;won&lt;/a&gt; Andriy a Canadian Institutes of Health Research (&lt;a href=&#34;http://www.cihr-irsc.gc.ca/&#34;&gt;CIHR&lt;/a&gt;) Health System Impact &lt;a href=&#34;http://www.cihr-irsc.gc.ca/e/50268.html&#34;&gt;Fellowship&lt;/a&gt; with BC &lt;a href=&#34;http://www.bccdc.ca/our-services/programs/bc-observatory-for-pop-public-health&#34;&gt;Observatory&lt;/a&gt; for Population and Public Health of the BC &lt;a href=&#34;http://www.bccdc.ca/&#34;&gt;Centre for Disease Control&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualisation (Studio). The first season culminated in the Institute’s colloquium series on &lt;a href=&#34;https://github.com/dss-ialh/displaying-health-data&#34;&gt;“Displaying Health Data”&lt;/a&gt; in November 2018, where DSS showcased latest activities and hosted visiting scholars from University of Central Florida and University of Oklahoma.&lt;/p&gt;
+&lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualisation (Studio).&lt;/p&gt;
+&lt;p&gt;In November 2018, DSS produced IALH’s colloquium series on &lt;a href=&#34;https://github.com/dss-ialh/displaying-health-data&#34;&gt;“Displaying Health Data”&lt;/a&gt; showcasing latest activities and hosted visiting scholars from University of Central Florida and University of Oklahoma.&lt;/p&gt;
 </description>
     </item>
     
@@ -325,33 +344,6 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

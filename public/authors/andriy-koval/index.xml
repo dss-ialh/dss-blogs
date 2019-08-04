@@ -7,19 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/andriy-koval/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The Origins of DSS</title>
-      <link>/post/dss-origin-story/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <title>How to Contribute</title>
+      <link>/post/how-to-contribute/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/dss-origin-story/</guid>
-      <description>The Data Science Studio (DSS) was formed to promote sound practices of longitudinal modeling in health research and facilitate collaboration between academic researchers and health sytem organizations. This working group was conceived and launched by Ken Moselle, Scott Hofer, and Andriy Koval.
-In fall 2014, Scott Hofer organized a colloquium series at the Institute on Aging and Lifelong Health - then “Centre on Aging” - with focus on reproducible methods and applications in aging research.</description>
+      <guid>/post/how-to-contribute/</guid>
+      <description>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–
+Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired ComponentsCreate Summary Image From TemplateCreate Summary Text and LinkEditorial TeamFlagged as ReviewerActing AdminMerge RequestAdding a New PostPlease note that this post assumes that you have:</description>
     </item>
     
     <item>

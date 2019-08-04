@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/andriy-koval/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/andriy-koval/</guid>
       <description></description>
@@ -23,20 +23,46 @@
     
     <item>
       <title></title>
-      <link>/authors/ken-moselle/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <link>/authors/craig-hutton/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/authors/ken-moselle/</guid>
+      <guid>/authors/craig-hutton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/matthew-parker/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/matthew-parker/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
-      <description>Data Science Studio is a learning collaborative for developing applied skills of data science and reproducible research with a particular focus on the areas of health and aging.</description>
+      <description>Data Science Studio is an interdisciplinary learning collaborative for developing applied skills of data science and reproducible research with a substantive focus on health and aging.
+The group was formed to unite the following categories of research:
+ Health Informatics
+ Data Access &amp;amp; Disclosure Control
+ Public Health
+ Mental Health &amp;amp; Substance Use Statistical Learning
+ Reproducible Research
+ Functional Graphing
+  DSS Blogs is a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/ken-moselle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ken-moselle/</guid>
+      <description></description>
     </item>
     
   </channel>

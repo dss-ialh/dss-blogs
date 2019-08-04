@@ -1,10 +1,13 @@
 ---
 title: How to Contribute
-author: DSS Admin
+authors:
+  - Matthew Parker
+  - Craig Hutton
+  - Andriy Koval 
 date: '2019-07-26'
 slug: []
 categories:
-  - DSS Admin
+  - DSS Blogs
 tags:
   - tutorial
   - how to add a blog
@@ -20,31 +23,12 @@ publication_types:
   - "0"  
 output:
   blogdown::html_page:
-    toc: true
+    toc: false
     toc_depth: 4
 featured: no
 ---
 
 
-<div id="TOC">
-<ul>
-<li><a href="#adding-a-new-post">Adding a New Post</a><ul>
-<li><a href="#blog-authors">Blog Authors</a><ul>
-<li><a href="#link:newposttemplate">New Post Template</a><ul>
-<li><a href="#required-components">Required Components</a></li>
-<li><a href="#summaryimage">Create Summary Image From Template</a></li>
-<li><a href="#summarytext">Create Summary Text and Link</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#editorial-team">Editorial Team</a><ul>
-<li><a href="#flagged-as-reviewer">Flagged as Reviewer</a></li>
-</ul></li>
-<li><a href="#acting-admin">Acting Admin</a><ul>
-<li><a href="#merge-request">Merge Request</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
 
 <!-- # Publication type. -->
 <!-- # Legend: -->
@@ -55,7 +39,32 @@ featured: no
 <!-- # 4 = Technical report -->
 <!-- # 5 = Book -->
 <!-- # 6 = Book chapter -->
-<p>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map for blog posts.</p>
+<p>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–</p>
+<div id="table-of-content" class="section level1">
+<h1>Table of Content</h1>
+<ul>
+<li><a href="#adding-a-new-post">Adding a New Post</a>
+<ul>
+<li><a href="#blog-authors">Blog Authors</a>
+<ul>
+<li><a href="#link:newposttemplate">New Post Template</a>
+<ul>
+<li><a href="#required-components">Required Components</a></li>
+<li><a href="#summaryimage">Create Summary Image From Template</a></li>
+<li><a href="#summarytext">Create Summary Text and Link</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#editorial-team">Editorial Team</a>
+<ul>
+<li><a href="#flagged-as-reviewer">Flagged as Reviewer</a></li>
+</ul></li>
+<li><a href="#acting-admin">Acting Admin</a>
+<ul>
+<li><a href="#merge-request">Merge Request</a></li>
+</ul></li>
+</ul>
+</div>
 <div id="adding-a-new-post" class="section level1">
 <h1>Adding a New Post</h1>
 <p>Please note that this post assumes that you have:</p>
@@ -65,8 +74,18 @@ featured: no
 <li>a working personal blog site (eg: <a href="http://andriy.rbind.io/">Andriy Koval’s Blog</a>)</li>
 <li><a href="https://www.rstudio.com/">R Studio</a></li>
 <li><a href="http://r-pkgs.had.co.nz/git.html">git</a> installed and configured for R Studio</li>
+<li>knowledge of the following resources:
+<ul>
+<li><a href="https://alison.rbind.io/post/up-and-running-with-blogdown/">Up and Running with Blogdown</a> by Alison Hill</li>
+<li><a href="https://alison.rbind.io/post/2019-02-21-hugo-page-bundles/">A Spoonful of Hugo: Page Bundles</a> by Alison Hill</li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> by Yihui Xie, J. J. Allaire, Garrett Grolemund</li>
+</ul></li>
 </ul>
-<p>An alternative to using git integrated with R is to use <a href="https://desktop.github.com/">Github Desktop</a> with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to: Clone and Pull from Github, Create new branches, Commit changes, and Push back to Github.</p>
+<p>An alternative to using git integrated with R is to use <a href="https://desktop.github.com/">Github Desktop</a> with R instead. This guide will show you the git and R method, but feel free to use any method you are comfortable with, so long as you are able to:
+- Clone and Pull from Github
+- Create new branches
+- Commit changes
+- Push back to Github.</p>
 <div id="blog-authors" class="section level2">
 <h2>Blog Authors</h2>
 <ol style="list-style-type: decimal">
@@ -113,7 +132,7 @@ Use image template for uniformity of all posts, save it in your page bundle with
 </li>
 </ol>
 <ul>
-<li>download from: <a href="https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-templated.pptx">DSS Blog Github</a><br />
+<li>download from: <a href="https://github.com/dss-ialh/dss-blog/raw/master/static/img/featured-flag-template.pptx">DSS Blog Github</a><br />
 <img src="images/featured-flag-template.png" alt="Header Template" /></li>
 <li>Edit the header to include images and text as necessary for your header<br />
 </li>
@@ -141,6 +160,14 @@ Use image template for uniformity of all posts, save it in your page bundle with
 <div id="editorial-team" class="section level2">
 <h2>Editorial Team</h2>
 <p>We would like to keep the review process as expedient as possible. If you are flagged as a reviewer but do not have the time, you may request that a second reviewer take your place (or let the blog poster know how long to expect before you will be able to provide feedback).</p>
+<p>Current editorial team:</p>
+<ul>
+<li><a href="https://matthew-parker.rbind.io/">Matthew Parker</a><br />
+</li>
+<li><a href="https://craig.rbind.io/">Craig Hutton</a><br />
+</li>
+<li><a href="http://andriy.rbind.io/">Andriy Koval</a> (acting admin)</li>
+</ul>
 <div id="flagged-as-reviewer" class="section level4">
 <h4>Flagged as Reviewer</h4>
 <p>When you are flagged (through github) to be a reviewer:</p>
@@ -164,6 +191,7 @@ eg: “<span class="citation">@acting_admin_github_name</span>, this post has be
 </div>
 <div id="acting-admin" class="section level2">
 <h2>Acting Admin</h2>
+<p>Acting Admin serves as the technician who commits the proposed DSS Blogs posts and is responsible for the live state of the site <a href="https://dss-ialh.rbind.io/">https://dss-ialh.rbind.io/</a></p>
 <div id="merge-request" class="section level4">
 <h4>Merge Request</h4>
 <p>When you receive a Merge request (on github) from the post reviewers:</p>
