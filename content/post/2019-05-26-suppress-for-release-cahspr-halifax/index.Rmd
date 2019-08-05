@@ -3,13 +3,15 @@ title: " Suppress for Release - CAHSPR, Halifax"
 author: Andriy Koval
 date: '2019-05-26'
 categories:
-  - R
-  - reproducible workflow
-  - small cell suppression
+  - Public Health
+  - Reproducible Research
+  - Functional Graphing
+  - Data Access & Disclosure Control
 tags:
-  - surveillance
-  - reproducible research
-  - workflow
+  - small cell suppression
+  - chronic diseasesurveillance
+  - analytic workflow
+   
 slug: []
 image: 
   caption: ''

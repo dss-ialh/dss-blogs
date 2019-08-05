@@ -2,24 +2,18 @@
 authors:
 - admin
 
-bio: Interdisciplinary learning collaborative for data science on health and aging.
+bio: Learning together to _tell stories with data_ about health and aging
 email: "datasciencestudio@uvic.ca"
 
 name: Data Science Studio
 organizations:
 - name: Institute on Aging and Lifelong Health,  University of Victoria
   url: "http://uvic.ca/aging"
-role:  Learning together to tell stories with data about health and aging
+role:  Interdisciplinary learning collaborative for data science on health and aging.
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/datasciencestudio
-- icon: google-scholar
-  icon_pack: ai
-  link: 
 - icon: github
   icon_pack: fab
   link: https://github.com/dss-ialh

@@ -8,11 +8,12 @@ date: '2019-07-29'
 
 slug: []
 categories:
-  - dss
+  - dss session
   
 tags:
-  - dss
-  - session
+  - season closed, season opened
+  - UCF
+
 
 output:
   blogdown::html_page:
@@ -28,7 +29,7 @@ image:
 
 
 summary: "We look back at the 2018-2019 season of Data Science Studio, report on the Studio's activity in the past year, and plan for the new cycle"
-abstract: "TBA"
+abstract: "We look back at the 2018-2019 season of Data Science Studio, report on the Studio's activity in the past year, and plan for the new cycle"
 
 url_code: ""
 url_dataset: ""
@@ -40,7 +41,7 @@ url_source: ""
 url_video: ""
 
 publication_types:
-- "2"
+- "0"
 ---
 <!-- # Publication type. -->
 <!-- # Legend: -->
@@ -57,6 +58,39 @@ publication_types:
 - **Where**:	Institute on Aging and Lifelong Health, R-Hut room 103a
 - **Remote**:	[BlueJeans](https://bluejeans.com/176927559?src=textEmail) or 1-416-900-2956 (ID 176927559)
 
-{{% alert note %}}
-Meeting agenda and links to materials will be added to this page.
-{{% /alert %}}
+# HOUR 1 
+## _Season Closed_ 
+
+- Welcome. [Background and history of DSS][]. (10) 
+- Terms of Reference and Research Scope (15)
+- Introductions Victoria (10)
+- Introductions Orlando (25)
+  - [Reid Oetjen][reid] - Health Management & Informatics, University of Central Florida
+  - [Barbara Andraka-Christou][basia] - Substance Use Harm Reduction in Youth
+  - [Christian King][chris] - Health Disparity and Social Inequalities
+  - [Samuel Towne][sam] - Dementia, Aging, and Health Disparities
+  - [Varadraj (Raj) Gurupur][raj] - Software Engineering for Health Research
+  
+[reid]:https://ccie.ucf.edu/hmi/welcome/
+[basia]:andraka-christou.pdf
+[chris]:king.pdf
+  [sam]:towne.pdf
+  [raj]:gurupur.pdf
+
+
+# HOUR 2 
+## _Season Opened_
+- Looking ahead to the new season (5)
+- DSS Blogs - blogging about data science (20)
+  - The vision of DSS Blogs - [Craig Hutton][craig] 
+  - [How to contribute][howtocontribute] - [Matthew Parker][matthew] 
+- Season Theme: [Telling stories about cohorts in health service terrain][beyond] (20)
+- [Discussion and closing remarks][discussion] (15)
+
+[howtocontribute]:../../post/how-to-contribute/index.html
+[craig]:https://craig.rbind.io
+[matthew]:https://matthew-parker.rbind.io
+[beyond]:http://andriy.rbind.io/post/2019-08-01-what-lies-beyond-acute-care/
+[discussion]:https://docs.google.com/document/d/1pBZ0eatY5rdT2YBDRHC5s7uGbxWsJOqM5zjrzyyB3uM/edit?usp=sharing
+
+

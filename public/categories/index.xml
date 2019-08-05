@@ -13,20 +13,11 @@
     
     
     <item>
-      <title>dss</title>
-      <link>/categories/dss/</link>
+      <title>dss session</title>
+      <link>/categories/dss-session/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/dss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DSS Blogs</title>
-      <link>/categories/dss-blogs/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/dss-blogs/</guid>
+      <guid>/categories/dss-session/</guid>
       <description></description>
     </item>
     
@@ -40,38 +31,74 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>DSS Blogs</title>
+      <link>/categories/dss-blogs/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/categories/dss-blogs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reproducible workflow</title>
-      <link>/categories/reproducible-workflow/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>Data Access &amp; Disclosure Control</title>
+      <link>/categories/data-access-disclosure-control/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/reproducible-workflow/</guid>
+      <guid>/categories/data-access-disclosure-control/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>small cell suppression</title>
-      <link>/categories/small-cell-suppression/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>Health Informatics</title>
+      <link>/categories/health-informatics/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/small-cell-suppression/</guid>
+      <guid>/categories/health-informatics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reproducible research</title>
+      <title>Data Access &amp; Diclosure Control</title>
+      <link>/categories/data-access-diclosure-control/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/data-access-diclosure-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Graphing</title>
+      <link>/categories/functional-graphing/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/functional-graphing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Health</title>
+      <link>/categories/public-health/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research</title>
       <link>/categories/reproducible-research/</link>
-      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/reproducible-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dss</title>
+      <link>/categories/dss/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/dss/</guid>
       <description></description>
     </item>
     

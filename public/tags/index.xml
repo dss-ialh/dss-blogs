@@ -13,27 +13,27 @@
     
     
     <item>
-      <title>dss</title>
-      <link>/tags/dss/</link>
+      <title>UCF</title>
+      <link>/tags/ucf/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dss/</guid>
+      <guid>/tags/ucf/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>session</title>
-      <link>/tags/session/</link>
+      <title>season closed, season opened</title>
+      <link>/tags/season-closed-season-opened/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/session/</guid>
+      <guid>/tags/season-closed-season-opened/</guid>
       <description></description>
     </item>
     
     <item>
       <title>admin</title>
       <link>/tags/admin/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/admin/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>blogging with dss</title>
       <link>/tags/blogging-with-dss/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/blogging-with-dss/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>data science studio</title>
       <link>/tags/data-science-studio/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-science-studio/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>how to add a blog</title>
       <link>/tags/how-to-add-a-blog/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/how-to-add-a-blog/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>peer review</title>
       <link>/tags/peer-review/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/peer-review/</guid>
       <description></description>
@@ -78,36 +78,72 @@
     <item>
       <title>tutorial</title>
       <link>/tags/tutorial/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reproducible research</title>
-      <link>/tags/reproducible-research/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>clinical analytics</title>
+      <link>/tags/clinical-analytics/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/reproducible-research/</guid>
+      <guid>/tags/clinical-analytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>surveillance</title>
-      <link>/tags/surveillance/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>health services</title>
+      <link>/tags/health-services/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/surveillance/</guid>
+      <guid>/tags/health-services/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>workflow</title>
-      <link>/tags/workflow/</link>
+      <title>target information architecture</title>
+      <link>/tags/target-information-architecture/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/target-information-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tia</title>
+      <link>/tags/tia/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytic workflow</title>
+      <link>/tags/analytic-workflow/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/workflow/</guid>
+      <guid>/tags/analytic-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chronic diseasesurveillance</title>
+      <link>/tags/chronic-diseasesurveillance/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chronic-diseasesurveillance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>small cell suppression</title>
+      <link>/tags/small-cell-suppression/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/small-cell-suppression/</guid>
       <description></description>
     </item>
     
@@ -130,38 +166,11 @@
     </item>
     
     <item>
-      <title>analytic workflow</title>
-      <link>/tags/analytic-workflow/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      <title>Workflow</title>
+      <link>/tags/workflow/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/analytic-workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computational essays</title>
-      <link>/tags/computational-essays/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/computational-essays/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dynamic documentation</title>
-      <link>/tags/dynamic-documentation/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dynamic-documentation/</guid>
+      <guid>/tags/workflow/</guid>
       <description></description>
     </item>
     

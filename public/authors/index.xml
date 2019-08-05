@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/andriy-koval/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/andriy-koval/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title></title>
       <link>/authors/craig-hutton/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/craig-hutton/</guid>
       <description></description>
@@ -33,10 +33,19 @@
     <item>
       <title></title>
       <link>/authors/matthew-parker/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/matthew-parker/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/ken-moselle/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/ken-moselle/</guid>
+      <description>text about the Test Testovich</description>
     </item>
     
     <item>
@@ -54,15 +63,6 @@ The group was formed to unite the following categories of research:
  Reproducible Research
  Functional Graphing
   DSS Blogs is a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/ken-moselle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/ken-moselle/</guid>
-      <description></description>
     </item>
     
   </channel>

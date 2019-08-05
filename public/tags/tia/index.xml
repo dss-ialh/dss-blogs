@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tia on Data Science Studio</title>
+    <link>/tags/tia/</link>
+    <description>Recent content in tia on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“Real-world” de-identification of linked Electronic Health Records</title>
+      <link>/post/2019-07-16-data-de-identification/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-16-data-de-identification/</guid>
+      <description>Linking health records is key to innovation in health care. At the same time linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data.</description>
+    </item>
+    
+    <item>
+      <title>Target Information Architecture</title>
+      <link>/post/2019-07-11-target-information-architecture/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-11-target-information-architecture/</guid>
+      <description>Target Information Architecture (TIA) is an graphical rendering of answers to a series of linked questions relating to analytic products from data to support the functions performed by persons, providers or programs within a health system. We argue that a developed TIA is a necessary condition to guide the translation of health service analytics back into a health service system.</description>
+    </item>
+    
+  </channel>
+</rss>

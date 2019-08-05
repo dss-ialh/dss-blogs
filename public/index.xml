@@ -36,19 +36,71 @@
 &lt;li&gt;&lt;strong&gt;Where&lt;/strong&gt;: Institute on Aging and Lifelong Health, R-Hut room 103a&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Remote&lt;/strong&gt;: &lt;a href=&#34;https://bluejeans.com/176927559?src=textEmail&#34;&gt;BlueJeans&lt;/a&gt; or 1-416-900-2956 (ID 176927559)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Meeting agenda and links to materials will be added to this page.
-  &lt;/div&gt;
+&lt;div id=&#34;hour-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;HOUR 1&lt;/h1&gt;
+&lt;div id=&#34;season-closed&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;em&gt;Season Closed&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Welcome. [Background and history of DSS][]. (10)&lt;/li&gt;
+&lt;li&gt;Terms of Reference and Research Scope (15)&lt;/li&gt;
+&lt;li&gt;Introductions Victoria (10)&lt;/li&gt;
+&lt;li&gt;Introductions Orlando (25)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ccie.ucf.edu/hmi/welcome/&#34;&gt;Reid Oetjen&lt;/a&gt; - Health Management &amp;amp; Informatics, University of Central Florida&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;andraka-christou.pdf&#34;&gt;Barbara Andraka-Christou&lt;/a&gt; - Substance Use Harm Reduction in Youth&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;king.pdf&#34;&gt;Christian King&lt;/a&gt; - Health Disparity and Social Inequalities&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;towne.pdf&#34;&gt;Samuel Towne&lt;/a&gt; - Dementia, Aging, and Health Disparities&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gurupur.pdf&#34;&gt;Varadraj (Raj) Gurupur&lt;/a&gt; - Software Engineering for Health Research&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;hour-2&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;HOUR 2&lt;/h1&gt;
+&lt;div id=&#34;season-opened&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;em&gt;Season Opened&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Looking ahead to the new season (5)&lt;/li&gt;
+&lt;li&gt;DSS Blogs - blogging about data science (20)
+&lt;ul&gt;
+&lt;li&gt;The vision of DSS Blogs - &lt;a href=&#34;https://craig.rbind.io&#34;&gt;Craig Hutton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../post/how-to-contribute/index.html&#34;&gt;How to contribute&lt;/a&gt; - &lt;a href=&#34;https://matthew-parker.rbind.io&#34;&gt;Matthew Parker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Season Theme: &lt;a href=&#34;http://andriy.rbind.io/post/2019-08-01-what-lies-beyond-acute-care/&#34;&gt;Telling stories about cohorts in health service terrain&lt;/a&gt; (20)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1pBZ0eatY5rdT2YBDRHC5s7uGbxWsJOqM5zjrzyyB3uM/edit?usp=sharing&#34;&gt;Discussion and closing remarks&lt;/a&gt; (15)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to DSS Blogs</title>
+      <link>/post/welcome-to-dss-blogs/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-dss-blogs/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Welcome to DSS Blogs, a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.&lt;/p&gt;
+&lt;p&gt;This working group also reports on the activities of the Data Science Studio at the Institute of Aging and Lifelong Health, University of Victoria. If you are interested in being featured on the DSS Blogs, please consult our &lt;a href=&#34;../how-to-contribute/index.html&#34;&gt;How to Contribute&lt;/a&gt; guide detailing how you can submit your blogpost for the peer review. To learn more about DSS, see its &lt;a href=&#34;../dss-origin-story/index.html&#34;&gt;Origin Story&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How to Contribute</title>
       <link>/post/how-to-contribute/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-contribute/</guid>
       <description>
@@ -233,11 +285,11 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
     </item>
     
     <item>
-      <title>Welcome to DSS Blogs</title>
-      <link>/post/welcome-to-dss-blogs/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <title>“Real-world” de-identification of linked Electronic Health Records</title>
+      <link>/post/2019-07-16-data-de-identification/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/welcome-to-dss-blogs/</guid>
+      <guid>/post/2019-07-16-data-de-identification/</guid>
       <description>
 
 
@@ -250,8 +302,31 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
 &lt;!-- # 4 = Technical report --&gt;
 &lt;!-- # 5 = Book --&gt;
 &lt;!-- # 6 = Book chapter --&gt;
-&lt;p&gt;Welcome to DSS Blogs, a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.&lt;/p&gt;
-&lt;p&gt;This working group also reports on the activities of the Data Science Studio at the Institute of Aging and Lifelong Health, University of Victoria. If you are interested in being featured on the DSS Blogs, please consult our &lt;a href=&#34;../how-to-contribute/index.html&#34;&gt;How to Contribute&lt;/a&gt; guide detailing how you can submit your blogpost for the peer review. To learn more about DSS, see its &lt;a href=&#34;../dss-origin-story/index.html&#34;&gt;Origin Story&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Linking health records is key to innovation in health care. At the same time, linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ken.rbind.io/post/2019-07-16-data-de-identification/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Target Information Architecture</title>
+      <link>/post/2019-07-11-target-information-architecture/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-11-target-information-architecture/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Target Information Architecture (TIA) is an graphical rendering of answers to a series of linked questions relating to analytic products from data to support the functions performed by persons, providers or programs within a health system. We argue that a developed TIA is a necessary condition to guide the translation of health service analytics back into a health service system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ken.rbind.io/post/2019-07-11-target-information-architecture/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -344,31 +419,6 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Toolbox and Toolsets of Reproducible Research</title>
-      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
-      <description>
-
-
-&lt;!-- # Publication type. --&gt;
-&lt;!-- # Legend: --&gt;
-&lt;!-- # 0 = Uncategorized --&gt;
-&lt;!-- # 1 = Conference proceedings --&gt;
-&lt;!-- # 2 = Journal --&gt;
-&lt;!-- # 3 = Work in progress --&gt;
-&lt;!-- # 4 = Technical report --&gt;
-&lt;!-- # 5 = Book --&gt;
-&lt;!-- # 6 = Book chapter --&gt;
-&lt;p&gt;The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;traditional-vs-reproducible.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Of specific importance is the data grooming stage, which enables a productive exploration of the data and establishes custody chains to support research conclusions based on the analytic products.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;reproducible-data-prep.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

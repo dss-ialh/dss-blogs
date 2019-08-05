@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Access &amp; Disclosure Control on Data Science Studio</title>
+    <link>/categories/data-access-disclosure-control/</link>
+    <description>Recent content in Data Access &amp; Disclosure Control on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-access-disclosure-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“Real-world” de-identification of linked Electronic Health Records</title>
+      <link>/post/2019-07-16-data-de-identification/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-16-data-de-identification/</guid>
+      <description>Linking health records is key to innovation in health care. At the same time linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data.</description>
+    </item>
+    
+    <item>
+      <title> Suppress for Release - CAHSPR, Halifax</title>
+      <link>/post/2019-05-26-suppress-for-release-cahspr-halifax/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
+      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations</description>
+    </item>
+    
+  </channel>
+</rss>

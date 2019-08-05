@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/andriy-koval/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>How to Contribute</title>
       <link>/post/how-to-contribute/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-contribute/</guid>
       <description>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–
@@ -23,12 +23,12 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
     </item>
     
     <item>
-      <title>Toolbox and Toolsets of Reproducible Research</title>
-      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      <title>Target Information Architecture</title>
+      <link>/post/2019-07-11-target-information-architecture/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
-      <description>The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.</description>
+      <guid>/post/2019-07-11-target-information-architecture/</guid>
+      <description>Target Information Architecture (TIA) is an graphical rendering of answers to a series of linked questions relating to analytic products from data to support the functions performed by persons, providers or programs within a health system. We argue that a developed TIA is a necessary condition to guide the translation of health service analytics back into a health service system.</description>
     </item>
     
   </channel>

@@ -7,19 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How to Contribute</title>
-      <link>/post/how-to-contribute/</link>
-      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <title>Season Closed, Season Opened</title>
+      <link>/talk/2019-08-06-season-closed-season-opened/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/how-to-contribute/</guid>
-      <description>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–
-Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired ComponentsCreate Summary Image From TemplateCreate Summary Text and LinkEditorial TeamFlagged as ReviewerActing AdminMerge RequestAdding a New PostPlease note that this post assumes that you have:</description>
+      <guid>/talk/2019-08-06-season-closed-season-opened/</guid>
+      <description>We look back at the 2018-2019 season of Data Science Studio, report on the Studio&amp;rsquo;s activity in the past year, and plan for the new cycle</description>
     </item>
     
     <item>
@@ -30,6 +29,34 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
       <guid>/post/welcome-to-dss-blogs/</guid>
       <description>Welcome to DSS Blogs, a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.
 This working group also reports on the activities of the Data Science Studio at the Institute of Aging and Lifelong Health, University of Victoria. If you are interested in being featured on the DSS Blogs, please consult our How to Contribute guide detailing how you can submit your blogpost for the peer review.</description>
+    </item>
+    
+    <item>
+      <title>How to Contribute</title>
+      <link>/post/how-to-contribute/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-contribute/</guid>
+      <description>This is a guide detailing how you can deploy your article to be featured on the DSS Blog. All published posts are peer reviewed by two members of the DSS editorial team. Whether you are a new member, part of the editorial team, or an Acting Admin, this guide will serve as a road map to create and promote posts on DSS Blogs. ————–
+Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired ComponentsCreate Summary Image From TemplateCreate Summary Text and LinkEditorial TeamFlagged as ReviewerActing AdminMerge RequestAdding a New PostPlease note that this post assumes that you have:</description>
+    </item>
+    
+    <item>
+      <title>“Real-world” de-identification of linked Electronic Health Records</title>
+      <link>/post/2019-07-16-data-de-identification/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-16-data-de-identification/</guid>
+      <description>Linking health records is key to innovation in health care. At the same time linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data.</description>
+    </item>
+    
+    <item>
+      <title>Target Information Architecture</title>
+      <link>/post/2019-07-11-target-information-architecture/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-07-11-target-information-architecture/</guid>
+      <description>Target Information Architecture (TIA) is an graphical rendering of answers to a series of linked questions relating to analytic products from data to support the functions performed by persons, providers or programs within a health system. We argue that a developed TIA is a necessary condition to guide the translation of health service analytics back into a health service system.</description>
     </item>
     
     <item>
@@ -49,15 +76,6 @@ This working group also reports on the activities of the Data Science Studio at 
       <guid>/post/dss-origin-story/</guid>
       <description>The Data Science Studio (DSS) was formed to promote sound practices of longitudinal modeling in health research and facilitate collaboration between academic researchers and health sytem organizations. This working group was conceived and launched by Ken Moselle, Scott Hofer, and Andriy Koval.
 In fall 2014, Scott Hofer organized a colloquium series at the Institute on Aging and Lifelong Health - then “Centre on Aging” - with focus on reproducible methods and applications in aging research.</description>
-    </item>
-    
-    <item>
-      <title>Toolbox and Toolsets of Reproducible Research</title>
-      <link>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</link>
-      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2014f-coag-colloquium/2014-10-10-toolbox-toolset-reproducible-research/</guid>
-      <description>The lecture introduces reproducible research and demonstrates digital self-publishing with RStudio and Git (Hub). The skills described and emphasized in this workflow include data manipulation, graph production, statistical modeling, and dynamic reporting. A series of four talks discusses each skill and gives examples of possible implementations in R.</description>
     </item>
     
   </channel>

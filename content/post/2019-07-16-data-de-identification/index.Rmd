@@ -1,0 +1,61 @@
+---
+title: “Real-world” de-identification of linked Electronic Health Records 
+subtitle: Breaking the Curse of Dimensionality
+authors:
+- Ken Moselle
+
+event: "event description"
+
+date: '2019-07-16'
+
+slug: []
+categories:
+  - Data Access & Disclosure Control
+  - Health Informatics
+  
+tags:
+ - target information architecture
+ - tia
+ - health services
+ - clinical analytics
+ 
+output:
+  blogdown::html_page:
+    toc: false
+    toc_depth: 4
+
+featured: no
+projects: []
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+
+summary: Linking health records is key to innovation in health care. At the same time linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data. 
+
+url_code: ""
+url_dataset: ""
+url_pdf: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
+
+publication_types:
+- "0"
+---
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+ Linking health records is key to innovation in health care. At the same time, linkage poses major challenges for disclosing patient data to researchers. The presentation proposes a methodology for structuring risk assessment of high-dimensional linked data. 
+ 
+[Read full post](http://ken.rbind.io/post/2019-07-16-data-de-identification/) 
+
