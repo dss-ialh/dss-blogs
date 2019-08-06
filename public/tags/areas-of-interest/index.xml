@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>areas of interest on Data Science Studio</title>
+    <link>/tags/areas-of-interest/</link>
+    <description>Recent content in areas of interest on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/areas-of-interest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Categories of research</title>
+      <link>/post/categories-of-research/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/categories-of-research/</guid>
+      <description>30-50 words</description>
+    </item>
+    
+  </channel>
+</rss>

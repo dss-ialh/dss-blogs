@@ -10,7 +10,7 @@ name: Matthew Parker
 organizations: 
 - name: University of Victoria
   url: "https://matthew-parker.rbind.io"
-role: founding member of DSS Blogs
+role: Graduate Research Student, University of Victoria
 social:
 - icon: envelope
   icon_pack: fas

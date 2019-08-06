@@ -61,28 +61,29 @@ publication_types:
 # HOUR 1 
 ## _Season Closed_ 
 
-- Welcome. [Background and history of DSS][]. (10) 
-- Terms of Reference and Research Scope (15)
+- Welcome. [Background and history of DSS][link_origin]. (10) 
+- [Review of Activities and Research Categories][cat] (15)
 - Introductions Victoria (10)
 - Introductions Orlando (25)
   - [Reid Oetjen][reid] - Health Management & Informatics, University of Central Florida
   - [Barbara Andraka-Christou][basia] - Substance Use Harm Reduction in Youth
   - [Christian King][chris] - Health Disparity and Social Inequalities
   - [Samuel Towne][sam] - Dementia, Aging, and Health Disparities
-  - [Varadraj (Raj) Gurupur][raj] - Software Engineering for Health Research
-  
+  - [Varadraj (Raj) Gurupur][raj] - Software Engineering for Health System ([Lab](https://www.ucfinformaticslab.org/))
+
+[link_origin]:../../post/dss-origin-story/index.html  
 [reid]:https://ccie.ucf.edu/hmi/welcome/
 [basia]:andraka-christou.pdf
 [chris]:king.pdf
-  [sam]:towne.pdf
-  [raj]:gurupur.pdf
-
+[sam]:towne.pdf
+[raj]:gurupur.pdf
+[cat]:../../post/categories-of-research/index.html  
 
 # HOUR 2 
 ## _Season Opened_
 - Looking ahead to the new season (5)
 - DSS Blogs - blogging about data science (20)
-  - The vision of DSS Blogs - [Craig Hutton][craig] 
+  - [The origin of DSS Blogs][dss_blogs_origin] - [Craig Hutton][craig] 
   - [How to contribute][howtocontribute] - [Matthew Parker][matthew] 
 - Season Theme: [Telling stories about cohorts in health service terrain][beyond] (20)
 - [Discussion and closing remarks][discussion] (15)
@@ -92,5 +93,5 @@ publication_types:
 [matthew]:https://matthew-parker.rbind.io
 [beyond]:http://andriy.rbind.io/post/2019-08-01-what-lies-beyond-acute-care/
 [discussion]:https://docs.google.com/document/d/1pBZ0eatY5rdT2YBDRHC5s7uGbxWsJOqM5zjrzyyB3uM/edit?usp=sharing
-
+[dss_blogs_origin]:dss-blogs-origin.pdf
 

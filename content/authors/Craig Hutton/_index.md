@@ -10,7 +10,7 @@ name: Craig Hutton
 organizations: 
 - name: University of Victoria
   url: https://craig.rbind.io"
-role: Postdoctoral Fellow
+role: Postdoctoral Research Fellow, University of Victoria
 social:
 - icon: envelope
   icon_pack: fas

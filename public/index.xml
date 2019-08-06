@@ -7,10 +7,85 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Categories of research</title>
+      <link>/post/categories-of-research/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/categories-of-research/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;div id=&#34;health-informatics&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Health Informatics&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ken.rbind.io/post/2019-07-11-target-information-architecture/&#34;&gt;Target Information Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andriy.rbind.io/publication/idpln-2018-banff-clinical-context-coding-scheme/&#34;&gt;Clinical Context Coding Scheme&lt;/a&gt; (Halifax, May 2019)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dss-ialh.rbind.io/post/2018-03-08-blueprints-for-learning/poster.jpg&#34;&gt;Blueprints for Learning&lt;/a&gt; (Vancouver, March 2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-access-disclosure-control&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Data Access &amp;amp; Disclosure Control&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ken.rbind.io/post/2019-07-16-data-de-identification/&#34;&gt;Real-world data de-identification of linked EHR&lt;/a&gt; (Victoria, 2019)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andriy.rbind.io/publication/koval-2019-suppress-for-release/&#34;&gt;Suppress-for-release&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;public-health&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Public Health&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppress-for-release&lt;/li&gt;
+&lt;li&gt;Canadian Chronic Disease Surveillance System (Lisa Lix)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.popdata.bc.ca/events/etu/PPDS_Webinars_2019_Jan9&#34;&gt;PopDataBC webinar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/IHACRU/analytic-environment-ccdss&#34; class=&#34;uri&#34;&gt;https://github.com/IHACRU/analytic-environment-ccdss&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flhealthcharts.com/charts/default.aspx&#34;&gt;Florida Health Charts&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;GLS Suicide Prevention programs (&lt;a href=&#34;https://github.com/dss-hmi/suicide-prevention-2019&#34;&gt;github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Substance Use and Recidivism (&lt;a href=&#34;https://github.com/dss-hmi/drug-recedivism-2019&#34; class=&#34;uri&#34;&gt;https://github.com/dss-hmi/drug-recedivism-2019&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mental-health-substance-use&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Mental Health &amp;amp; Substance Use&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1iLFZxXhB7a86hK_wkhy4WIl9aMtyPX71&#34;&gt;Severity and Burden of Mental Health&lt;/a&gt; (May 2018, Montreal)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;statistical-learning&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Statistical Learning&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2018-01-26-population-abundance/&#34;&gt;Estimating Underreported Cases of Depression&lt;/a&gt; (BC Chronic Disease Dashboard)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reproducible-research&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Reproducible Research&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://andriy.rbind.io/talk/2018-10-31-when-notebooks-are-not-enough/&#34;&gt;When notebooks are not enough&lt;/a&gt; - on structure of reproducible evidence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functional-graphing&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Functional Graphing&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://andriy.rbind.io/talk/2018-11-01-visualizing-logistic-regression/&#34;&gt;Visualizing Logistic Regression&lt;/a&gt; - what functional graphs empower you to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Season Closed, Season Opened</title>
@@ -41,8 +116,8 @@
 &lt;div id=&#34;season-closed&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;em&gt;Season Closed&lt;/em&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Welcome. [Background and history of DSS][]. (10)&lt;/li&gt;
-&lt;li&gt;Terms of Reference and Research Scope (15)&lt;/li&gt;
+&lt;li&gt;Welcome. &lt;a href=&#34;../../post/dss-origin-story/index.html&#34;&gt;Background and history of DSS&lt;/a&gt;. (10)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../post/categories-of-research/index.html&#34;&gt;Review of Activities and Research Categories&lt;/a&gt; (15)&lt;/li&gt;
 &lt;li&gt;Introductions Victoria (10)&lt;/li&gt;
 &lt;li&gt;Introductions Orlando (25)
 &lt;ul&gt;
@@ -50,7 +125,7 @@
 &lt;li&gt;&lt;a href=&#34;andraka-christou.pdf&#34;&gt;Barbara Andraka-Christou&lt;/a&gt; - Substance Use Harm Reduction in Youth&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;king.pdf&#34;&gt;Christian King&lt;/a&gt; - Health Disparity and Social Inequalities&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;towne.pdf&#34;&gt;Samuel Towne&lt;/a&gt; - Dementia, Aging, and Health Disparities&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;gurupur.pdf&#34;&gt;Varadraj (Raj) Gurupur&lt;/a&gt; - Software Engineering for Health Research&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gurupur.pdf&#34;&gt;Varadraj (Raj) Gurupur&lt;/a&gt; - Software Engineering for Health System (&lt;a href=&#34;https://www.ucfinformaticslab.org/&#34;&gt;Lab&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -63,7 +138,7 @@
 &lt;li&gt;Looking ahead to the new season (5)&lt;/li&gt;
 &lt;li&gt;DSS Blogs - blogging about data science (20)
 &lt;ul&gt;
-&lt;li&gt;The vision of DSS Blogs - &lt;a href=&#34;https://craig.rbind.io&#34;&gt;Craig Hutton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;dss-blogs-origin.pdf&#34;&gt;The origin of DSS Blogs&lt;/a&gt; - &lt;a href=&#34;https://craig.rbind.io&#34;&gt;Craig Hutton&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../../post/how-to-contribute/index.html&#34;&gt;How to contribute&lt;/a&gt; - &lt;a href=&#34;https://matthew-parker.rbind.io&#34;&gt;Matthew Parker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Season Theme: &lt;a href=&#34;http://andriy.rbind.io/post/2019-08-01-what-lies-beyond-acute-care/&#34;&gt;Telling stories about cohorts in health service terrain&lt;/a&gt; (20)&lt;/li&gt;
@@ -409,6 +484,30 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
 &lt;p&gt;Building on this methodology, Andriy and Ken developed a research proposal for developing a severity scaling method for Mental Health and Substance Use (MHSU) conditions based on the service utilization data of Island Health, which &lt;a href=&#34;http://www.newswire.ca/news-releases/minister-ginette-petitpas-taylor-announces-a-58-million-investment-in-programs-to-give-health-research-trainees-hands-on-work-experience-649094743.html&#34;&gt;won&lt;/a&gt; Andriy a Canadian Institutes of Health Research (&lt;a href=&#34;http://www.cihr-irsc.gc.ca/&#34;&gt;CIHR&lt;/a&gt;) Health System Impact &lt;a href=&#34;http://www.cihr-irsc.gc.ca/e/50268.html&#34;&gt;Fellowship&lt;/a&gt; with BC &lt;a href=&#34;http://www.bccdc.ca/our-services/programs/bc-observatory-for-pop-public-health&#34;&gt;Observatory&lt;/a&gt; for Population and Public Health of the BC &lt;a href=&#34;http://www.bccdc.ca/&#34;&gt;Centre for Disease Control&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualisation (Studio).&lt;/p&gt;
 &lt;p&gt;In November 2018, DSS produced IALH’s colloquium series on &lt;a href=&#34;https://github.com/dss-ialh/displaying-health-data&#34;&gt;“Displaying Health Data”&lt;/a&gt; showcasing latest activities and hosted visiting scholars from University of Central Florida and University of Oklahoma.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex labels for ggplot graphs</title>
+      <link>/post/2019-05-13-easy-latex-titles/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-13-easy-latex-titles/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Ever wanted to add LATEX to your R plots? Well now you can, with tikz, and it will allow you to use
+LATEX code within your plot titles, labels, and annotations. We’re going to look at how to use LATEX (text formating, formulas, fractions, greek letters, etc) with your &lt;code&gt;ggplot&lt;/code&gt; data visualizations. We will be using the &lt;code&gt;rtikzDevice&lt;/code&gt; package for R (and to use your plots in LATEX, you will use the package &lt;code&gt;tikz&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2018-08-21-easy-latex-titles/&#34;&gt;Continue Reading&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

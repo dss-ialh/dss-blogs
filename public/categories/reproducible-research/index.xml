@@ -30,5 +30,14 @@
       <description>This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.Click here for the full post.</description>
     </item>
     
+    <item>
+      <title>Latex labels for ggplot graphs</title>
+      <link>/post/2019-05-13-easy-latex-titles/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-13-easy-latex-titles/</guid>
+      <description>The post demonstrates how to create Latex titles for reproducible graphs.</description>
+    </item>
+    
   </channel>
 </rss>
