@@ -1,0 +1,18 @@
+---
+  title: 'A Scientist''s Guide to R: Step 1. Getting Data into R'
+author: Craig Hutton
+date: '2019-06-22'
+slug: a-scientist-s-guide-to-r-importing-data
+categories:
+  - Reproducible research
+tags:
+  - R
+
+- Data Analysis
+header:
+  caption: ''
+image: '../../img/huttoncp/a-scientist-s-guide-to-r-introduction-and-basic-workflow.png'
+preview: yes
+---
+  As the second post in the Scientist's Guide to R [series](https://craig.rbind.io/post/2019-05-17-asgr-0-basic-workflow/), this post will goes into the first step of the data analysis with R process: importing data. 
+Click [here](https://craig.rbind.io/post/2019-06-22-asgr-1-getting-data-into-r/) to learn more.
