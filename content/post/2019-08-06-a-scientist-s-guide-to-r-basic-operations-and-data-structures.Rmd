@@ -1,0 +1,21 @@
+---
+title: 'A Scientist''s Guide to R: Step 2.0. Basic Operations & Data Structures'
+author: 'Craig Hutton'
+date: '2019-08-06'
+slug: 
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - R basics
+header:
+  image: ''
+  caption: ''
+  focal_point: ''
+output:
+  blogdown::html_page:
+    number_sections: true
+    toc: yes
+---
+  In the third post in the Scientist's Guide to R [series](https://craig.rbind.io/post/2019-05-17-asgr-0-basic-workflow/) we advance to the brink of the next major stage of the data analysis with R process: cleaning and transforming data. However, before we can clean or transform anything we will need to know how to do a few basic things and familiarize ourselves with some common data structures in R, which are the topics of this post. 
+Click [here](https://craig.rbind.io/post/2019-08-06-asgr-2-0-basic-operations-and-data-structures/) to learn more.
