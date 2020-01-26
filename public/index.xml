@@ -7,10 +7,33 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manifold Regression (part 1)</title>
+      <link>/post/2020-01-26-manifold-regression-part1/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-01-26-manifold-regression-part1/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Welcome to the world of manifold regression! In &lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-01-19-manifold-regression-1/&#34;&gt;part 1&lt;/a&gt; we will introduce the basic concepts, overview the theory behind regression on manifolds, develop an intuition for these models, and discuss their applications.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-01-19-manifold-regression-1/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Workshop for Beginners</title>

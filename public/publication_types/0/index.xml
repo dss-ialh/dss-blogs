@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manifold Regression (part 1)</title>
+      <link>/post/2020-01-26-manifold-regression-part1/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-01-26-manifold-regression-part1/</guid>
+      <description>Welcome to the world of manifold regression! In part 1 we will introduce the basic concepts, overview the theory behind regression on manifolds, develop an intuition for these models, and discuss their applications.
+Read full post</description>
+    </item>
     
     <item>
       <title>Categories of research</title>
