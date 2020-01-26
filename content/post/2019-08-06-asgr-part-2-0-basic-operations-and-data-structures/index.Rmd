@@ -1,0 +1,33 @@
+---
+title: "ASGR: 2.0 - basic operations and data structures"
+author: Craig Hutton
+date: '2019-08-06'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'basic operations and data structures in R'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+As the third post in the Scientist's Guide to R series (click [here](https://craig.rbind.io/post/2019-05-17-asgr-basic-workflow/) for the 1st post), we advance to the brink of the next major stage of the data analysis with R process: cleaning and transforming data. However, before we can clean or transform anything we will need to know how to do a few basic things and familiarize ourselves with some common data structures in R, which are the topics of this post. Click [here](https://craig.rbind.io/post/2019-08-06-asgr-2-0-basic-operations-and-data-structures/) to read more.
