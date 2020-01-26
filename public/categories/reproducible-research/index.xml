@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Workshop for Beginners</title>
+      <link>/post/andkov/2019-11-26-graphing-models-in-notebooks/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2019-11-26-graphing-models-in-notebooks/</guid>
+      <description>The workshop introduces R and RStudio and makes the case for project-oriented workflows for applied data analysis. Using logistic regression on Titanic data as an example, the participants will learn to communicate statistical findings more effectively, and will evaluate the advantages of using computational notebooks in RStudio to disseminate the results</description>
+    </item>
     
     <item>
       <title> Suppress for Release - CAHSPR, Halifax</title>
