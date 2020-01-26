@@ -1,0 +1,33 @@
+---
+title: "ASGR: 1 - Importing Data"
+author: Craig Hutton
+date: '2019-06-22'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'how to get data into R'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+The second post in the Scientist's Guide to R series covers everything you need to know to get started with importing data from a variety of sources (.csv, .txt, .xlsx, etc) into R. Click [here](https://craig.rbind.io/post/2019-06-22-asgr-1-getting-data-into-r/) to read the full post.
