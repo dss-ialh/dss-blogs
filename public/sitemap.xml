@@ -61,18 +61,35 @@
   </url>
   
   <url>
+    <loc>/post/2019-12-30-asgr-part-2-1-data-transformation-part-1/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analysis/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/reproducible-research/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/andriy-koval/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/reproducible-research/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -104,6 +121,11 @@
     <loc>/categories/workflow/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2019-08-06-asgr-part-2-0-basic-operations-and-data-structures/</loc>
+    <lastmod>2019-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -206,7 +228,6 @@
   <url>
     <loc>/authors/matthew-parker/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -278,6 +299,11 @@
   </url>
   
   <url>
+    <loc>/post/2019-06-22-asgr-part-1-getting-data-into-r/</loc>
+    <lastmod>2019-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019-05-26-suppress-for-release-cahspr-halifax/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
@@ -319,20 +345,8 @@
   </url>
   
   <url>
-    <loc>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</loc>
+    <loc>/post/2019-05-17-asgr-part-0-basic-workflow/</loc>
     <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-analysis/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -355,6 +369,11 @@
     <loc>/categories/dss/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2019-12-30-asgr-part-2-1-data-transformation-part-2/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -11,6 +11,7 @@ organizations:
 role:   Applied Clinical Research Unit of Vancouver Island Health Authority,  Director
 user_groups:
 - Administration
+- Contributor
 ---
 
 text about the Test Testovich

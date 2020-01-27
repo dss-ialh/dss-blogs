@@ -23,6 +23,24 @@ Read full post</description>
     </item>
     
     <item>
+      <title>ASGR: 2.1 - Data Transformation - Part 1</title>
+      <link>/post/2019-12-30-asgr-part-2-1-data-transformation-part-1/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-12-30-asgr-part-2-1-data-transformation-part-1/</guid>
+      <description>The 4th post in the Scientist’s Guide to R series introduces data transformation techniques useful for wrangling/tidying/cleaning data. Specifically, we will be learning how to use the 6 core functions (and a few others) from the popular dplyr package, perform similar operations in base R, and chain operations with the pipe operator (%&amp;gt;%) to streamline the process. Click here for the full post.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.0 - basic operations and data structures</title>
+      <link>/post/2019-08-06-asgr-part-2-0-basic-operations-and-data-structures/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-08-06-asgr-part-2-0-basic-operations-and-data-structures/</guid>
+      <description>As the third post in the Scientist’s Guide to R series (click here for the 1st post), we advance to the brink of the next major stage of the data analysis with R process: cleaning and transforming data. However, before we can clean or transform anything we will need to know how to do a few basic things and familiarize ourselves with some common data structures in R, which are the topics of this post.</description>
+    </item>
+    
+    <item>
       <title>Categories of research</title>
       <link>/post/categories-of-research/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
@@ -79,11 +97,20 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
     </item>
     
     <item>
+      <title>ASGR: 1 - Importing Data</title>
+      <link>/post/2019-06-22-asgr-part-1-getting-data-into-r/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-22-asgr-part-1-getting-data-into-r/</guid>
+      <description>The second post in the Scientist’s Guide to R series covers everything you need to know to get started with importing data from a variety of sources (.csv, .txt, .xlsx, etc) into R. Click here to read the full post.</description>
+    </item>
+    
+    <item>
       <title>ASGR: 1 - Intro &amp; Workflow</title>
-      <link>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</link>
+      <link>/post/2019-05-17-asgr-part-0-basic-workflow/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019-05-17-a-scientist-guide-to-r-part-1-intro-workflow/</guid>
+      <guid>/post/2019-05-17-asgr-part-0-basic-workflow/</guid>
       <description>This tutorial will be the first of many blog posts for new researchers and science program students/trainees on how to use R as an analytical and productivity tool in the process of conducting scientific research.Click here for the full post.</description>
     </item>
     
@@ -95,6 +122,15 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
       <guid>/post/dss-origin-story/</guid>
       <description>The Data Science Studio (DSS) was formed to promote sound practices of longitudinal modeling in health research and facilitate collaboration between academic researchers and health sytem organizations. This working group was conceived and launched by Ken Moselle, Scott Hofer, and Andriy Koval.
 In fall 2014, Scott Hofer organized a colloquium series at the Institute on Aging and Lifelong Health - then “Centre on Aging” - with focus on reproducible methods and applications in aging research.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.1 - Data Transformation - Part 2</title>
+      <link>/post/2019-12-30-asgr-part-2-1-data-transformation-part-2/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-12-30-asgr-part-2-1-data-transformation-part-2/</guid>
+      <description>In the 5th post of the Scientist’s Guide to R series we explore using the tidyr package to reshape data. You’ll learn all about splitting and combining columns and how to do wide to long or long to wide transformations. Click here for the full post.</description>
     </item>
     
     <item>

@@ -26,6 +26,7 @@ superuser: true
 user_groups:
 - Administration
 - DSS Blogs Editorial Team
+- Contributor
 ---
 
 
