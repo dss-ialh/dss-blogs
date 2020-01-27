@@ -1,0 +1,33 @@
+---
+title: "ASGR: 2.1 - Data Transformation - Part 1"
+author: Craig Hutton
+date: '2019-12-30'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'data manipulation with dplyr'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+The 4th post in the [Scientist's Guide to R series](https://craig.rbind.io/post/2019-05-17-asgr-basic-workflow/) introduces data transformation techniques useful for wrangling/tidying/cleaning data. Specifically, we will be learning how to use the 6 core functions (and a few others) from the popular [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) package, perform similar operations in base R, and chain operations with the pipe operator (`%>%`) to streamline the process. Click [here](https://craig.rbind.io/post/2019-12-30-asgr-2-1-data-transformation-part-1/) for the full post.
