@@ -16,7 +16,7 @@ baseurl = "https://dss-ialh.rbind.io/"
 copyright = "&copy; 2019"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-161008775-1"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "datasciencestudio"
