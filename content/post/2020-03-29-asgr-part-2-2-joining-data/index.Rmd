@@ -30,4 +30,4 @@ output:
 <!-- # 5 = Book -->
 <!-- # 6 = Book chapter -->
 
-Out in the real world you may often find yourself working with data from multiple sources. It will probably be stored in separate files and you’ll need to combine them before you can attempt to answer any of your research questions. Click [here](https://craig.rbind.io/post/2020-02-27-asgr-2-2-joining-data/) to learn how you can combine data frames using a set of **dplyr** functions called **joins**.
+Out in the real world you may often find yourself working with data from multiple sources. It will probably be stored in separate files and you’ll need to combine them before you can attempt to answer any of your research questions. Click [here](https://craig.rbind.io/post/2020-03-29-asgr-2-2-joining-data/) to learn how you can combine data frames using a set of **dplyr** functions called **joins**.
