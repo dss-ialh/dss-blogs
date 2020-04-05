@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Public Health</title>
+      <link>/categories/public-health/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytic workflow</title>
+      <link>/categories/analytic-workflow/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/analytic-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research</title>
+      <link>/categories/reproducible-research/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reproducible-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyverse</title>
+      <link>/categories/tidyverse/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>/categories/workflow/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/workflow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>dss session</title>
@@ -72,24 +117,6 @@
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/functional-graphing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public Health</title>
-      <link>/categories/public-health/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/public-health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reproducible Research</title>
-      <link>/categories/reproducible-research/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/reproducible-research/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/andriy-koval/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Florida Demographic Growth</title>
+      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <description>This blogposts shows how to extract population estimates data reported by the Florida Department of Health and prepare them for analysis, specifically, for exploring the trends in demograph growth between 2006 and 2020</description>
+    </item>
+    
+    <item>
+      <title>Workshop for Beginners</title>
+      <link>/post/andkov/2019-11-26-graphing-models-in-notebooks/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2019-11-26-graphing-models-in-notebooks/</guid>
+      <description>The workshop introduces R and RStudio and makes the case for project-oriented workflows for applied data analysis. Using logistic regression on Titanic data as an example, the participants will learn to communicate statistical findings more effectively, and will evaluate the advantages of using computational notebooks in RStudio to disseminate the results</description>
+    </item>
     
     <item>
       <title>How to Contribute</title>

@@ -7,10 +7,55 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Florida Demographic Growth</title>
+      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;abstract&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;This blogposts shows how to extract population estimates data reported by the &lt;a href=&#34;http://www.flhealthcharts.com/FLQUERY/Population/PopulationRpt.aspx&#34;&gt;Florida Department of Health&lt;/a&gt; and prepare them for analysis, specifically, for exploring the trends in demographic growth between 2006 and 2020. Read the post at &lt;a href=&#34;http://andriy.rbind.io/post/2020-03-27-florida-demographic-growth/&#34;&gt;http://andriy.rbind.io/post/2020-03-27-florida-demographic-growth/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-origin&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Data Origin&lt;/h1&gt;
+&lt;p&gt;The initial extract of the data was obtained from &lt;a href=&#34;http://www.flhealthcharts.com/FLQUERY/Population/PopulationRpt.aspx&#34;&gt;www.flhealthcharts.com&lt;/a&gt; a reporting tool for population counts estimated by the Florida Department of Health.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;extracted-data.PNG&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;View of the extracted data&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The blogpost shows how these data are cleaned, prepared for analyses and explored.
+&lt;img src=&#34;g2-1.PNG&#34; alt=&#34;Trajectory of population growth by ethnic groups&#34; /&gt;
+&lt;img src=&#34;q2-1.PNG&#34; alt=&#34;Age distribution by ethnic groups in 2019&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop for Beginners</title>
+      <link>/post/andkov/2019-11-26-graphing-models-in-notebooks/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2019-11-26-graphing-models-in-notebooks/</guid>
+      <description>
+
+
+&lt;div id=&#34;abstract&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The workshop will review best practices of reproducible research including folder architecture, data preparation, graph making, statistical modeling, and script documentation. The workshop is targeted at researchers who are expected to conduct their own analysis of data and prepare reports that deliver the findings to both technical and executive audiences within health systems. Using logistic regression as an example, the participants will learn to communicate statistical findings more effectively, and will evaluate the advantages of using computational notebooks in RStudio to disseminate the results.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://andriy.rbind.io/talk/2019-11-26-hsif-toronto-workshop/&#34;&gt;READ FULL POST&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Categories of research</title>
