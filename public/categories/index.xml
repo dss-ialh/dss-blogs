@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>analytic workflow</title>
+      <link>/categories/analytic-workflow/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/analytic-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public health</title>
+      <link>/categories/public-health/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/public-health/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Regression</title>
@@ -108,15 +126,6 @@
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/functional-graphing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public Health</title>
-      <link>/categories/public-health/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/public-health/</guid>
       <description></description>
     </item>
     
