@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reproducible Research</title>
+      <link>/categories/reproducible-research/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reproducible-research/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>analytic workflow</title>
@@ -33,18 +42,9 @@
     <item>
       <title>Regression</title>
       <link>/categories/regression/</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reproducible Research</title>
-      <link>/categories/reproducible-research/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/reproducible-research/</guid>
       <description></description>
     </item>
     

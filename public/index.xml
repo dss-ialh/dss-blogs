@@ -7,10 +7,32 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASGR: 2.2 - Joining Data</title>
+      <link>/post/2020-03-29-asgr-part-2-2-joining-data/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-03-29-asgr-part-2-2-joining-data/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Out in the real world you may often find yourself working with data from multiple sources. It will probably be stored in separate files and you’ll need to combine them before you can attempt to answer any of your research questions. Click &lt;a href=&#34;https://craig.rbind.io/post/2020-03-29-asgr-2-2-joining-data/&#34;&gt;here&lt;/a&gt; to learn how you can combine data frames using a set of &lt;strong&gt;dplyr&lt;/strong&gt; functions called &lt;strong&gt;joins&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Florida Demographic Growth</title>
@@ -37,6 +59,29 @@
 &lt;img src=&#34;g2-1.PNG&#34; alt=&#34;Trajectory of population growth by ethnic groups&#34; /&gt;
 &lt;img src=&#34;q2-1.PNG&#34; alt=&#34;Age distribution by ethnic groups in 2019&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manifold Regression (part 2)</title>
+      <link>/post/mrparker909/2020-03-16-manifold-regression-part2/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-03-16-manifold-regression-part2/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Welcome to the world of manifold regression! In &lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-03-02-manifold-regression-2/&#34;&gt;part 2&lt;/a&gt; we will apply manifold regression to a case study involving fMRI brain imaging data using R and &lt;a href=&#34;https://github.com/mrparker909/MGLMRiem&#34;&gt;MGLMRiem&lt;/a&gt;. See &lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-01-19-manifold-regression-1/&#34;&gt;part 1&lt;/a&gt; for an introduction to these models.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-03-02-manifold-regression-2/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

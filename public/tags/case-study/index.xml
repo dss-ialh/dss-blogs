@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>case study on Data Science Studio</title>
+    <link>/tags/case-study/</link>
+    <description>Recent content in case study on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manifold Regression (part 2)</title>
+      <link>/post/mrparker909/2020-03-16-manifold-regression-part2/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-03-16-manifold-regression-part2/</guid>
+      <description>Welcome to the world of manifold regression! In part 2 we will apply manifold regression to a case study involving fMRI brain imaging data using R and MGLMRiem. See part 1 for an introduction to these models.
+Read full post</description>
+    </item>
+    
+  </channel>
+</rss>
