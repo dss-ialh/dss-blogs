@@ -7,18 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title> Suppress for Release - CAHSPR, Halifax</title>
-      <link>/post/2019-05-26-suppress-for-release-cahspr-halifax/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>Arbitrary Precision Optimization in R</title>
+      <link>/post/mrparker909/2020-04-09-optimizeapa/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
-      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations</description>
+      <guid>/post/mrparker909/2020-04-09-optimizeapa/</guid>
+      <description>optimizeAPA is an R package which allows for multi-parameter optimization. That means you can use it to find the maximum (or the minimum) value of a function with many input values. What makes optimizeAPA unique? It works with arbitrary precision arithmetic.
+Read full post</description>
     </item>
     
   </channel>

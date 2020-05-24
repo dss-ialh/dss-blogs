@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arbitrary Precision Optimization in R</title>
+      <link>/post/mrparker909/2020-04-09-optimizeapa/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-04-09-optimizeapa/</guid>
+      <description>optimizeAPA is an R package which allows for multi-parameter optimization. That means you can use it to find the maximum (or the minimum) value of a function with many input values. What makes optimizeAPA unique? It works with arbitrary precision arithmetic.
+Read full post</description>
+    </item>
     
     <item>
       <title>Latex labels for ggplot graphs</title>

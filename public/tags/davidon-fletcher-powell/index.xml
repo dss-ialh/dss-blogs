@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>davidon-fletcher-powell on Data Science Studio</title>
+    <link>/tags/davidon-fletcher-powell/</link>
+    <description>Recent content in davidon-fletcher-powell on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/davidon-fletcher-powell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arbitrary Precision Optimization in R</title>
+      <link>/post/mrparker909/2020-04-09-optimizeapa/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-04-09-optimizeapa/</guid>
+      <description>optimizeAPA is an R package which allows for multi-parameter optimization. That means you can use it to find the maximum (or the minimum) value of a function with many input values. What makes optimizeAPA unique? It works with arbitrary precision arithmetic.
+Read full post</description>
+    </item>
+    
+  </channel>
+</rss>
