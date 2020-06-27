@@ -1,0 +1,42 @@
+---
+title: 'Bootstrapping in R'
+author: Matthew Parker
+date: '2020-06-26'
+slug: []
+categories:
+  - R
+  - Statistics
+tags:
+  - R
+  - bootstrapping
+  - standard deviation
+  - sampling distribution
+  - variability
+  - tutorial
+  - distribution
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: false
+    toc_depth: 4
+featured: yes
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+Bootstrapping is a statistical technique for analyzing the distributional properties of sample data (such as variability and bias). It has many uses, and is generally quite easy to implement. Continue reading to learn how you can perform a bootstrap procedure in R!
+
+[Read full post](https://matthew-parker.rbind.io/post/2020-06-26-bootstrap-tutorial/)
