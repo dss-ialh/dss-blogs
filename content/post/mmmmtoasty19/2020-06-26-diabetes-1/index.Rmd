@@ -1,0 +1,27 @@
+---
+title: 'Diabetes in Rural North Carolina : Exploring Prevalence Trends'
+author: Kyle Belanger
+date: '2020-06-26'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+# Summary 
+
+Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Asssociation, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina. This investigation stems from the Capstone project of my Health Care Informatics Masters program. This post will answer the following questions:
+
+> 1. What is the overall trend of diabetes prevalence in the United States?
+
+> 2. What is the trend of diabetes at a State Level and how does diabetes prevalence vary by state and region?
+
+> 3. How do trends in diabetes prevalence vary across counties of North Carolina? 
+
+> 4. In which counties of North Carolina does the largest change in diabetes prevalence occur?
+
+> 5. How does change in diabetes prevalence compare between rural and urban counties?
+
+Please read the ![full post here](https://kyleb.rbind.io/post/2020-06-25-diabetes-1/)
