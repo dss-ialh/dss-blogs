@@ -2,15 +2,19 @@
 authors:
 - Matthew Parker
 
-bio: Matthew Parker is a student of Statistics at the University of Victoria, a student researcher at the University of British Columbia, and a founding member of [DSS Blogs](https://dss-ialh.rbind.io/).
+bio: Matthew Parker is a PhD student at Simon Fraser University, and a founding member of [DSS Blogs](https://dss-ialh.rbind.io/).
 
 email: "https://matthew-parker.rbind.io/#contact"
 
 name: Matthew Parker
-organizations: 
-- name: University of Victoria
+organizations:
+- name: DSS Blogs
   url: "https://matthew-parker.rbind.io"
-role: Graduate Research Student, University of Victoria
+- name: Simon Fraser University
+  url: "https://www.sfu.ca/"
+- name: University of Victoria
+  url: "https://www.uvic.ca/"
+role: Doctoral Student, Simon Fraser University
 social:
 - icon: envelope
   icon_pack: fas
