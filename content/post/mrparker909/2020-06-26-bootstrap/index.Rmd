@@ -1,6 +1,7 @@
 ---
 title: 'Bootstrapping in R'
-author: Matthew Parker
+authors: 
+  - Matthew Parker
 date: '2020-06-26'
 slug: []
 categories:
