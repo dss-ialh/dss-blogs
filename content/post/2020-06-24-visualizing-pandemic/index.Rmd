@@ -1,0 +1,48 @@
+---
+title: Visualizing the Pandemic
+subtitle: "Comparing COVID-19 Trajectories across Countries"
+authors: 
+- Andriy Koval
+date: '2020-06-24'
+slug: [visualizing-pandemic-vada-2020]
+categories:
+  - graph making
+  - public health
+tags:
+  - ggplot2
+  - longitudinal analysis
+  - public health
+  - COVID-19
+summary: 'Demonstrating how to 1) build interactive visualizationsusing `plotly::ggplotly()`, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.'
+lastmod: '2020-06-27'
+featured: no
+image:
+  caption: ''
+  focal_point: 'Center'
+  preview_only: no
+projects: []
+url_code: "https://github.com/andkov/vada-2020-summer-school"
+url_dataset: ""
+url_pdf: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: "https://www.youtube.com/embed/_6kiNmv791w"
+---
+[![](VADA-header.png){width=100%}](http://vada.cs.umanitoba.ca/program/)
+
+Recently I was invited to give a workshop  at the 2020 Summer School event of the [Visual and Automated Disease Analytic](http://vada.cs.umanitoba.ca/program/) (VADA) graduate training program. My workshop focused on visualizing COVID-19 data in multiple countries, demonstrating how to 1) build interactive visualizations  using `plotly::ggplotly()`, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison. To structure the workshop and create the criteria of success/progress, I have broken down the session into three parts, each aimed at producing a graphic.
+
+|Goal 1| Goal 2| Goal 3|
+|---|---|---|  
+|Timeseries with interactive highlights|Trajectories with relative timelines| Sequence of key epidemiological events|
+|![][g1]|![][g2]|![][g3]|
+
+[g1]:goal_1.PNG
+[g2]:goal_2.PNG
+[g3]:goal_3.PNG
+
+[LINK TO FULL POST](http://127.0.0.1:4321/post/2020-06-22-visualizing-the-pandemic/)
+
+
