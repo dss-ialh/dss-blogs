@@ -7,10 +7,95 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Diabetes in Rural North Carolina : Exploring Prevalence Trends</title>
+      <link>/post/mmmmtoasty19/2020-06-26-diabetes-1/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mmmmtoasty19/2020-06-26-diabetes-1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Asssociation, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina. This investigation stems from the Capstone project of my Health Care Informatics Masters program. This post will answer the following questions:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;What is the overall trend of diabetes prevalence in the United States?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;What is the trend of diabetes at a State Level and how does diabetes prevalence vary by state and region?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;How do trends in diabetes prevalence vary across counties of North Carolina?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;In which counties of North Carolina does the largest change in diabetes prevalence occur?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;How does change in diabetes prevalence compare between rural and urban counties?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please read the &lt;img src=&#34;https://kyleb.rbind.io/post/2020-06-25-diabetes-1/&#34; alt=&#34;full post here&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizing the Pandemic</title>
+      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;http://vada.cs.umanitoba.ca/program/&#34;&gt;&lt;img src=&#34;VADA-header.png&#34; style=&#34;width:100.0%&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recently I was invited to give a workshop at the 2020 Summer School event of the &lt;a href=&#34;http://vada.cs.umanitoba.ca/program/&#34;&gt;Visual and Automated Disease Analytic&lt;/a&gt; (VADA) graduate training program. My workshop focused on visualizing COVID-19 data in multiple countries, demonstrating how to 1) build interactive visualizations using &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison. To structure the workshop and create the criteria of success/progress, I have broken down the session into three parts, each aimed at producing a graphic.&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Goal 1&lt;/th&gt;
+&lt;th&gt;Goal 2&lt;/th&gt;
+&lt;th&gt;Goal 3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Timeseries with interactive highlights&lt;/td&gt;
+&lt;td&gt;Trajectories with relative timelines&lt;/td&gt;
+&lt;td&gt;Sequence of key epidemiological events&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;img src=&#34;goal_1.PNG&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;goal_2.PNG&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;goal_3.PNG&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href=&#34;http://127.0.0.1:4321/post/2020-06-22-visualizing-the-pandemic/&#34;&gt;LINK TO FULL POST&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Arbitrary Precision Optimization in R</title>
