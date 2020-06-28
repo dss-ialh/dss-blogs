@@ -1,6 +1,7 @@
 ---
 title: "ASGR: 2.0 - basic operations and data structures"
-author: Craig Hutton
+authors: 
+- Craig Hutton
 date: '2019-08-06'
 slug: []
 categories:

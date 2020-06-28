@@ -1,6 +1,7 @@
 ---
 title: "ASGR: 2.1 - Data Transformation - Part 2"
-author: Craig Hutton
+authors: 
+- Craig Hutton
 date: '2019-01-25'
 slug: []
 categories:

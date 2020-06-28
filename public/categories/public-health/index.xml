@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Public Health on Data Science Studio</title>
+    <title>public health on Data Science Studio</title>
     <link>/categories/public-health/</link>
-    <description>Recent content in Public Health on Data Science Studio</description>
+    <description>Recent content in public health on Data Science Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -14,19 +14,19 @@
     
     <item>
       <title>Visualizing the Pandemic</title>
-      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <link>/post/andkov/2020-06-24-visualizing-pandemic/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <guid>/post/andkov/2020-06-24-visualizing-pandemic/</guid>
       <description>Demonstrating how to 1) build interactive visualizationsusing &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.</description>
     </item>
     
     <item>
       <title>Florida Demographic Growth</title>
-      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <link>/post/andkov/2020-03-27-florida-demographic-growth/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <guid>/post/andkov/2020-03-27-florida-demographic-growth/</guid>
       <description>This blogposts shows how to extract population estimates data reported by the Florida Department of Health and prepare them for analysis, specifically, for exploring the trends in demograph growth between 2006 and 2020</description>
     </item>
     
@@ -36,7 +36,7 @@
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
-      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations</description>
+      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error.</description>
     </item>
     
   </channel>

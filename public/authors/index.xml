@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/authors/kyle-belanger/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/kyle-belanger/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -23,19 +32,19 @@
     
     <item>
       <title></title>
-      <link>/authors/craig-hutton/</link>
-      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      <link>/authors/matthew-parker/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/craig-hutton/</guid>
+      <guid>/authors/matthew-parker/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/matthew-parker/</link>
-      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      <link>/authors/craig-hutton/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/authors/matthew-parker/</guid>
+      <guid>/authors/craig-hutton/</guid>
       <description></description>
     </item>
     
@@ -63,15 +72,6 @@ The group was formed to unite the following categories of research:
  Reproducible Research
  Functional Graphing
   DSS Blogs is a peer-reviewed blogging journal about reproducible analytics, functional graphing, statistical modeling, and data visualization.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/kyle-belanger/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/kyle-belanger/</guid>
-      <description></description>
     </item>
     
   </channel>

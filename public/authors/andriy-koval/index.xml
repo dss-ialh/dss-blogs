@@ -14,19 +14,19 @@
     
     <item>
       <title>Visualizing the Pandemic</title>
-      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <link>/post/andkov/2020-06-24-visualizing-pandemic/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <guid>/post/andkov/2020-06-24-visualizing-pandemic/</guid>
       <description>Demonstrating how to 1) build interactive visualizationsusing &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.</description>
     </item>
     
     <item>
       <title>Florida Demographic Growth</title>
-      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <link>/post/andkov/2020-03-27-florida-demographic-growth/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <guid>/post/andkov/2020-03-27-florida-demographic-growth/</guid>
       <description>This blogposts shows how to extract population estimates data reported by the Florida Department of Health and prepare them for analysis, specifically, for exploring the trends in demograph growth between 2006 and 2020</description>
     </item>
     
@@ -56,6 +56,15 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
       
       <guid>/post/2019-07-11-target-information-architecture/</guid>
       <description>Target Information Architecture (TIA) is an graphical rendering of answers to a series of linked questions relating to analytic products from data to support the functions performed by persons, providers or programs within a health system. We argue that a developed TIA is a necessary condition to guide the translation of health service analytics back into a health service system.</description>
+    </item>
+    
+    <item>
+      <title> Suppress for Release - CAHSPR, Halifax</title>
+      <link>/post/2019-05-26-suppress-for-release-cahspr-halifax/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
+      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error.</description>
     </item>
     
   </channel>

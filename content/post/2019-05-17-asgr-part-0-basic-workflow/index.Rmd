@@ -1,6 +1,7 @@
 ---
 title: "ASGR: 0 - Intro & Workflow"
-author: Craig Hutton
+authors: 
+- Craig Hutton
 date: '2019-05-17'
 slug: []
 categories:

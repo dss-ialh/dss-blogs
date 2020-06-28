@@ -14,10 +14,10 @@
     
     <item>
       <title>Visualizing the Pandemic</title>
-      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <link>/post/andkov/2020-06-24-visualizing-pandemic/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <guid>/post/andkov/2020-06-24-visualizing-pandemic/</guid>
       <description>Demonstrating how to 1) build interactive visualizationsusing &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.</description>
     </item>
     

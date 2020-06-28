@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/kyle-belanger/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -19,14 +36,38 @@
   </url>
   
   <url>
-    <loc>/authors/andriy-koval/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/tags/diabetes/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/graph-making/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/public-health/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rural-health/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/andriy-koval/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -36,36 +77,12 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/public-health/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/2020-06-24-visualizing-pandemic/</loc>
+    <loc>/post/andkov/2020-06-24-visualizing-pandemic/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/ggplot2/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/graph-making/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -77,9 +94,14 @@
   </url>
   
   <url>
-    <loc>/tags/public-health/</loc>
+    <loc>/categories/public-health/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/matthew-parker/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -160,6 +182,11 @@
   </url>
   
   <url>
+    <loc>/authors/craig-hutton/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020-03-29-asgr-part-2-2-joining-data/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
@@ -189,7 +216,7 @@
   </url>
   
   <url>
-    <loc>/post/2020-03-27-florida-demographic-growth/</loc>
+    <loc>/post/andkov/2020-03-27-florida-demographic-growth/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -395,16 +422,6 @@
   </url>
   
   <url>
-    <loc>/authors/craig-hutton/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/matthew-parker/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/dss-blogs/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -564,10 +581,6 @@
   <url>
     <loc>/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/kyle-belanger/</loc>
   </url>
   
   <url>

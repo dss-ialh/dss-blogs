@@ -1,6 +1,7 @@
 ---
 title: 'Arbitrary Precision Optimization in R'
-author: Matthew Parker
+authors: 
+- Matthew Parker
 date: '2020-04-10'
 slug: []
 categories:

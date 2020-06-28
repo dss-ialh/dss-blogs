@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/kyle-belanger/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Diabetes in Rural North Carolina</title>
+      <link>/post/mmmmtoasty19/2020-06-26-diabetes-1/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mmmmtoasty19/2020-06-26-diabetes-1/</guid>
+      <description>SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/authors/kyle-belanger/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/kyle-belanger/</guid>
       <description></description>

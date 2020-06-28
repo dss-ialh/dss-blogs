@@ -13,20 +13,20 @@
     
     
     <item>
-      <title>Diabetes in Rural North Carolina : Exploring Prevalence Trends</title>
+      <title>Diabetes in Rural North Carolina</title>
       <link>/post/mmmmtoasty19/2020-06-26-diabetes-1/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/mmmmtoasty19/2020-06-26-diabetes-1/</guid>
-      <description>SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Asssociation, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina.</description>
+      <description>SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina.</description>
     </item>
     
     <item>
       <title>Visualizing the Pandemic</title>
-      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <link>/post/andkov/2020-06-24-visualizing-pandemic/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <guid>/post/andkov/2020-06-24-visualizing-pandemic/</guid>
       <description>Demonstrating how to 1) build interactive visualizationsusing &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.</description>
     </item>
     
@@ -51,10 +51,10 @@ Read full post</description>
     
     <item>
       <title>Florida Demographic Growth</title>
-      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <link>/post/andkov/2020-03-27-florida-demographic-growth/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <guid>/post/andkov/2020-03-27-florida-demographic-growth/</guid>
       <description>This blogposts shows how to extract population estimates data reported by the Florida Department of Health and prepare them for analysis, specifically, for exploring the trends in demograph growth between 2006 and 2020</description>
     </item>
     
@@ -167,11 +167,11 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
-      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations</description>
+      <description>In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error.</description>
     </item>
     
     <item>
-      <title>ASGR: 1 - Intro &amp; Workflow</title>
+      <title>ASGR: 0 - Intro &amp; Workflow</title>
       <link>/post/2019-05-17-asgr-part-0-basic-workflow/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       

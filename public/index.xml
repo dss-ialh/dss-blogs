@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Diabetes in Rural North Carolina : Exploring Prevalence Trends</title>
+      <title>Diabetes in Rural North Carolina</title>
       <link>/post/mmmmtoasty19/2020-06-26-diabetes-1/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -24,7 +24,7 @@
 
 &lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Summary&lt;/h1&gt;
-&lt;p&gt;Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Asssociation, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina. This investigation stems from the Capstone project of my Health Care Informatics Masters program. This post will answer the following questions:&lt;/p&gt;
+&lt;p&gt;Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina. This investigation stems from the Capstone project of my Health Care Informatics Masters program. This post will answer the following questions:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;What is the overall trend of diabetes prevalence in the United States?&lt;/li&gt;
@@ -50,17 +50,17 @@
 &lt;li&gt;How does change in diabetes prevalence compare between rural and urban counties?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Please read the &lt;img src=&#34;https://kyleb.rbind.io/post/2020-06-25-diabetes-1/&#34; alt=&#34;full post here&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://kyleb.rbind.io/post/2020-06-25-diabetes-1/&#34;&gt;full post here&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Visualizing the Pandemic</title>
-      <link>/post/2020-06-24-visualizing-pandemic/</link>
+      <link>/post/andkov/2020-06-24-visualizing-pandemic/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-06-24-visualizing-pandemic/</guid>
+      <guid>/post/andkov/2020-06-24-visualizing-pandemic/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
@@ -104,6 +104,7 @@
       
       <guid>/post/mrparker909/2020-04-09-optimizeapa/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -127,6 +128,7 @@
       
       <guid>/post/2020-03-29-asgr-part-2-2-joining-data/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -144,10 +146,10 @@
     
     <item>
       <title>Florida Demographic Growth</title>
-      <link>/post/2020-03-27-florida-demographic-growth/</link>
+      <link>/post/andkov/2020-03-27-florida-demographic-growth/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-03-27-florida-demographic-growth/</guid>
+      <guid>/post/andkov/2020-03-27-florida-demographic-growth/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
@@ -177,6 +179,7 @@
       
       <guid>/post/mrparker909/2020-03-16-manifold-regression-part2/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -200,6 +203,7 @@
       
       <guid>/post/2020-01-26-manifold-regression-part1/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -223,6 +227,7 @@
       
       <guid>/post/2019-12-30-asgr-part-2-1-data-transformation-part-1/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -262,6 +267,7 @@
       
       <guid>/post/2019-08-06-asgr-part-2-0-basic-operations-and-data-structures/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -677,6 +683,7 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
       
       <guid>/post/2019-06-22-asgr-part-1-getting-data-into-r/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -699,6 +706,7 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
       
       <guid>/post/2019-05-26-suppress-for-release-cahspr-halifax/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -712,19 +720,20 @@ eg: “&lt;span class=&#34;citation&#34;&gt;@acting_admin_github_name&lt;/span&g
 &lt;!-- # 6 = Book chapter --&gt;
 &lt;p&gt;In 2016, the Observatory for Population &amp;amp; Public Health of British Columbia launched the Chronic Disease Dashboard, an online reporting tool designed to address the gap in surveillance of chronic diseases. To protect against re-identification risks, the Ministry of Health required redacting small counts prior to releasing disease rates into public domain. These preparations, when conducted manually, have proven to be arduous, time consuming, and prone to human error. This paper gives the overview of the workflow for automated suppression of small cells and demonstrates key data operations&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;poster.jpg&#34; alt=&#34;poster&#34; /&gt;
+&lt;img src=&#34;poster.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;poster&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>ASGR: 1 - Intro &amp; Workflow</title>
+      <title>ASGR: 0 - Intro &amp; Workflow</title>
       <link>/post/2019-05-17-asgr-part-0-basic-workflow/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-05-17-asgr-part-0-basic-workflow/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -748,6 +757,7 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
       
       <guid>/post/dss-origin-story/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -765,11 +775,11 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
 &lt;p&gt;However, despite the allure of their interoperability and longitudinal nature, these data did not contribute much to the evidentiary basis of existing policies. Their broad, cross-continuum terrain of health services and highly complex statistical models needed to handle &lt;em&gt;within-person-over-time&lt;/em&gt; patterns was calling for analytic capacities beyond those of Quality Improvement departments within Island Health. The &lt;a href=&#34;http://ialsa.github.io/COAG-colloquium-2014F/&#34;&gt;Fall 2014 colloquium&lt;/a&gt; sparked a vision for a working group that would bring together the expertise capable of releasing the potential of big, cross-continuum EHR for aging research: knowledge of clinical context (Ken), statistical expertise in modeling individual differences (Scott) and applied data science skills for handling big data (Andriy).&lt;/p&gt;
 &lt;p&gt;In the Fall of 2015, Ken formed an &lt;a href=&#34;https://github.com/IHACRU&#34;&gt;Applied Clinical Research Unit&lt;/a&gt; (ACRU) at Island Health. Scott funded Andriy to join this group half-time to work on rendering Island Health’s EHR into a form that can be analyzed and linked to the aging data collected by IALH. Ken and Andriy developed a &lt;a href=&#34;https://github.com/IHACRU/clinical-context-coding-scheme&#34;&gt;Clinical Context Coding Scheme (CCCS)&lt;/a&gt;, a system for reducing the granularity of Island Health service landscape. One of the first applications of CCCS was development of “patient timelines” for DEPiCTS projects, co-chaired by Scott, which visualized service utilization in the longitudinal context of visiting the Stroke Rapid Assessment Unit (Figure 1).&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;case-study-A.png&#34; alt=&#34;Figure 1&#34; /&gt;
+&lt;img src=&#34;case-study-A.png&#34; alt=&#34;&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Figure 1&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Building on this methodology, Andriy and Ken developed a research proposal for developing a severity scaling method for Mental Health and Substance Use (MHSU) conditions based on the service utilization data of Island Health, which &lt;a href=&#34;http://www.newswire.ca/news-releases/minister-ginette-petitpas-taylor-announces-a-58-million-investment-in-programs-to-give-health-research-trainees-hands-on-work-experience-649094743.html&#34;&gt;won&lt;/a&gt; Andriy a Canadian Institutes of Health Research (&lt;a href=&#34;http://www.cihr-irsc.gc.ca/&#34;&gt;CIHR&lt;/a&gt;) Health System Impact &lt;a href=&#34;http://www.cihr-irsc.gc.ca/e/50268.html&#34;&gt;Fellowship&lt;/a&gt; with BC &lt;a href=&#34;http://www.bccdc.ca/our-services/programs/bc-observatory-for-pop-public-health&#34;&gt;Observatory&lt;/a&gt; for Population and Public Health of the BC &lt;a href=&#34;http://www.bccdc.ca/&#34;&gt;Centre for Disease Control&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualisation (Studio).&lt;/p&gt;
+&lt;p&gt;Since Fall of 2017, in partnership with the Observatory for Population and Public Health of BCCDC, Ken, Scott, and Andriy launched a series of regular meetings at IALH, providing a forum for UVic researchers and Island Health analysts, program leaders, and administrators. The name of the working group was chosen to highlight the three aspects of service that Data Science Studio aimed to provide. Ken helps with the protocol submission and navigation within the service landscape of Island Health (Data). Scott advises on the longitudinal methodology and aging research (Science). Andriy promotes skills of reproducible analytics, intelligent programming, and data visualization (Studio).&lt;/p&gt;
 &lt;p&gt;In November 2018, DSS produced IALH’s colloquium series on &lt;a href=&#34;https://github.com/dss-ialh/displaying-health-data&#34;&gt;“Displaying Health Data”&lt;/a&gt; showcasing latest activities and hosted visiting scholars from University of Central Florida and University of Oklahoma.&lt;/p&gt;
 </description>
     </item>
@@ -781,6 +791,7 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
       
       <guid>/post/2019-12-30-asgr-part-2-1-data-transformation-part-2/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;
@@ -803,6 +814,7 @@ Click &lt;a href=&#34;https://craig.rbind.io/post/a-scientist-s-guide-to-r-intro
       
       <guid>/post/2019-05-13-easy-latex-titles/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;!-- # Publication type. --&gt;

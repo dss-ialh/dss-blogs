@@ -7,26 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 24 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Public Health</title>
-      <link>/categories/public-health/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <title>graph making</title>
+      <link>/categories/graph-making/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/public-health/</guid>
+      <guid>/categories/graph-making/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>graph making</title>
-      <link>/categories/graph-making/</link>
+      <title>public health</title>
+      <link>/categories/public-health/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/graph-making/</guid>
+      <guid>/categories/public-health/</guid>
       <description></description>
     </item>
     

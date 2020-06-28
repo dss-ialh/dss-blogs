@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/matthew-parker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arbitrary Precision Optimization in R</title>
+      <link>/post/mrparker909/2020-04-09-optimizeapa/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-04-09-optimizeapa/</guid>
+      <description>optimizeAPA is an R package which allows for multi-parameter optimization. That means you can use it to find the maximum (or the minimum) value of a function with many input values. What makes optimizeAPA unique? It works with arbitrary precision arithmetic.
+Read full post</description>
+    </item>
+    
+    <item>
+      <title>Manifold Regression (part 2)</title>
+      <link>/post/mrparker909/2020-03-16-manifold-regression-part2/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-03-16-manifold-regression-part2/</guid>
+      <description>Welcome to the world of manifold regression! In part 2 we will apply manifold regression to a case study involving fMRI brain imaging data using R and MGLMRiem. See part 1 for an introduction to these models.
+Read full post</description>
+    </item>
+    
+    <item>
+      <title>Manifold Regression (part 1)</title>
+      <link>/post/2020-01-26-manifold-regression-part1/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-01-26-manifold-regression-part1/</guid>
+      <description>Welcome to the world of manifold regression! In part 1 we will introduce the basic concepts, overview the theory behind regression on manifolds, develop an intuition for these models, and discuss their applications.
+Read full post</description>
+    </item>
     
     <item>
       <title>How to Contribute</title>
@@ -23,9 +53,18 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
     </item>
     
     <item>
+      <title>Latex labels for ggplot graphs</title>
+      <link>/post/2019-05-13-easy-latex-titles/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-13-easy-latex-titles/</guid>
+      <description>The post demonstrates how to create Latex titles for reproducible graphs.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/authors/matthew-parker/</link>
-      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/matthew-parker/</guid>
       <description></description>
