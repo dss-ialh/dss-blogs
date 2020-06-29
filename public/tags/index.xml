@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>/tags/data-analysis/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootstrapping</title>
+      <link>/tags/bootstrapping/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bootstrapping/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>diabetes</title>
@@ -18,6 +45,15 @@
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/diabetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distribution</title>
+      <link>/tags/distribution/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/distribution/</guid>
       <description></description>
     </item>
     
@@ -36,6 +72,42 @@
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/rural-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sampling distribution</title>
+      <link>/tags/sampling-distribution/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sampling-distribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>standard deviation</title>
+      <link>/tags/standard-deviation/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/standard-deviation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variability</title>
+      <link>/tags/variability/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/variability/</guid>
       <description></description>
     </item>
     
@@ -126,33 +198,6 @@
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/optimizeapa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Analysis</title>
-      <link>/tags/data-analysis/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

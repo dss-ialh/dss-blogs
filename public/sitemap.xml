@@ -3,6 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2020-06-28-asgr-part-2-3-strings/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analysis/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/reproducible-research/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/kyle-belanger/</loc>
     <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
@@ -14,15 +72,8 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/post/mrparker909/2020-06-26-bootstrap/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -31,18 +82,31 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <loc>/categories/statistics/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bootstrapping/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/diabetes/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/distribution/</loc>
     <lastmod>2020-06-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -66,12 +130,42 @@
   </url>
   
   <url>
+    <loc>/tags/sampling-distribution/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/standard-deviation/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/variability/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/andriy-koval/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/covid-19/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/public-health/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -94,20 +188,8 @@
   </url>
   
   <url>
-    <loc>/categories/public-health/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/matthew-parker/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/0/</loc>
-    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -117,18 +199,6 @@
   
   <url>
     <loc>/categories/optimization/</loc>
-    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -176,12 +246,6 @@
   </url>
   
   <url>
-    <loc>/tags/tutorial/</loc>
-    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/craig-hutton/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
@@ -189,24 +253,6 @@
   <url>
     <loc>/post/2020-03-29-asgr-part-2-2-joining-data/</loc>
     <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-analysis/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/reproducible-research/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

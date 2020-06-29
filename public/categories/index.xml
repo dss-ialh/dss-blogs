@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reproducible Research</title>
+      <link>/categories/reproducible-research/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reproducible-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/categories/statistics/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>graph making</title>
@@ -22,7 +49,7 @@
     </item>
     
     <item>
-      <title>public health</title>
+      <title>Public Health</title>
       <link>/categories/public-health/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -36,24 +63,6 @@
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/optimization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reproducible Research</title>
-      <link>/categories/reproducible-research/</link>
-      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/reproducible-research/</guid>
       <description></description>
     </item>
     
