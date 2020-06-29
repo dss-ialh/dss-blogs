@@ -1,0 +1,33 @@
+---
+title: "ASGR: 2.3 - strings"
+author: Craig Hutton
+date: '2020-06-28'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'string manipulation and regex'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+Being able to work with character strings is an essential skill in data analysis and science.  In this post we'll learn a few of the ways in which the [stringr](https://stringr.tidyverse.org/index.html) package and regular expressions (AKA "regex" or "regexps") makes working with strings in R considerably easier. Click [here](https://craig.rbind.io/post/2020-06-28-asgr-2-3-string-manipulation/) to read the full post.
