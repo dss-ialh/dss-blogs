@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/matthew-parker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bootstrapping in R</title>
+      <link>/post/mrparker909/2020-06-26-bootstrap/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-06-26-bootstrap/</guid>
+      <description>Bootstrapping is a statistical technique for analyzing the distributional properties of sample data (such as variability and bias). It has many uses, and is generally quite easy to implement. Continue reading to learn how you can perform a bootstrap procedure in R!
+Read full post</description>
+    </item>
     
     <item>
       <title>Arbitrary Precision Optimization in R</title>
@@ -64,7 +74,7 @@ Table of ContentAdding a New PostBlog AuthorsNew Post TemplateRequired C
     <item>
       <title></title>
       <link>/authors/matthew-parker/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/matthew-parker/</guid>
       <description></description>

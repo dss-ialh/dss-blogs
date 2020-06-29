@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/craig-hutton/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/0/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -11,6 +16,12 @@
   <url>
     <loc>/post/2020-06-28-asgr-part-2-3-strings/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -66,9 +77,8 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/authors/matthew-parker/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -165,12 +175,6 @@
   </url>
   
   <url>
-    <loc>/categories/public-health/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/andkov/2020-06-24-visualizing-pandemic/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
@@ -188,8 +192,9 @@
   </url>
   
   <url>
-    <loc>/authors/matthew-parker/</loc>
-    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+    <loc>/categories/public-health/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -243,11 +248,6 @@
     <loc>/tags/optimizeapa/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/craig-hutton/</loc>
-    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>

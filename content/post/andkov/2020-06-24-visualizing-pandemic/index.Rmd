@@ -43,6 +43,6 @@ Recently I was invited to give a workshop  at the 2020 Summer School event of th
 [g2]:goal_2.PNG
 [g3]:goal_3.PNG
 
-[LINK TO FULL POST](http://127.0.0.1:4321/post/2020-06-22-visualizing-the-pandemic/)
+[LINK TO FULL POST](http://andriy.rbind.io/post/2020-06-22-visualizing-the-pandemic/)
 
 
