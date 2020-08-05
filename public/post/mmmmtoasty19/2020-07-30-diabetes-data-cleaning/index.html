@@ -42,10 +42,12 @@ if (!doNotTrack) {
   
     
   
-  <meta name="description" content="Postdoctoral Research Fellow, University of Victoria">
+  <meta name="description" content="SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.
+Please read the full post here
+">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tags/diabetes/">
+  <link rel="alternate" hreflang="en-us" href="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/">
 
   
 
@@ -129,39 +131,39 @@ if (!doNotTrack) {
   
 
   
-  <link rel="alternate" href="/tags/diabetes/index.xml" type="application/rss+xml" title="Data Science Studio">
-  <link rel="feed" href="/tags/diabetes/index.xml" type="application/rss+xml" title="Data Science Studio">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/tags/diabetes/">
+  <link rel="canonical" href="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/">
 
   
   
   
   
     
-    
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Data Science Studio">
-  <meta property="og:url" content="/tags/diabetes/">
-  <meta property="og:title" content="diabetes | Data Science Studio">
-  <meta property="og:description" content="Postdoctoral Research Fellow, University of Victoria"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/">
+  <meta property="og:title" content="Diabetes in Rural North Carolina | Data Science Studio">
+  <meta property="og:description" content="SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.
+Please read the full post here
+"><meta property="og:image" content="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2020-07-30T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-07-30T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-07-30T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>diabetes | Data Science Studio</title>
+  <title>Diabetes in Rural North Carolina | Data Science Studio</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -404,6 +406,9 @@ if (!doNotTrack) {
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
 
 
 
@@ -415,54 +420,431 @@ if (!doNotTrack) {
 
 
 
+
+
+<div class="article-header d-xl-none">
+  <div class="featured-image" style="background-image: url('/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/featured_hu6d13e3e399f2ce0624f47af5d79c5bca_73140_800x0_resize_lanczos_2.png');"></div>
+  
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">Diabetes in Rural North Carolina</h1>
+
+        
+        <p class="page-subtitle">Data Collection and Cleaning</p>
+        
+
+        
+
+
+
+<meta content="2020-07-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-07-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/kyle-belanger/">Kyle Belanger</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 30, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/data-cleaning/">data cleaning</a></span>
+  
+
+  
+
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Diabetes%20in%20Rural%20North%20Carolina&amp;url=%2fpost%2fmmmmtoasty19%2f2020-07-30-diabetes-data-cleaning%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fmmmmtoasty19%2f2020-07-30-diabetes-data-cleaning%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fmmmmtoasty19%2f2020-07-30-diabetes-data-cleaning%2f&amp;title=Diabetes%20in%20Rural%20North%20Carolina"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fmmmmtoasty19%2f2020-07-30-diabetes-data-cleaning%2f&amp;title=Diabetes%20in%20Rural%20North%20Carolina"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Diabetes%20in%20Rural%20North%20Carolina&amp;body=%2fpost%2fmmmmtoasty19%2f2020-07-30-diabetes-data-cleaning%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/featured_hu6d13e3e399f2ce0624f47af5d79c5bca_73140_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">Diabetes in Rural North Carolina</h1>
+
+  
+  <p class="page-subtitle">Data Collection and Cleaning</p>
+  
+
+  
+
+
+
+<meta content="2020-07-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-07-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/kyle-belanger/">Kyle Belanger</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 30, 2020</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/data-cleaning/">data cleaning</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url="
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u="
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
 
   
 
+</div>
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="summary" class="section level1">
+<h1>Summary</h1>
+<p>Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.</p>
+<p>Please read the <a href="https://kyleb.rbind.io/post/2020-07-28-diabetes-data-collection/">full post here</a></p>
+</div>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/public-health/">public health</a>
+  
+  <a class="badge badge-light" href="/tags/diabetes/">diabetes</a>
+  
+  <a class="badge badge-light" href="/tags/rural-health/">rural health</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">diabetes</h1>
-
   
 
-  
-</div>
 
 
 
-<div class="universal-wrapper">
-  
 
   
-  
-  <div>
-    <h2><a href="/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/">Diabetes in Rural North Carolina</a></h2>
-    <div class="article-style">
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
       
-      SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.
-Please read the full post here
-
-      
+      <img class="portrait mr-3" src="/authors/kyle-belanger/avatar_hu2cbdf894f8f4e977f89f09f4514ae59f_290574_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/kyle-belanger/">Kyle Belanger</a></h5>
+      <h6 class="card-subtitle">Application Specialist, Roche Diagnostics</h6>
+      <p class="card-text" itemprop="description">Kyle Belanger is an Application Specialist at Roche Diagnostics, and a contributing member of <a href="https://dss-ialh.rbind.io/" target="_blank">DSS Blogs</a>. Kyle&rsquo;s personal blog can be found at <a href="https://kyleb.rbind.io/" target="_blank">kyleb.rbind.io/</a>.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/mmmmtoasty19" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-  
-  <div>
-    <h2><a href="/post/mmmmtoasty19/2020-06-26-diabetes-1/">Diabetes in Rural North Carolina</a></h2>
-    <div class="article-style">
+
+
+
       
-      SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This post introduces the exploration of the Diabetes epidemic in North Carolina. Through a series of posts this project will examine various public data available on diabetes and explore possible solutions to address the rise of diabetes in North Carolina.
       
-    </div>
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/post/mmmmtoasty19/2020-06-26-diabetes-1/">Diabetes in Rural North Carolina</a></li>
+          
+          <li><a href="/post/andkov/2020-06-24-visualizing-pandemic/">Visualizing the Pandemic</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "datasciencestudio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
   </div>
-  
+</article>
 
-  
-
-</div>
 <div class="container">
   <footer class="site-footer">
   

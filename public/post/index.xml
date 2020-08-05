@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Diabetes in Rural North Carolina</title>
+      <link>/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mmmmtoasty19/2020-07-30-diabetes-data-cleaning/</guid>
+      <description>SummaryDiabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.
+Please read the full post here
+</description>
+    </item>
     
     <item>
       <title>ASGR: 2.3 - strings</title>
