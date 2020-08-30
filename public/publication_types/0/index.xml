@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rcpp: Using C&#43;&#43; to improve performance in R</title>
+      <link>/post/mrparker909/2020-08-30-rcpp/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-08-30-rcpp/</guid>
+      <description>Rcpp is an R library allowing for easy integration of C++ code in your R workflow. It allows you to create optimized functions for when R just isn’t fast enough. It can also be used as a bridge between R and C++ giving you the ability to access the existing C++ libraries. Continue reading to learn how you can use Rcpp in your projects!
+Read full post</description>
+    </item>
     
     <item>
       <title>ASGR: 2.3 - strings</title>

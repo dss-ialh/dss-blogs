@@ -7,10 +7,33 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rcpp: Using C&#43;&#43; to improve performance in R</title>
+      <link>/post/mrparker909/2020-08-30-rcpp/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2020-08-30-rcpp/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Rcpp is an R library allowing for easy integration of C++ code in your R workflow. It allows you to create optimized functions for when R just isn’t fast enough. It can also be used as a bridge between R and C++ giving you the ability to access the existing C++ libraries. Continue reading to learn how you can use Rcpp in your projects!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-08-30-rcpp/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Diabetes in Rural North Carolina</title>
