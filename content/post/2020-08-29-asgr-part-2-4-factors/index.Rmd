@@ -1,0 +1,33 @@
+---
+title: "ASGR: 2.4 - factors"
+author: Craig Hutton
+date: '2020-08-29'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'forcats for factors'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+Factors are one of the two remaining types of data you'll encounter on a fairly regular basis. This post will show you how to use the [forcats](https://forcats.tidyverse.org/) tidyverse package in R so you'll know how to handle factors when you encounter them. Click [here](https://craig.rbind.io/post/2020-08-29-asgr-2-4-factors/) to read the full post.
