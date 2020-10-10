@@ -1,0 +1,33 @@
+---
+title: "ASGR: 2.5 - dates & times"
+author: Craig P. Hutton
+date: '2020-10-10'
+slug: []
+categories:
+  - Reproducible Research
+tags:
+  - R
+  - Data Analysis
+image: 
+  caption: 'lubridate for dates'
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 4
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+Dates/times are the last type of data you'll probably work with on a fairly regular basis. This post will show you how to use the [lubridate](https://lubridate.tidyverse.org/) tidyverse package in R so you'll know how to handle dates & times when you encounter them. Click [here](https://craig.rbind.io/post/2020-10-10-asgr-2-5-dates/) to read the full post.
