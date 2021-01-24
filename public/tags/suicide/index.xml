@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>suicide on Data Science Studio</title>
+    <link>/tags/suicide/</link>
+    <description>Recent content in suicide on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/suicide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Florida Suicides (2) - Youth Trends</title>
+      <link>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017 among youth between 10 and 24 years of age.</description>
+    </item>
+    
+    <item>
+      <title>Florida Suicides (1) - General Trends</title>
+      <link>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017.</description>
+    </item>
+    
+  </channel>
+</rss>

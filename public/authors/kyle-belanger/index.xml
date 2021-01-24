@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/kyle-belanger/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Florida Suicides (2) - Youth Trends</title>
+      <link>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017 among youth between 10 and 24 years of age.</description>
+    </item>
     
     <item>
       <title>Diabetes in Rural North Carolina</title>
@@ -35,7 +44,7 @@ Please read the full post here
     <item>
       <title></title>
       <link>/authors/kyle-belanger/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/kyle-belanger/</guid>
       <description></description>

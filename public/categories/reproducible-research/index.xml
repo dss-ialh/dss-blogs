@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASGR: 3.0 - exploring data with elucidate</title>
+      <link>/post/2020-12-07-asgr-part-3-0-exploring-data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-12-07-asgr-part-3-0-exploring-data/</guid>
+      <description>This post dives into the elucidate package and how it can help you explore data using sets of functions for interrogating, describing, visualising, interacting with, and correcting data. This is a key stage of any analysis where errors are found and interesting relationships begin to appear. Click here for the full post.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.5 - dates &amp; times</title>
+      <link>/post/2020-08-29-asgr-part-2-5-dates/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-5-dates/</guid>
+      <description>Dates/times are the last type of data you’ll probably work with on a fairly regular basis. This post will show you how to use the lubridate tidyverse package in R so you’ll know how to handle dates &amp;amp; times when you encounter them. Click here to read the full post.</description>
+    </item>
+    
+    <item>
+      <title>Florida Suicides (2) - Youth Trends</title>
+      <link>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017 among youth between 10 and 24 years of age.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.4 - factors</title>
+      <link>/post/2020-08-29-asgr-part-2-4-factors/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-4-factors/</guid>
+      <description>Factors are one of the two remaining types of data you’ll encounter on a fairly regular basis. This post will show you how to use the forcats tidyverse package in R so you’ll know how to handle factors when you encounter them. Click here to read the full post.</description>
+    </item>
     
     <item>
       <title>ASGR: 2.3 - strings</title>
@@ -19,6 +55,15 @@
       
       <guid>/post/2020-06-28-asgr-part-2-3-strings/</guid>
       <description>Being able to work with character strings is an essential skill in data analysis and science. In this post we’ll learn a few of the ways in which the stringr package and regular expressions (AKA “regex” or “regexps”) makes working with strings in R considerably easier. Click here to read the full post.</description>
+    </item>
+    
+    <item>
+      <title>Florida Suicides (1) - General Trends</title>
+      <link>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017.</description>
     </item>
     
     <item>

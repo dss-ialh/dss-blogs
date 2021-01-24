@@ -7,10 +7,70 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASGR: 3.0 - exploring data with elucidate</title>
+      <link>/post/2020-12-07-asgr-part-3-0-exploring-data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-12-07-asgr-part-3-0-exploring-data/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;This post dives into the &lt;a href=&#34;https://github.com/bcgov/elucidate&#34;&gt;elucidate&lt;/a&gt; package and how it can help you explore data using sets of functions for interrogating, describing, visualising, interacting with, and correcting data. This is a key stage of any analysis where errors are found and interesting relationships begin to appear. Click &lt;a href=&#34;https://craig.rbind.io/post/2020-12-07-asgr-3-0-exploring-data-with-elucidate/&#34;&gt;here&lt;/a&gt; for the full post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.5 - dates &amp; times</title>
+      <link>/post/2020-08-29-asgr-part-2-5-dates/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-5-dates/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Dates/times are the last type of data you’ll probably work with on a fairly regular basis. This post will show you how to use the &lt;a href=&#34;https://lubridate.tidyverse.org/&#34;&gt;lubridate&lt;/a&gt; tidyverse package in R so you’ll know how to handle dates &amp;amp; times when you encounter them. Click &lt;a href=&#34;https://craig.rbind.io/post/2020-10-10-asgr-2-5-dates/&#34;&gt;here&lt;/a&gt; to read the full post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Florida Suicides (2) - Youth Trends</title>
+      <link>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-08-30-florida-suicide-2-youth-trends/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This blogpost graphs the trends of suicides in Florida from 2006 to 2017 among individuals between 10 and 24 years of age, exploring the differences in age, sex, and race.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://andriy.rbind.io/post/2020-08-02-florida-suicide-2/&#34;&gt;LINK TO FULL POST&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rcpp: Using C&#43;&#43; to improve performance in R</title>
@@ -32,6 +92,28 @@
 &lt;!-- # 6 = Book chapter --&gt;
 &lt;p&gt;Rcpp is an R library allowing for easy integration of C++ code in your R workflow. It allows you to create optimized functions for when R just isn’t fast enough. It can also be used as a bridge between R and C++ giving you the ability to access the existing C++ libraries. Continue reading to learn how you can use Rcpp in your projects!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2020-08-30-rcpp/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.4 - factors</title>
+      <link>/post/2020-08-29-asgr-part-2-4-factors/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-4-factors/</guid>
+      <description>
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;p&gt;Factors are one of the two remaining types of data you’ll encounter on a fairly regular basis. This post will show you how to use the &lt;a href=&#34;https://forcats.tidyverse.org/&#34;&gt;forcats&lt;/a&gt; tidyverse package in R so you’ll know how to handle factors when you encounter them. Click &lt;a href=&#34;https://craig.rbind.io/post/2020-08-29-asgr-2-4-factors/&#34;&gt;here&lt;/a&gt; to read the full post.&lt;/p&gt;
 </description>
     </item>
     
@@ -181,6 +263,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;a href=&#34;http://andriy.rbind.io/post/2020-06-22-visualizing-the-pandemic/&#34;&gt;LINK TO FULL POST&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Florida Suicides (1) - General Trends</title>
+      <link>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</guid>
+      <description>
+
+
+&lt;p&gt;This blogpost graphs the trends of suicides in Florida from 2006 to 2017, exploring the differences in age, sex, and race.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://andriy.rbind.io/post/2020-04-26-florida-suicide-1/&#34;&gt;LINK TO FULL POST&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;g11-1.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;genral trends&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

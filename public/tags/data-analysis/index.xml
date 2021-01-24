@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASGR: 3.0 - exploring data with elucidate</title>
+      <link>/post/2020-12-07-asgr-part-3-0-exploring-data/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-12-07-asgr-part-3-0-exploring-data/</guid>
+      <description>This post dives into the elucidate package and how it can help you explore data using sets of functions for interrogating, describing, visualising, interacting with, and correcting data. This is a key stage of any analysis where errors are found and interesting relationships begin to appear. Click here for the full post.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.5 - dates &amp; times</title>
+      <link>/post/2020-08-29-asgr-part-2-5-dates/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-5-dates/</guid>
+      <description>Dates/times are the last type of data you’ll probably work with on a fairly regular basis. This post will show you how to use the lubridate tidyverse package in R so you’ll know how to handle dates &amp;amp; times when you encounter them. Click here to read the full post.</description>
+    </item>
+    
+    <item>
+      <title>ASGR: 2.4 - factors</title>
+      <link>/post/2020-08-29-asgr-part-2-4-factors/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-08-29-asgr-part-2-4-factors/</guid>
+      <description>Factors are one of the two remaining types of data you’ll encounter on a fairly regular basis. This post will show you how to use the forcats tidyverse package in R so you’ll know how to handle factors when you encounter them. Click here to read the full post.</description>
+    </item>
     
     <item>
       <title>ASGR: 2.3 - strings</title>

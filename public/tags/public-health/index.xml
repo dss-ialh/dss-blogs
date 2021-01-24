@@ -41,5 +41,14 @@ Please read the full post here
       <description>Demonstrating how to 1) build interactive visualizationsusing &lt;code&gt;plotly::ggplotly()&lt;/code&gt;, 2) compute relative timelines for each country and 3) plot sequence of key events for cross-country comparison.</description>
     </item>
     
+    <item>
+      <title>Florida Suicides (1) - General Trends</title>
+      <link>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017.</description>
+    </item>
+    
   </channel>
 </rss>

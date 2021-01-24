@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>epidemiology on Data Science Studio</title>
+    <link>/tags/epidemiology/</link>
+    <description>Recent content in epidemiology on Data Science Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/epidemiology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Florida Suicides (1) - General Trends</title>
+      <link>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/andkov/2020-04-26-florida-suicide-1-general-trends/</guid>
+      <description>Graphing the trends of suicides in Florida from 2006 to 2017.</description>
+    </item>
+    
+  </channel>
+</rss>
