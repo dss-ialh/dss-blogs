@@ -1,0 +1,271 @@
+---
+title: "Power Tips - November 2020"
+subtitle: Screen recording, Exponent Summary, Axis labels on
+  facets, Tidy Evals with {{}}, Autoreferencing in plots
+date: '2020-11-29'
+authors:
+- Andriy Koval
+- Matthew Parker
+- Craig Hutton
+- Kyle Belanger
+output:
+  html_document:
+    toc: no
+    df_print: paged
+    keep_md: no
+  blogdown::html_page:
+    number_sections: no
+    toc: no
+event: DSS Contributors Meeting
+slug: null
+categories:
+- reproducible research
+- R programming
+- data science
+tags:
+- tidy eval
+- rlang
+- lemon
+- ggplot2
+- GIF
+- precision
+summary: ''
+lastmod: '2021-01-24'
+featured: no
+image:
+  caption: 'flag of the post'
+  focal_point: Center
+  preview_only: no
+projects: []
+url_code: ''
+url_dataset: ''
+url_pdf: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+---
+
+In this issue:
+
+- [Capturing Screen into GIFs with open source software](/post/2020-11-power-tips/#screen-recording)
+- [Summarizing exponents with higher precision](/post/2020-11-power-tips/#exponent-summary)
+- [Placing axis labels on each facet with `lemon` pacakge](/post/2020-11-power-tips/#axis-labels)
+- [Tidy evaluation in functions with `{{}}` from `rlang` package](/post/2020-11-power-tips/#tidy-evals)
+- [Referencing current data set when building sublayers in `ggplot2`](/post/2020-11-power-tips/#auto-referencing-in-plots)
+
+# Screen Recording
+       
+_by [Craig Hutton](http://craig.rbind.io)_
+
+Demonstrating the functionality of a given function or technique is often more effective and efficient when using animated GIFs. The following two software will help you create GIFs with ease and for free!
+
+ - [screentogif.com](https://www.screentogif.com/) - Windows
+ - [ getkap.co]( https://getkap.co/) - Mac
+
+![](progress_bar_demo.gif)
+
+
+# Exponent Summary
+
+_by [Matthew Parker](https://matthew-parker.rbind.io/)_
+
+Log space is used for higher precision
+
+```{r}
+dpois(x = 5, lambda = 1000) # sample from a Poisson Distribution
+dpois(x = 5, lambda = 1000, log=T)
+```
+
+
+This is good for multiplication: `log(a*b) = log(a) + log(b)`
+```{r}
+dpois(x = 5, lambda = 1000)^2
+2*dpois(x = 5, lambda = 1000, log=T)
+```
+
+But it fails for addition: `log(a+b)=?` 
+
+For example, if we want to calculate `a + b`, but only have accurate `log(a)` and `log(b)`:
+ 
+ `a + b = exp(log(a)) + exp(log(b))`
+
+In this case, exponentiation destroys precision!
+```{r}
+dpois(x = 5, lambda = 1000, log=T)
+exp(dpois(x = 5, lambda = 1000, log=T))
+```
+
+So how can we calculate:
+```{r}
+dpois(x = 5, lambda = 1000) + dpois(x = 5, lambda = 1000)
+```
+
+__Solution__: keep the largest part in log space!
+
+suppose a >= b:   
+`log(a + b) =`   
+           `= log(exp(log(a)) + exp(log(b)))`  
+           `= log( exp(log(a)) * (1+exp(log(b)/log(a))) )`    
+           `= log( exp(log(a)) ) + log( 1+exp(log(b)-log(a))) )`   
+           `= log(a) + log1p( exp(log(b)-log(a)) )`    
+
+Let's define the function to accomplish this task
+
+```{r}
+logSumExp <- function(x) {
+  if(all(is.infinite(x))) { return(x[1]) }
+  x = x[which(is.finite(x))]
+  ans = x[1]
+  for(i in seq_along(x)[-1]) {
+    ma = max(ans,x[i])
+    mi = min(ans,x[i])
+    ans = ma + log1p(exp(mi-ma))
+  }
+  return(ans)
+}
+```
+
+and demonstrate its use:
+
+```{r}
+x = c(dpois(x = 5, lambda = 1000, log = T), 
+      dpois(x = 5, lambda = 1000, log = T))
+logSumExp(x)
+```
+Voila, the precision is preserved!
+
+
+# Axis labels
+
+_by [Andriy Koval](http://andriy.rbind.io/)_
+
+```{r message=F, warning=F}
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(lemon)
+```
+
+When faceting a plot, we may need to place axis labels on each facet (especially if we have many of them):
+
+```{r}
+mtcars %>% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  facet_wrap(~cyl, ncol=1)
+```
+
+One way of achieving this is to use `scale = "free_x"` argument, but if data on the faceted levels covers different ranges of values, the limits of the scale will be adjusted:
+```{r}
+mtcars %>% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  # facet_wrap(~cyl, ncol=1) 
+  facet_wrap(~cyl, ncol=1, scales = "free_x") # puts tick marks, but distorts scale
+  
+```
+
+Comes in the `lemon` package, which provides functions `facet_rep_wrap()` and `facet_rep_grid()` to offer exactly this flexibility. 
+You can also use the arguments you  normally pass to `facet_wrap()` or `facet_grid()`, respectively:
+```{r}
+mtcars %>% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  # facet_wrap(~cyl, ncol=1) 
+  # facet_wrap(~cyl, ncol=1, scales = "free_x") # puts tickmarks, but distorts scale
+  lemon::facet_rep_wrap(~cyl,ncol=1, repeat.tick.labels = TRUE)
+```
+
+
+# Tidy Evals
+
+_by [Kyle Belanger](http://kyleb.rbind.io/)_
+
+```{r message=F, warning=F}
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(lemon)
+```
+
+When turning your ggplots into functions, we can use `aes_string` function to pass quoted strings as variable names: 
+
+```{r message=F, warning=F}
+make_faceted_scatter <- function(d,xvar,yvar){
+  mtcars %>% 
+    ggplot(aes_string(x=xvar, y = yvar))+
+    geom_point()
+}
+mtcars %>% make_faceted_scatter("disp","mpg")
+```
+
+However, passing an unquoted variable names to function required resorting to `rlang` package to translate bares (unquoted names) to quosures in functions:
+  
+```{r include=FALSE}
+make_faceted_scatter <- function(d,xvar,yvar){
+  xvar_enquo <- rlang::enquo(xvar)
+  yvar_enquo <- rlang::enquo(yvar)
+  mtcars %>% 
+    ggplot(aes(x=!!xvar_enquo, y = !!yvar_enquo))+
+    geom_point()
+}
+mtcars %>% make_faceted_scatter(disp,mpg)
+```
+
+Unfortunately, this did not play well with facets. However, since  `0.4.0` version, `rlang` provides a shortcut for this implementation using `{{}}`, which pairs up with the new (`ggplot2 3.0.0`) helper function `vars()` in `facet_wrap()` to make it work: 
+  
+```{r}
+make_faceted_scatter <- function(d,xvar, yvar,fvar){
+  mtcars %>% 
+    ggplot(aes(x={{xvar}}, y = {{yvar}}))+
+    geom_point()+
+    lemon::facet_rep_wrap(vars({{fvar}}),ncol=1, repeat.tick.labels = TRUE)
+}
+mtcars %>% make_faceted_scatter(disp,mpg,cyl)
+```
+
+
+# Auto-referening in plots
+
+_by [Kyle Belanger](http://kyleb.rbind.io/)_
+
+```{r message=F, warning=F}
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+When building `ggplot2` objects we might need to build a layer that uses only a subset of the sourced data. For example, in a scatterplot of `mpg` and `disp` among 4-cylinder cars
+
+```{r}
+mtcars %>% 
+  filter(cyl == 4) %>%
+    ggplot(aes(x = mpg, y = disp ))+
+      geom_point(shape = 1,  size =4)
+```
+we may want to highlight only those with 5 gears. This could be accomplished by passing `data =` to the extra geom that would draw the highlight:
+
+```{r}
+mtcars %>% 
+  filter(cyl == 4) %>%
+    ggplot(aes(x = mpg, y = disp ))+
+      geom_point(shape = 1,  size =4)+
+      geom_point(shape = 20, size = 4,data = mtcars %>% filter(cyl==4, gear == 5))
+```
+
+This approach, however, has a major disadvantage: you have to repeat the transformations (in this case only `filter`) that take place between the source data and the `ggplot2` canvas. `ggplot2 3.0.0` offers a more elegant solution by surrounding the `ggplot` canvas in `{}` and using `.` placeholder to refer to the data set that was passed to `aes()`:
+
+```{r}
+mtcars %>% 
+  filter(cyl == 4) %>%
+  {# ! notice !
+    ggplot(.,aes(x = mpg, y = disp ))+
+      geom_point(shape = 1, size = 4)+
+      geom_point(shape = 20, size = 4,color = "salmon", data = . %>% filter(gear == 5))
+  }# ! notice !
+```
+
+
