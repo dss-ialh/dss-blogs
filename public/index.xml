@@ -47,7 +47,7 @@
 &lt;p&gt;In this issue:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#screen-recording&#34;&gt;Capturing Screen into GIFs with open source software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#exponent-summary&#34;&gt;Summarizing exponents with higher precision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#high-precision-summations&#34;&gt;High precision summations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#axis-labels&#34;&gt;Placing axis labels on each facet with &lt;code&gt;lemon&lt;/code&gt; pacakge&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#tidy-evals&#34;&gt;Tidy evaluation in functions with &lt;code&gt;{{}}&lt;/code&gt; from &lt;code&gt;rlang&lt;/code&gt; package&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#auto-referencing-in-plots&#34;&gt;Referencing current data set when building sublayers in &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
@@ -62,22 +62,22 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;progress_bar_demo.gif&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;exponent-summary&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Exponent Summary&lt;/h1&gt;
+&lt;div id=&#34;high-precision-summations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;High Precision Summations&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;by &lt;a href=&#34;https://matthew-parker.rbind.io/&#34;&gt;Matthew Parker&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Log space is used for higher precision&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000) # sample from a Poisson Distribution&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] -970.2487&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is good for multiplication: &lt;code&gt;log(a*b) = log(a) + log(b)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is good for multiplication: &lt;span class=&#34;math inline&#34;&gt;\(\log(a\times b) = \log(a) + \log(b)\)&lt;/span&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000)^2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;2*dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] -1940.497&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But it fails for addition: &lt;code&gt;log(a+b)=?&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;For example, if we want to calculate &lt;code&gt;a + b&lt;/code&gt;, but only have accurate &lt;code&gt;log(a)&lt;/code&gt; and &lt;code&gt;log(b)&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;a + b = exp(log(a)) + exp(log(b))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;But it fails for addition: &lt;span class=&#34;math inline&#34;&gt;\(\log(a+b)=?\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For example, if we want to calculate &lt;span class=&#34;math inline&#34;&gt;\(a + b\)&lt;/span&gt;, but only have accurate &lt;span class=&#34;math inline&#34;&gt;\(\log(a)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\log(b)\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[a + b = \exp(\log(a)) + \exp(\log(b))\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In this case, exponentiation destroys precision!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] -970.2487&lt;/code&gt;&lt;/pre&gt;
@@ -87,12 +87,15 @@
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000) + dpois(x = 5, lambda = 1000)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: keep the largest part in log space!&lt;/p&gt;
-&lt;p&gt;suppose a &amp;gt;= b:&lt;br /&gt;
-&lt;code&gt;log(a + b) =&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;= log(exp(log(a)) + exp(log(b)))&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;= log( exp(log(a)) * (1+exp(log(b)/log(a))) )&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;= log( exp(log(a)) ) + log( 1+exp(log(b)-log(a))) )&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;= log(a) + log1p( exp(log(b)-log(a)) )&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;suppose &lt;span class=&#34;math inline&#34;&gt;\(a \geq b\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+\log(a + b) &amp;amp;= \log(\exp(\log(a)) + \exp(\log(b)))  \\
+            &amp;amp;= \log( \exp(\log(a)) \times (1+\exp(\log(b)-\log(a))) )  \\  
+            &amp;amp;= \log( \exp(\log(a)) ) + \log( 1+\exp(\log(b)-\log(a))) )  \\ 
+            &amp;amp;= \log(a) + \text{log1p}( \exp(\log(b)-\log(a)) )
+\end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Let’s define the function to accomplish this task&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;logSumExp &amp;lt;- function(x) {
   if(all(is.infinite(x))) { return(x[1]) }

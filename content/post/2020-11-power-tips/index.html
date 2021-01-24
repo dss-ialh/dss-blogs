@@ -52,7 +52,7 @@ url_video: ''
 <p>In this issue:</p>
 <ul>
 <li><a href="/post/2020-11-power-tips/#screen-recording">Capturing Screen into GIFs with open source software</a></li>
-<li><a href="/post/2020-11-power-tips/#exponent-summary">Summarizing exponents with higher precision</a></li>
+<li><a href="/post/2020-11-power-tips/#high-precision-summations">High precision summations</a></li>
 <li><a href="/post/2020-11-power-tips/#axis-labels">Placing axis labels on each facet with <code>lemon</code> pacakge</a></li>
 <li><a href="/post/2020-11-power-tips/#tidy-evals">Tidy evaluation in functions with <code>{{}}</code> from <code>rlang</code> package</a></li>
 <li><a href="/post/2020-11-power-tips/#auto-referencing-in-plots">Referencing current data set when building sublayers in <code>ggplot2</code></a></li>
@@ -67,22 +67,22 @@ url_video: ''
 </ul>
 <p><img src="progress_bar_demo.gif" /></p>
 </div>
-<div id="exponent-summary" class="section level1">
-<h1>Exponent Summary</h1>
+<div id="high-precision-summations" class="section level1">
+<h1>High Precision Summations</h1>
 <p><em>by <a href="https://matthew-parker.rbind.io/">Matthew Parker</a></em></p>
 <p>Log space is used for higher precision</p>
 <pre class="r"><code>dpois(x = 5, lambda = 1000) # sample from a Poisson Distribution</code></pre>
 <pre><code>## [1] 0</code></pre>
 <pre class="r"><code>dpois(x = 5, lambda = 1000, log=T)</code></pre>
 <pre><code>## [1] -970.2487</code></pre>
-<p>This is good for multiplication: <code>log(a*b) = log(a) + log(b)</code></p>
+<p>This is good for multiplication: <span class="math inline">\(\log(a\times b) = \log(a) + \log(b)\)</span></p>
 <pre class="r"><code>dpois(x = 5, lambda = 1000)^2</code></pre>
 <pre><code>## [1] 0</code></pre>
 <pre class="r"><code>2*dpois(x = 5, lambda = 1000, log=T)</code></pre>
 <pre><code>## [1] -1940.497</code></pre>
-<p>But it fails for addition: <code>log(a+b)=?</code></p>
-<p>For example, if we want to calculate <code>a + b</code>, but only have accurate <code>log(a)</code> and <code>log(b)</code>:</p>
-<p><code>a + b = exp(log(a)) + exp(log(b))</code></p>
+<p>But it fails for addition: <span class="math inline">\(\log(a+b)=?\)</span></p>
+<p>For example, if we want to calculate <span class="math inline">\(a + b\)</span>, but only have accurate <span class="math inline">\(\log(a)\)</span> and <span class="math inline">\(\log(b)\)</span>:</p>
+<p><span class="math display">\[a + b = \exp(\log(a)) + \exp(\log(b))\]</span></p>
 <p>In this case, exponentiation destroys precision!</p>
 <pre class="r"><code>dpois(x = 5, lambda = 1000, log=T)</code></pre>
 <pre><code>## [1] -970.2487</code></pre>
@@ -92,12 +92,15 @@ url_video: ''
 <pre class="r"><code>dpois(x = 5, lambda = 1000) + dpois(x = 5, lambda = 1000)</code></pre>
 <pre><code>## [1] 0</code></pre>
 <p><strong>Solution</strong>: keep the largest part in log space!</p>
-<p>suppose a &gt;= b:<br />
-<code>log(a + b) =</code><br />
-<code>= log(exp(log(a)) + exp(log(b)))</code><br />
-<code>= log( exp(log(a)) * (1+exp(log(b)/log(a))) )</code><br />
-<code>= log( exp(log(a)) ) + log( 1+exp(log(b)-log(a))) )</code><br />
-<code>= log(a) + log1p( exp(log(b)-log(a)) )</code></p>
+<p>suppose <span class="math inline">\(a \geq b\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\log(a + b) &amp;= \log(\exp(\log(a)) + \exp(\log(b)))  \\
+            &amp;= \log( \exp(\log(a)) \times (1+\exp(\log(b)-\log(a))) )  \\  
+            &amp;= \log( \exp(\log(a)) ) + \log( 1+\exp(\log(b)-\log(a))) )  \\ 
+            &amp;= \log(a) + \text{log1p}( \exp(\log(b)-\log(a)) )
+\end{aligned}
+\]</span></p>
 <p>Let’s define the function to accomplish this task</p>
 <pre class="r"><code>logSumExp &lt;- function(x) {
   if(all(is.infinite(x))) { return(x[1]) }

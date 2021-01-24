@@ -168,13 +168,13 @@
   </url>
   
   <url>
-    <loc>/categories/rcpp/</loc>
+    <loc>/tags/rcpp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rcpp/</loc>
+    <loc>/categories/rcpp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -312,18 +312,18 @@
   </url>
   
   <url>
-    <loc>/categories/public-health/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/andkov/2020-06-24-visualizing-pandemic/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/longitudinal-analysis/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/public-health/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
