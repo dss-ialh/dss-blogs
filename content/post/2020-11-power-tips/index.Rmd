@@ -50,7 +50,7 @@ url_video: ''
 In this issue:
 
 - [Capturing Screen into GIFs with open source software](/post/2020-11-power-tips/#screen-recording)
-- [Summarizing exponents with higher precision](/post/2020-11-power-tips/#exponent-summary)
+- [High precision summations](/post/2020-11-power-tips/#high-precision-summations)
 - [Placing axis labels on each facet with `lemon` pacakge](/post/2020-11-power-tips/#axis-labels)
 - [Tidy evaluation in functions with `{{}}` from `rlang` package](/post/2020-11-power-tips/#tidy-evals)
 - [Referencing current data set when building sublayers in `ggplot2`](/post/2020-11-power-tips/#auto-referencing-in-plots)
@@ -67,29 +67,28 @@ Demonstrating the functionality of a given function or technique is often more e
 ![](progress_bar_demo.gif)
 
 
-# Exponent Summary
+# High Precision Summations
 
 _by [Matthew Parker](https://matthew-parker.rbind.io/)_
 
 Log space is used for higher precision
-
 ```{r}
 dpois(x = 5, lambda = 1000) # sample from a Poisson Distribution
 dpois(x = 5, lambda = 1000, log=T)
 ```
 
 
-This is good for multiplication: `log(a*b) = log(a) + log(b)`
+This is good for multiplication: $\log(a\times b) = \log(a) + \log(b)$
 ```{r}
 dpois(x = 5, lambda = 1000)^2
 2*dpois(x = 5, lambda = 1000, log=T)
 ```
 
-But it fails for addition: `log(a+b)=?` 
+But it fails for addition: $\log(a+b)=?$ 
 
-For example, if we want to calculate `a + b`, but only have accurate `log(a)` and `log(b)`:
+For example, if we want to calculate $a + b$, but only have accurate $\log(a)$ and $\log(b)$:
  
- `a + b = exp(log(a)) + exp(log(b))`
+ $$a + b = \exp(\log(a)) + \exp(\log(b))$$
 
 In this case, exponentiation destroys precision!
 ```{r}
@@ -104,12 +103,16 @@ dpois(x = 5, lambda = 1000) + dpois(x = 5, lambda = 1000)
 
 __Solution__: keep the largest part in log space!
 
-suppose a >= b:   
-`log(a + b) =`   
-           `= log(exp(log(a)) + exp(log(b)))`  
-           `= log( exp(log(a)) * (1+exp(log(b)/log(a))) )`    
-           `= log( exp(log(a)) ) + log( 1+exp(log(b)-log(a))) )`   
-           `= log(a) + log1p( exp(log(b)-log(a)) )`    
+suppose $a \geq b$:   
+
+$$
+\begin{aligned}
+\log(a + b) &= \log(\exp(\log(a)) + \exp(\log(b)))  \\
+            &= \log( \exp(\log(a)) \times (1+\exp(\log(b)-\log(a))) )  \\  
+            &= \log( \exp(\log(a)) ) + \log( 1+\exp(\log(b)-\log(a))) )  \\ 
+            &= \log(a) + \text{log1p}( \exp(\log(b)-\log(a)) )
+\end{aligned}
+$$
 
 Let's define the function to accomplish this task
 
