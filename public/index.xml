@@ -36,6 +36,171 @@
     </item>
     
     <item>
+      <title>Power Tips - November 2020</title>
+      <link>/post/2020-11-power-tips/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-11-power-tips/</guid>
+      <description>
+
+
+&lt;p&gt;In this issue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#screen-recording&#34;&gt;Capturing Screen into GIFs with open source software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#exponent-summary&#34;&gt;Summarizing exponents with higher precision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#axis-labels&#34;&gt;Placing axis labels on each facet with &lt;code&gt;lemon&lt;/code&gt; pacakge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#tidy-evals&#34;&gt;Tidy evaluation in functions with &lt;code&gt;{{}}&lt;/code&gt; from &lt;code&gt;rlang&lt;/code&gt; package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/post/2020-11-power-tips/#auto-referencing-in-plots&#34;&gt;Referencing current data set when building sublayers in &lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;screen-recording&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Screen Recording&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;by &lt;a href=&#34;http://craig.rbind.io&#34;&gt;Craig Hutton&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Demonstrating the functionality of a given function or technique is often more effective and efficient when using animated GIFs. The following two software will help you create GIFs with ease and for free!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.screentogif.com/&#34;&gt;screentogif.com&lt;/a&gt; - Windows&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getkap.co/&#34;&gt;getkap.co&lt;/a&gt; - Mac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;progress_bar_demo.gif&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exponent-summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exponent Summary&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;by &lt;a href=&#34;https://matthew-parker.rbind.io/&#34;&gt;Matthew Parker&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Log space is used for higher precision&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000) # sample from a Poisson Distribution&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] -970.2487&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is good for multiplication: &lt;code&gt;log(a*b) = log(a) + log(b)&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000)^2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;2*dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] -1940.497&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But it fails for addition: &lt;code&gt;log(a+b)=?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example, if we want to calculate &lt;code&gt;a + b&lt;/code&gt;, but only have accurate &lt;code&gt;log(a)&lt;/code&gt; and &lt;code&gt;log(b)&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a + b = exp(log(a)) + exp(log(b))&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In this case, exponentiation destroys precision!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000, log=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] -970.2487&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;exp(dpois(x = 5, lambda = 1000, log=T))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So how can we calculate:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dpois(x = 5, lambda = 1000) + dpois(x = 5, lambda = 1000)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: keep the largest part in log space!&lt;/p&gt;
+&lt;p&gt;suppose a &amp;gt;= b:&lt;br /&gt;
+&lt;code&gt;log(a + b) =&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;= log(exp(log(a)) + exp(log(b)))&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;= log( exp(log(a)) * (1+exp(log(b)/log(a))) )&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;= log( exp(log(a)) ) + log( 1+exp(log(b)-log(a))) )&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;= log(a) + log1p( exp(log(b)-log(a)) )&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Let’s define the function to accomplish this task&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;logSumExp &amp;lt;- function(x) {
+  if(all(is.infinite(x))) { return(x[1]) }
+  x = x[which(is.finite(x))]
+  ans = x[1]
+  for(i in seq_along(x)[-1]) {
+    ma = max(ans,x[i])
+    mi = min(ans,x[i])
+    ans = ma + log1p(exp(mi-ma))
+  }
+  return(ans)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and demonstrate its use:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x = c(dpois(x = 5, lambda = 1000, log = T), 
+      dpois(x = 5, lambda = 1000, log = T))
+logSumExp(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] -969.5556&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Voila, the precision is preserved!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;axis-labels&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Axis labels&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;by &lt;a href=&#34;http://andriy.rbind.io/&#34;&gt;Andriy Koval&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(lemon)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When faceting a plot, we may need to place axis labels on each facet (especially if we have many of them):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  facet_wrap(~cyl, ncol=1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;One way of achieving this is to use &lt;code&gt;scale = &#34;free_x&#34;&lt;/code&gt; argument, but if data on the faceted levels covers different ranges of values, the limits of the scale will be adjusted:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  # facet_wrap(~cyl, ncol=1) 
+  facet_wrap(~cyl, ncol=1, scales = &amp;quot;free_x&amp;quot;) # puts tick marks, but distorts scale&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Comes in the &lt;code&gt;lemon&lt;/code&gt; package, which provides functions &lt;code&gt;facet_rep_wrap()&lt;/code&gt; and &lt;code&gt;facet_rep_grid()&lt;/code&gt; to offer exactly this flexibility.
+You can also use the arguments you normally pass to &lt;code&gt;facet_wrap()&lt;/code&gt; or &lt;code&gt;facet_grid()&lt;/code&gt;, respectively:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  ggplot(aes(x=disp, y = mpg))+
+  geom_point()+
+  # facet_wrap(~cyl, ncol=1) 
+  # facet_wrap(~cyl, ncol=1, scales = &amp;quot;free_x&amp;quot;) # puts tickmarks, but distorts scale
+  lemon::facet_rep_wrap(~cyl,ncol=1, repeat.tick.labels = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tidy-evals&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tidy Evals&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;by &lt;a href=&#34;http://kyleb.rbind.io/&#34;&gt;Kyle Belanger&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(lemon)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When turning your ggplots into functions, we can use &lt;code&gt;aes_string&lt;/code&gt; function to pass quoted strings as variable names:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;make_faceted_scatter &amp;lt;- function(d,xvar,yvar){
+  mtcars %&amp;gt;% 
+    ggplot(aes_string(x=xvar, y = yvar))+
+    geom_point()
+}
+mtcars %&amp;gt;% make_faceted_scatter(&amp;quot;disp&amp;quot;,&amp;quot;mpg&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;However, passing an unquoted variable names to function required resorting to &lt;code&gt;rlang&lt;/code&gt; package to translate bares (unquoted names) to quosures in functions:&lt;/p&gt;
+&lt;p&gt;Unfortunately, this did not play well with facets. However, since &lt;code&gt;0.4.0&lt;/code&gt; version, &lt;code&gt;rlang&lt;/code&gt; provides a shortcut for this implementation using &lt;code&gt;{{}}&lt;/code&gt;, which pairs up with the new (&lt;code&gt;ggplot2 3.0.0&lt;/code&gt;) helper function &lt;code&gt;vars()&lt;/code&gt; in &lt;code&gt;facet_wrap()&lt;/code&gt; to make it work:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;make_faceted_scatter &amp;lt;- function(d,xvar, yvar,fvar){
+  mtcars %&amp;gt;% 
+    ggplot(aes(x={{xvar}}, y = {{yvar}}))+
+    geom_point()+
+    lemon::facet_rep_wrap(vars({{fvar}}),ncol=1, repeat.tick.labels = TRUE)
+}
+mtcars %&amp;gt;% make_faceted_scatter(disp,mpg,cyl)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;auto-referening-in-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Auto-referening in plots&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;by &lt;a href=&#34;http://kyleb.rbind.io/&#34;&gt;Kyle Belanger&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+library(dplyr)
+library(ggplot2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When building &lt;code&gt;ggplot2&lt;/code&gt; objects we might need to build a layer that uses only a subset of the sourced data. For example, in a scatterplot of &lt;code&gt;mpg&lt;/code&gt; and &lt;code&gt;disp&lt;/code&gt; among 4-cylinder cars&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  filter(cyl == 4) %&amp;gt;%
+    ggplot(aes(x = mpg, y = disp ))+
+      geom_point(shape = 1,  size =4)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
+we may want to highlight only those with 5 gears. This could be accomplished by passing &lt;code&gt;data =&lt;/code&gt; to the extra geom that would draw the highlight:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  filter(cyl == 4) %&amp;gt;%
+    ggplot(aes(x = mpg, y = disp ))+
+      geom_point(shape = 1,  size =4)+
+      geom_point(shape = 20, size = 4,data = mtcars %&amp;gt;% filter(cyl==4, gear == 5))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This approach, however, has a major disadvantage: you have to repeat the transformations (in this case only &lt;code&gt;filter&lt;/code&gt;) that take place between the source data and the &lt;code&gt;ggplot2&lt;/code&gt; canvas. &lt;code&gt;ggplot2 3.0.0&lt;/code&gt; offers a more elegant solution by surrounding the &lt;code&gt;ggplot&lt;/code&gt; canvas in &lt;code&gt;{}&lt;/code&gt; and using &lt;code&gt;.&lt;/code&gt; placeholder to refer to the data set that was passed to &lt;code&gt;aes()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mtcars %&amp;gt;% 
+  filter(cyl == 4) %&amp;gt;%
+  {# ! notice !
+    ggplot(.,aes(x = mpg, y = disp ))+
+      geom_point(shape = 1, size = 4)+
+      geom_point(shape = 20, size = 4,color = &amp;quot;salmon&amp;quot;, data = . %&amp;gt;% filter(gear == 5))
+  }# ! notice !&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-11-power-tips/index_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ASGR: 2.5 - dates &amp; times</title>
       <link>/post/2020-08-29-asgr-part-2-5-dates/</link>
       <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>

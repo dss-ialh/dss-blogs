@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/kyle-belanger/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Power Tips - November 2020</title>
+      <link>/post/2020-11-power-tips/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-11-power-tips/</guid>
+      <description>In this issue:
+Capturing Screen into GIFs with open source softwareSummarizing exponents with higher precisionPlacing axis labels on each facet with lemon pacakgeTidy evaluation in functions with {{}} from rlang packageReferencing current data set when building sublayers in ggplot2Screen Recordingby Craig Hutton
+Demonstrating the functionality of a given function or technique is often more effective and efficient when using animated GIFs. The following two software will help you create GIFs with ease and for free!</description>
+    </item>
     
     <item>
       <title>Florida Suicides (2) - Youth Trends</title>
@@ -44,7 +55,7 @@ Please read the full post here
     <item>
       <title></title>
       <link>/authors/kyle-belanger/</link>
-      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/kyle-belanger/</guid>
       <description></description>

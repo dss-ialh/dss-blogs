@@ -31,6 +31,60 @@
     </item>
     
     <item>
+      <title>GIF</title>
+      <link>/tags/gif/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lemon</title>
+      <link>/tags/lemon/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lemon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>precision</title>
+      <link>/tags/precision/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/precision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rlang</title>
+      <link>/tags/rlang/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidy eval</title>
+      <link>/tags/tidy-eval/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tidy-eval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C&#43;&#43;</title>
       <link>/tags/c&#43;&#43;/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
@@ -171,15 +225,6 @@
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/covid-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ggplot2</title>
-      <link>/tags/ggplot2/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ggplot2/</guid>
       <description></description>
     </item>
     
