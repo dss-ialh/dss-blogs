@@ -32,4 +32,4 @@ Diabetes is growing at an epidemic rate in the United States. In North Carolina 
 
 > 5. How does change in diabetes prevalence compare between rural and urban counties?
 
-Please read the [full post here](https://kyleb.rbind.io/post/2020-06-25-diabetes-1/)
+Please read the [full post here](https://kyleb.rbind.io/posts/2020-12-28-diabetes-in-rural-north-carolina-exploring-prevalence-trends/)
