@@ -7,10 +7,37 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Neural Networks for Clustering in Python</title>
+      <link>/post/mrparker909/2021-01-22-keras-clustering/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mrparker909/2021-01-22-keras-clustering/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;!-- # Publication type. --&gt;
+&lt;!-- # Legend: --&gt;
+&lt;!-- # 0 = Uncategorized --&gt;
+&lt;!-- # 1 = Conference proceedings --&gt;
+&lt;!-- # 2 = Journal --&gt;
+&lt;!-- # 3 = Work in progress --&gt;
+&lt;!-- # 4 = Technical report --&gt;
+&lt;!-- # 5 = Book --&gt;
+&lt;!-- # 6 = Book chapter --&gt;
+&lt;div style=&#34;float:right;position: relative; top: -40px;&#34;&gt;
+&lt;img src=&#34;https://matthew-parker.rbind.io/post/2021-01-16-pytorch-keras-clustering/img/rating_fig.gif&#34; alt=&#34;rotating 3D plot&#34; width=&#34;275&#34; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Neural Networks are an immensely useful class of machine learning model, with countless applications. Today we are going to analyze a data set and see if we can gain new insights by applying unsupervised clustering techniques to find patterns and hidden groupings within the data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://matthew-parker.rbind.io/post/2021-01-16-pytorch-keras-clustering/&#34;&gt;Read full post&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ASGR: 3.0 - exploring data with elucidate</title>
@@ -32,6 +59,92 @@
 &lt;!-- # 5 = Book --&gt;
 &lt;!-- # 6 = Book chapter --&gt;
 &lt;p&gt;This post dives into the &lt;a href=&#34;https://github.com/bcgov/elucidate&#34;&gt;elucidate&lt;/a&gt; package and how it can help you explore data using sets of functions for interrogating, describing, visualising, interacting with, and correcting data. This is a key stage of any analysis where errors are found and interesting relationships begin to appear. Click &lt;a href=&#34;https://craig.rbind.io/post/2020-12-07-asgr-3-0-exploring-data-with-elucidate/&#34;&gt;here&lt;/a&gt; for the full post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Power Tips - February 2021</title>
+      <link>/post/2021-02-power-tips/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021-02-power-tips/</guid>
+      <description>
+
+
+&lt;p&gt;In this issue:&lt;/p&gt;
+&lt;div id=&#34;column-separation-during-pivoting&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Column separation during pivoting&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+library(dplyr)
+library(tidyr)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Consider a tibble in a wide form:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ds &amp;lt;- tibble::tribble(
+  ~ person_id, ~height_cm_1, ~heigh_cm_2, ~weight_kg_1, ~weight_kg_2,
+  1, 160, 170, 67, 78,
+  2, 155, 168, 56, 61
+)
+ds&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 x 5
+##   person_id height_cm_1 heigh_cm_2 weight_kg_1 weight_kg_2
+##       &amp;lt;dbl&amp;gt;       &amp;lt;dbl&amp;gt;      &amp;lt;dbl&amp;gt;       &amp;lt;dbl&amp;gt;       &amp;lt;dbl&amp;gt;
+## 1         1         160        170          67          78
+## 2         2         155        168          56          61&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Many graphing and modeling tasks will require &lt;code&gt;ds&lt;/code&gt; to be transformed into a tidy form:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ds %&amp;gt;% 
+  pivot_longer(
+    cols       = - person_id # all columns except `person_id`
+    ,names_to  = &amp;quot;key&amp;quot;
+    ,values_to = &amp;quot;value&amp;quot;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 8 x 3
+##   person_id key         value
+##       &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;       &amp;lt;dbl&amp;gt;
+## 1         1 height_cm_1   160
+## 2         1 heigh_cm_2    170
+## 3         1 weight_kg_1    67
+## 4         1 weight_kg_2    78
+## 5         2 height_cm_1   155
+## 6         2 heigh_cm_2    168
+## 7         2 weight_kg_1    56
+## 8         2 weight_kg_2    61&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;However, the splitting the former variabel names into the values for the new columns may require and additional step:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ds %&amp;gt;% 
+  pivot_longer(
+    cols = c(&amp;quot;height_cm_1&amp;quot;, &amp;quot;heigh_cm_2&amp;quot;, &amp;quot;weight_kg_1&amp;quot;, &amp;quot;weight_kg_2&amp;quot;)
+    ,names_to  = &amp;quot;key&amp;quot;
+    ,values_to = &amp;quot;value&amp;quot;
+  ) %&amp;gt;% 
+  tidyr::separate(key, c(&amp;quot;measure&amp;quot;,&amp;quot;unit&amp;quot;,&amp;quot;visit&amp;quot;), sep= &amp;quot;_&amp;quot; )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 8 x 5
+##   person_id measure unit  visit value
+##       &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt;
+## 1         1 height  cm    1       160
+## 2         1 heigh   cm    2       170
+## 3         1 weight  kg    1        67
+## 4         1 weight  kg    2        78
+## 5         2 height  cm    1       155
+## 6         2 heigh   cm    2       168
+## 7         2 weight  kg    1        56
+## 8         2 weight  kg    2        61&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This task can be integrated into pivoting step using the &lt;code&gt;names_pattern&lt;/code&gt; argument:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ds %&amp;gt;% 
+  pivot_longer(
+    cols          = -person_id
+    ,names_to      = c(&amp;quot;measure&amp;quot;, &amp;quot;unit&amp;quot;, &amp;quot;visit&amp;quot;)
+    ,names_pattern = &amp;quot;(.*)_(.*)_(.*)&amp;quot;
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 8 x 5
+##   person_id measure unit  visit value
+##       &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt;
+## 1         1 height  cm    1       160
+## 2         1 heigh   cm    2       170
+## 3         1 weight  kg    1        67
+## 4         1 weight  kg    2        78
+## 5         2 height  cm    1       155
+## 6         2 heigh   cm    2       168
+## 7         2 weight  kg    1        56
+## 8         2 weight  kg    2        61&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -297,7 +410,7 @@ we may want to highlight only those with 5 gears. This could be accomplished by 
 &lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Summary&lt;/h1&gt;
 &lt;p&gt;Diabetes is growing at an epidemic rate in the United States. In North Carolina alone, diabetes and prediabetes cost an estimated $10.9 billion each year (American Diabetes Association, 2015). This is the second post in the series exploring Diabetes in rural North Carolina. This post will explore the data used for this project, from collection, cleaning, and analysis ready data.&lt;/p&gt;
-&lt;p&gt;Please read the &lt;a href=&#34;https://kyleb.rbind.io/post/2020-07-28-diabetes-data-collection/&#34;&gt;full post here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://kyleb.rbind.io/posts/2020-12-29-diabetes-in-rural-north-carolina-data-collection-and-cleaning/&#34;&gt;full post here&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -356,7 +469,6 @@ we may want to highlight only those with 5 gears. This could be accomplished by 
       
       <guid>/post/mmmmtoasty19/2020-06-26-diabetes-1/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
@@ -387,7 +499,7 @@ we may want to highlight only those with 5 gears. This could be accomplished by 
 &lt;li&gt;How does change in diabetes prevalence compare between rural and urban counties?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Please read the &lt;a href=&#34;https://kyleb.rbind.io/post/2020-06-25-diabetes-1/&#34;&gt;full post here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://kyleb.rbind.io/posts/2020-12-28-diabetes-in-rural-north-carolina-exploring-prevalence-trends/&#34;&gt;full post here&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

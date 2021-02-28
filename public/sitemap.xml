@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/matthew-parker/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/0/</loc>
-    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/2020-12-07-asgr-part-3-0-exploring-data/</loc>
-    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>/authors/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/data-analysis/</loc>
-    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,12 +32,94 @@
   </url>
   
   <url>
+    <loc>/categories/machine-learning/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/mrparker909/2021-01-22-keras-clustering/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/python/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/autoencoder/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/clustering/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/keras/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kmeans/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tensorflow/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/unsupervised-learning/</loc>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2020-12-07-asgr-part-3-0-exploring-data/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analysis/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -50,12 +132,6 @@
   
   <url>
     <loc>/categories/reproducible-research/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,20 +152,14 @@
   </url>
   
   <url>
-    <loc>/authors/matthew-parker/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/gif/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2021-02-power-tips/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -122,6 +192,12 @@
   </url>
   
   <url>
+    <loc>/categories/power-tip/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/precision/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -129,6 +205,12 @@
   
   <url>
     <loc>/tags/rlang/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tidy-data/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -168,13 +250,13 @@
   </url>
   
   <url>
-    <loc>/tags/rcpp/</loc>
+    <loc>/categories/rcpp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/rcpp/</loc>
+    <loc>/tags/rcpp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
