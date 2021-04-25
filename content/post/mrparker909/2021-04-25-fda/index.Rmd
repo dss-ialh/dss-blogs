@@ -1,0 +1,49 @@
+---
+title: 'Functional Data Analysis: Discrete Observations to Functional Representations'
+authors: 
+  - Matthew Parker
+date: '2021-04-25'
+slug: []
+categories:
+  - R
+  - Statistics
+  - Tutorial
+  - Functional Data Analysis
+tags:
+  - functional data
+  - R
+  - FDA
+  - tutorial
+  - functional representation
+  - smooth curves
+  - covid
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: false
+    toc_depth: 4
+featured: yes
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+
+Functional data can come from many different areas of study. Some of the most common examples come from finance (for example stock prices over time), or from health research (such as fMRI time series). Analyzing data of this form has been done traditionally using time series analysis techniques. However, viewing the data as functional, rather than individual observed points, can lead to more natural interpretations and analysis. Here we will be looking at a single example data set, and learning how to represent discrete data as functional data objects.
+
+[Read full post](https://matthew-parker.rbind.io/post/2021-04-24-fda/)
+
+
+
