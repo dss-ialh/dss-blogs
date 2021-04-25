@@ -1,0 +1,50 @@
+---
+title: Basic Trends of AISH caseload in Alberta
+subtitle: Exercise in bulding funtional graphs
+author: 
+- admin
+- Kyle Belanger
+date: '2021-04-25'
+categories:
+  - functional graphing
+  - graph making
+  - reproducible research
+tags:
+  - Alberta
+  - income assistance
+slug:
+  - alberta-aish-basic-trends
+summary:  Graphing the trends of assured income for severely handicapped (AISH)
+lastmod: '2021-04-25'
+featured: no
+image:
+  caption: ''
+  focal_point: 'Center'
+  preview_only: no
+projects: []
+url_code:  "https://github.com/andkov/alberta-aish-caseload"
+url_dataset: ""
+url_pdf: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
+---
+
+In this post we :  
+
+- 1. give a(nother) demonstration of developing customizable functions for exploring data with `ggplot2` graphs  
+
+- 2. take a look at the trends of providing income support to people with disabilities in the province of Alberta, Canada.  
+
+
+This report explores data on Assured Income for the Severely Handicapped (AISH) taken from the [open.alberta.ca](https://open.alberta.ca/opendata/assured-income-for-the-severely-handicapped-aish-caseload-alberta) portal. 
+
+
+[LINK TO FULL POST](http://andriy.rbind.io/post/2021-04-25-alberta-aish-caseload/)
+
+
+
+
+
