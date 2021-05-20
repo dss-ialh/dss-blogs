@@ -8,6 +8,7 @@ categories:
 tags:
   - R
   - Data Analysis
+  - Data Visualization
 image: 
   caption: 'data visualization with ggplot2'
   focal_point: "Center"
