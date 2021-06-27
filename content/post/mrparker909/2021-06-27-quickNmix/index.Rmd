@@ -1,0 +1,45 @@
+---
+title: 'quickNmix: Asymptotic N-mixture Models'
+authors: 
+  - Matthew Parker
+date: '2021-06-27'
+slug: []
+categories:
+  - R
+  - Statistics
+  - Population Abundance
+  - Package
+tags:
+  - package
+  - R
+  - n mixture models
+  - tutorial
+  - cran
+image: 
+  caption: ''
+  focal_point: "Center"
+  preview_only: no
+publication_types:
+  - "0"  
+output:
+  blogdown::html_page:
+    toc: false
+    toc_depth: 4
+featured: yes
+---
+
+<!-- # Publication type. -->
+<!-- # Legend: -->
+<!-- # 0 = Uncategorized -->
+<!-- # 1 = Conference proceedings -->
+<!-- # 2 = Journal -->
+<!-- # 3 = Work in progress -->
+<!-- # 4 = Technical report -->
+<!-- # 5 = Book -->
+<!-- # 6 = Book chapter -->
+
+
+N-mixture models are used extensively in ecology to estimate population sizes, and to ascertain under-detection rates. Here I will discuss my new R package: [quickNmix](https://CRAN.R-project.org/package=quickNmix), which implements asymptotic solutions to the N-mixture likelihood function. The asymptotic solutions admit faster computation of the likelihood function, and the addition of parallel computing to the package can further increase computing speeds. [Read full post](https://matthew-parker.rbind.io/post/2021-06-23-quicknmix/).
+
+
+
